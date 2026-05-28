@@ -1,0 +1,1212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Zebronics Product Finder — Soundbar, Headphone & Projector | India</title>
+<meta name="description" content="India's first interactive buying guide for Zebronics Soundbar, Headphone and Projector. Filter by room size, use case, budget and more. Instant recommendations.">
+<meta name="keywords" content="zebronics soundbar, zebronics tv, zebronics projector, best soundbar india, zebronics led tv, portable projector india, dolby atmos soundbar">
+<meta name="robots" content="index, follow">
+<meta name="author" content="Zebronics India">
+<link rel="canonical" href="https://soundbars.zebronics.com/">
+<link rel="icon" type="image/png" href="./img/zeb-favicon-black.png">
+<link rel="apple-touch-icon" href="./img/zeb-favicon-black.png">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://soundbars.zebronics.com/">
+<meta property="og:site_name" content="Zebronics Product Finder">
+<meta property="og:title" content="Zebronics Product Finder — Soundbar, Headphone & Projector">
+<meta property="og:description" content="India's first interactive buying guide. Soundbar, Headphone, Projector. Instant match.">
+<meta property="og:image" content="https://soundbars.zebronics.com/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Zebronics Product Finder">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Zebronics Product Finder","url":"https://soundbars.zebronics.com/","publisher":{"@type":"Organization","name":"Zebronics India","url":"https://zebronics.com"}}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+/* ═══════════════════════════════════════════════════════════════
+   ZEBRONICS PRODUCT FINDER v3 — Neon Wave Dark Creative
+   ═══════════════════════════════════════════════════════════════ */
+:root{
+  --bg:#08090E;--surface:#10121A;--surface2:#161923;--surface3:#1C1F2E;
+  --border:rgba(255,255,255,0.04);--border2:rgba(255,255,255,0.07);
+  --text:#E8ECF4;--muted:#8892A6;--subtle:#505A6E;
+  --neon:#00E5FF;--neon2:#B14EFF;--neon3:#39FF85;--neon4:#FF3D71;
+  --accent:#00E5FF;--accent-dark:#00B8D4;--accent-fill:rgba(0,229,255,0.06);--accent-glow:rgba(0,229,255,0.20);
+  --green:#39FF85;--gold:#FFB800;--rose:#FF3D71;
+  --font:'Inter',system-ui,-apple-system,sans-serif;
+  --card-shadow:0 2px 8px rgba(0,0,0,0.4),0 12px 40px rgba(0,0,0,0.3);
+  --card-shadow-hover:0 4px 16px rgba(0,0,0,0.5),0 24px 60px rgba(0,0,0,0.4);
+  --glow-cyan:0 0 20px rgba(0,229,255,0.3),0 0 60px rgba(0,229,255,0.1);
+  --glow-purple:0 0 20px rgba(177,78,255,0.3),0 0 60px rgba(177,78,255,0.1);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:var(--font);font-size:15px;line-height:1.6;-webkit-font-smoothing:antialiased}
+a{text-decoration:none;color:inherit}
+button{font-family:var(--font);cursor:pointer;border:none;background:none}
+
+/* ─── ANIMATIONS ───────────────────────────────────────────── */
+.fade-up{opacity:0;transform:translateY(24px);transition:opacity .6s cubic-bezier(.22,1,.36,1),transform .6s cubic-bezier(.22,1,.36,1)}
+.fade-up.visible{opacity:1;transform:none}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+@keyframes shimmer{0%{background-position:-200% 0}100%{background-position:200% 0}}
+@keyframes pulse-ring{0%{transform:scale(.8);opacity:.6}100%{transform:scale(1.4);opacity:0}}
+@keyframes gradient-shift{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
+@keyframes neon-breathe{0%,100%{opacity:.6;filter:blur(60px)}50%{opacity:1;filter:blur(80px)}}
+@keyframes border-glow{0%,100%{border-color:rgba(0,229,255,.15)}50%{border-color:rgba(0,229,255,.35)}}
+@keyframes text-glow{0%,100%{text-shadow:0 0 20px rgba(0,229,255,.4)}50%{text-shadow:0 0 40px rgba(0,229,255,.7),0 0 80px rgba(0,229,255,.3)}}
+@keyframes scanline{0%{transform:translateY(-100%)}100%{transform:translateY(100vh)}}
+
+/* ─── NAV — Glass neon ────────────────────────────────────── */
+nav{background:rgba(8,9,14,0.85);border-bottom:1px solid rgba(0,229,255,0.08);position:sticky;top:0;z-index:100;backdrop-filter:blur(24px) saturate(1.6);-webkit-backdrop-filter:blur(24px) saturate(1.6)}
+.nav-inner{max-width:1200px;margin:0 auto;padding:0 2rem;height:60px;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none;flex-shrink:0}
+.logo-img{height:26px;width:auto;filter:brightness(0) invert(1);object-fit:contain}.logo-img[src=""]{display:none}
+.logo-text{font-weight:900;font-size:18px;letter-spacing:-.5px;color:#fff}
+.logo-pill{background:linear-gradient(135deg,var(--neon),var(--neon2));color:#000;font-size:9px;font-weight:800;letter-spacing:1.5px;padding:4px 12px;border-radius:20px;text-transform:uppercase;white-space:nowrap}
+.nav-links{display:flex;gap:2rem;font-size:13px;font-weight:500}
+.nav-links a{color:rgba(255,255,255,.45);transition:all .2s}.nav-links a:hover{color:var(--neon);text-shadow:0 0 12px rgba(0,229,255,.4)}
+@media(max-width:680px){.nav-links{display:none}}
+
+/* ─── HERO — Neon Wave ────────────────────────────────────── */
+.hero{position:relative;min-height:92vh;display:flex;align-items:center;justify-content:center;overflow:hidden;background:#06070B}
+.hero::before{content:'';position:absolute;bottom:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,var(--neon),var(--neon2),var(--neon3),transparent);opacity:.5}
+.hero-bg{position:absolute;inset:0;background:radial-gradient(ellipse 70% 50% at 30% 60%,rgba(0,229,255,.08),transparent 60%),radial-gradient(ellipse 50% 40% at 70% 30%,rgba(177,78,255,.08),transparent 50%),radial-gradient(ellipse 40% 30% at 50% 80%,rgba(57,255,133,.05),transparent 40%)}
+.hero-grid{position:absolute;inset:0;background-image:linear-gradient(rgba(0,229,255,.03) 1px,transparent 1px),linear-gradient(90deg,rgba(0,229,255,.03) 1px,transparent 1px);background-size:80px 80px;mask-image:radial-gradient(ellipse 60% 50% at 50% 50%,black,transparent);animation:gradient-shift 20s linear infinite;background-size:80px 80px,80px 80px,200% 200%}
+.hero-orb{display:none}
+.hero-content{position:relative;text-align:center;padding:2rem;max-width:780px;z-index:2}
+.hero-eyebrow{font-size:11px;font-weight:700;letter-spacing:6px;color:var(--neon);text-transform:uppercase;margin-bottom:2rem;animation:text-glow 3s ease-in-out infinite}
+.hero h1{font-size:clamp(3rem,8vw,5.5rem);font-weight:900;line-height:.95;letter-spacing:-3px;color:#fff;text-transform:uppercase;margin-bottom:1.5rem}
+.hero h1 em{font-style:normal;background:linear-gradient(135deg,var(--neon),var(--neon2),var(--neon3));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;filter:drop-shadow(0 0 30px rgba(0,229,255,.3))}
+.hero-sub{font-size:clamp(14px,1.8vw,17px);color:rgba(255,255,255,.4);line-height:1.8;margin-bottom:2.5rem}
+.btn-hero{display:inline-flex;align-items:center;gap:10px;background:transparent;color:var(--neon);font-weight:700;font-size:15px;padding:16px 40px;border-radius:100px;transition:all .3s;box-shadow:var(--glow-cyan);border:2px solid var(--neon);cursor:pointer;text-transform:uppercase;letter-spacing:1px;animation:border-glow 3s ease-in-out infinite}
+.btn-hero:hover{background:var(--neon);color:#000;transform:translateY(-2px);box-shadow:0 0 30px rgba(0,229,255,.5),0 0 80px rgba(0,229,255,.2)}
+.btn-hero svg{width:18px;height:18px}
+.hero-stats{display:flex;justify-content:center;gap:3rem;margin-top:4rem;flex-wrap:wrap}
+.stat-item{text-align:center;position:relative;padding:0 1.5rem}
+.stat-item:not(:last-child)::after{content:'';position:absolute;right:0;top:20%;height:60%;width:1px;background:linear-gradient(transparent,rgba(0,229,255,.2),transparent)}
+.stat-item strong{display:block;font-size:30px;font-weight:900;color:#fff;letter-spacing:-1px}
+.stat-item span{font-size:10px;color:rgba(255,255,255,.3);letter-spacing:2px;text-transform:uppercase}
+
+/* ─── CATEGORY TABS — Neon tab bar ────────────────────────── */
+.cat-tabs-wrap{background:rgba(8,9,14,0.95);border-bottom:1px solid rgba(0,229,255,0.08);position:sticky;top:60px;z-index:90;backdrop-filter:blur(16px)}
+.cat-tabs{max-width:1200px;margin:0 auto;padding:8px 2rem;display:flex;gap:6px}
+.cat-tab{position:relative;padding:12px 28px;font-size:14px;font-weight:600;color:var(--muted);letter-spacing:.5px;transition:all .3s;border:none;background:none;cursor:pointer;white-space:nowrap;border-radius:12px;display:flex;align-items:center;gap:8px;text-transform:uppercase}
+.cat-tab:hover{color:var(--text);background:rgba(255,255,255,0.04)}
+.cat-tab.active{color:var(--neon);background:rgba(0,229,255,0.06);box-shadow:inset 0 0 0 1px rgba(0,229,255,.25),0 0 20px rgba(0,229,255,.08)}
+.cat-tab .tab-icon{font-size:16px}
+.cat-tab .tab-count{display:none}
+.cat-tab.active .tab-count{background:rgba(0,229,255,.12);color:var(--neon)}
+@media(max-width:500px){.cat-tab{padding:10px 16px;font-size:12px;letter-spacing:0}.cat-tab .tab-count{display:none}}
+
+/* ─── PANELS ───────────────────────────────────────────────── */
+.cat-panel{display:none;animation:panelIn .4s cubic-bezier(.22,1,.36,1)}
+.cat-panel.active{display:block}
+@keyframes panelIn{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+
+/* ─── PERSONA PILLS ────────────────────────────────────────── */
+.persona-wrap{max-width:1200px;margin:0 auto;padding:0 2rem}
+.persona-label{font-size:13px;color:var(--muted);font-weight:500;margin-bottom:1rem;text-align:center}
+.persona-pills{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-bottom:.8rem}
+.persona-pill{background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);color:var(--muted);font-size:13px;font-weight:600;padding:10px 22px;border-radius:100px;cursor:pointer;transition:all .25s;white-space:nowrap}
+.persona-pill:hover{border-color:var(--neon);color:var(--neon);background:rgba(0,229,255,0.05);box-shadow:0 0 16px rgba(0,229,255,.12)}
+.persona-pill.on{background:linear-gradient(135deg,rgba(0,229,255,.12),rgba(177,78,255,.08));border-color:var(--neon);color:var(--neon);box-shadow:0 0 24px rgba(0,229,255,.2)}
+
+/* ─── SECTIONS ─────────────────────────────────────────────── */
+.sec{padding:5rem 0}
+.wrap{max-width:1200px;margin:0 auto;padding:0 2rem}
+.sec-tag{font-size:10px;font-weight:700;letter-spacing:3px;color:var(--neon);text-transform:uppercase;margin-bottom:.8rem}
+.sec-h2{font-size:clamp(1.8rem,3.5vw,2.6rem);font-weight:900;letter-spacing:-1.5px;margin-bottom:.5rem;color:#fff}
+.sec-sub{font-size:14px;color:var(--muted);margin-bottom:2.5rem}
+
+/* ─── FINDER CARD — Dark glass ─────────────────────────────── */
+.finder-card{background:var(--surface);border-radius:24px;padding:2.5rem;box-shadow:var(--card-shadow);border:1px solid rgba(0,229,255,0.06);position:relative;overflow:hidden}
+.finder-card::before{content:'';position:absolute;top:-1px;left:20%;right:20%;height:1px;background:linear-gradient(90deg,transparent,var(--neon),transparent);opacity:.4}
+.filter-block{margin-bottom:2.5rem}
+.filter-lbl{font-size:11px;font-weight:700;letter-spacing:2.5px;color:var(--neon);text-transform:uppercase;margin-bottom:1.2rem;display:flex;align-items:center;gap:8px}
+.multi-hint{font-size:10px;font-weight:400;letter-spacing:0;color:var(--subtle);text-transform:none}
+.filter-divider{border:none;border-top:1px solid rgba(255,255,255,0.04);margin:2.2rem 0}
+
+/* ─── FILTER CHIPS — Neon glass cards ──────────────────────── */
+.chips-grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+.chips-grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.chips-grid2{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+@media(max-width:640px){.chips-grid4{grid-template-columns:repeat(2,1fr)}.chips-grid3{grid-template-columns:repeat(2,1fr)}.chips-grid2{grid-template-columns:repeat(2,1fr)}}
+
+.chip-visual{background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.06);border-radius:16px;padding:1.2rem 1rem;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:8px;transition:all .3s cubic-bezier(.22,1,.36,1);min-height:110px;justify-content:center;color:var(--muted);position:relative;overflow:hidden}
+.chip-visual::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 50% 0%,rgba(0,229,255,.08),transparent 70%);opacity:0;transition:opacity .3s;border-radius:16px}
+.chip-visual:hover{border-color:rgba(0,229,255,.3);transform:translateY(-3px);box-shadow:0 8px 24px rgba(0,0,0,.4),0 0 20px rgba(0,229,255,.08)}
+.chip-visual:hover::before{opacity:1}
+.chip-visual.on{background:rgba(0,229,255,0.04);border-color:var(--neon);border-width:1.5px;color:var(--neon);box-shadow:0 0 0 1px rgba(0,229,255,.1),0 0 30px rgba(0,229,255,.1),0 8px 24px rgba(0,0,0,.3)}
+.chip-visual.on::before{opacity:1}
+.chip-visual-label{font-size:13px;font-weight:700;text-align:center;line-height:1.2;color:var(--text);position:relative}
+.chip-visual.on .chip-visual-label{color:var(--neon)}
+.chip-visual-sub{font-size:10px;color:var(--subtle);text-align:center;position:relative}
+.chip-visual.on .chip-visual-sub{color:rgba(0,229,255,.6)}
+
+/* Use chips — flat neon */
+.chips{display:grid;grid-template-columns:repeat(auto-fill,minmax(165px,1fr));gap:8px}
+.chip{background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.06);color:var(--muted);font-size:13px;font-weight:600;padding:14px 16px;border-radius:12px;cursor:pointer;transition:all .25s;text-align:left;width:100%;position:relative}
+.chip:hover{border-color:rgba(0,229,255,.3);color:var(--text);transform:translateY(-1px);box-shadow:0 4px 16px rgba(0,0,0,.3),0 0 12px rgba(0,229,255,.06)}
+.chip.on{background:rgba(0,229,255,0.04);border-color:var(--neon);border-width:1.5px;color:var(--neon);font-weight:700;box-shadow:0 0 24px rgba(0,229,255,.12)}
+.chip-sub{display:block;font-size:10px;color:var(--subtle);margin-top:2px;font-weight:400}
+.chip.on .chip-sub{color:rgba(0,229,255,.5)}
+
+/* ─── BUDGET SLIDER ────────────────────────────────────────── */
+.budget-header{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:1rem}
+.budget-title{font-size:11px;font-weight:700;letter-spacing:2.5px;color:var(--neon);text-transform:uppercase}
+.budget-display{font-size:16px;font-weight:800;color:#fff;letter-spacing:-.5px}
+.budget-labels{display:flex;justify-content:space-between;font-size:11px;color:var(--subtle);margin-bottom:.5rem}
+.range-wrap{position:relative;height:44px;display:flex;align-items:center;margin-bottom:.6rem}
+.range-track{position:absolute;height:4px;width:100%;background:var(--surface3);border-radius:2px;pointer-events:none}
+.range-fill{position:absolute;height:4px;background:linear-gradient(90deg,var(--neon),var(--neon2));border-radius:2px;pointer-events:none;box-shadow:0 0 12px rgba(0,229,255,.3)}
+.range-wrap input[type=range]{position:absolute;width:100%;height:6px;-webkit-appearance:none;background:transparent;pointer-events:none;z-index:2}
+.range-wrap input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:22px;height:22px;border-radius:50%;background:var(--neon);border:3px solid var(--bg);box-shadow:0 0 12px rgba(0,229,255,.5),0 2px 8px rgba(0,0,0,.5);pointer-events:all;cursor:pointer;transition:transform .15s}
+.range-wrap input[type=range]::-webkit-slider-thumb:hover{transform:scale(1.2);box-shadow:0 0 20px rgba(0,229,255,.7),0 2px 8px rgba(0,0,0,.5)}
+.range-ticks{display:flex;justify-content:space-between;font-size:10px;color:var(--subtle);margin-top:.3rem}
+.budget-note{font-size:12px;color:var(--muted);margin-top:.5rem}
+
+/* See Results CTA */
+.see-results-cta{margin-top:2.5rem;text-align:center}
+.btn-see-results{display:inline-flex;align-items:center;gap:8px;background:transparent;color:var(--neon);font-weight:700;font-size:15px;padding:16px 40px;border-radius:100px;transition:all .3s;box-shadow:var(--glow-cyan);border:1.5px solid var(--neon);cursor:pointer;text-transform:uppercase;letter-spacing:.5px}
+.btn-see-results:hover{background:var(--neon);color:#000;transform:translateY(-2px);box-shadow:0 0 30px rgba(0,229,255,.5)}
+.results-hint-txt{margin-top:.6rem;font-size:11px;color:var(--subtle)}
+
+/* ─── ACOUSTIC ─────────────────────────────────────────────── */
+.ac-card{background:rgba(0,229,255,0.02);border:1px solid rgba(0,229,255,.1);border-radius:24px;padding:2rem;position:relative;overflow:hidden}
+.ac-card::before{content:'';position:absolute;top:-1px;left:30%;right:30%;height:1px;background:linear-gradient(90deg,transparent,rgba(0,229,255,.3),transparent)}
+.ac-head{display:flex;align-items:center;gap:10px;margin-bottom:1.8rem;flex-wrap:wrap}
+.ac-title{font-size:10px;font-weight:700;letter-spacing:2.5px;color:var(--neon);text-transform:uppercase}
+.ac-hint{font-size:11px;color:var(--subtle);margin-left:auto}
+.ac-blocks{display:flex;flex-direction:column;gap:1.6rem}
+.ac-lbl{font-size:10px;font-weight:700;letter-spacing:2px;color:var(--neon);text-transform:uppercase;margin-bottom:.8rem}
+.ac-chips3{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.ac-chips2{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}
+@media(max-width:500px){.ac-chips3{grid-template-columns:1fr 1fr}}
+.ac-chip{background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.06);border-radius:14px;padding:1rem .8rem;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:6px;transition:all .25s;min-height:80px;justify-content:center;font-family:var(--font)}
+.ac-chip:hover{border-color:rgba(0,229,255,.3);background:rgba(0,229,255,0.04);transform:translateY(-1px)}
+.ac-chip.on{background:rgba(0,229,255,0.06);border-color:var(--neon);box-shadow:0 0 20px rgba(0,229,255,.1)}
+.ac-chip-icon{font-size:22px}
+.ac-chip-lbl{font-size:12px;font-weight:700;text-align:center;color:var(--text)}
+.ac-chip-desc{font-size:10px;color:var(--subtle);text-align:center;line-height:1.3}
+.ac-insight{background:rgba(0,229,255,0.04);border-left:2px solid var(--neon);border-radius:0 8px 8px 0;padding:12px 16px;margin-top:1rem;font-size:12.5px;color:var(--text);line-height:1.6;display:none}
+.ac-insight.show{display:block}
+.ac-tag{display:inline-block;background:linear-gradient(135deg,var(--neon),var(--neon2));color:#000;font-size:8px;font-weight:800;letter-spacing:1px;padding:3px 8px;border-radius:4px;text-transform:uppercase;margin-right:5px;vertical-align:middle}
+
+/* ─── RESULTS ──────────────────────────────────────────────── */
+.result-meta{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;margin-bottom:1.2rem;font-size:13px;color:var(--muted)}
+.result-meta strong{color:#fff}
+.no-res{padding:3rem;text-align:center;color:var(--muted);font-size:14px;background:var(--surface);border-radius:16px;border:1px solid rgba(255,255,255,0.06)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:18px}
+
+/* ─── PRODUCT CARDS — Neon glass ──────────────────────────── */
+.card{background:var(--surface);border-radius:20px;overflow:hidden;display:flex;flex-direction:column;transition:all .3s cubic-bezier(.22,1,.36,1);box-shadow:var(--card-shadow);border:1px solid rgba(255,255,255,0.05)}
+.card:hover{transform:translateY(-4px);box-shadow:var(--card-shadow-hover);border-color:rgba(0,229,255,.12)}
+.card.best{border:1.5px solid var(--neon);box-shadow:0 0 30px rgba(0,229,255,.15),var(--card-shadow-hover)}
+.best-badge{background:linear-gradient(135deg,var(--neon),var(--neon2));color:#000;font-size:10px;font-weight:800;letter-spacing:1.5px;padding:8px 16px;text-transform:uppercase;display:flex;align-items:center;gap:6px}
+.card-img{width:100%;aspect-ratio:4/3;object-fit:contain;padding:1.2rem;background:rgba(255,255,255,0.02)}
+.img-ph{width:100%;aspect-ratio:4/3;background:rgba(255,255,255,0.02);display:flex;align-items:center;justify-content:center;color:var(--subtle)}
+.card-body{padding:1.4rem;flex:1;display:flex;flex-direction:column}
+.card-tags{display:flex;flex-wrap:wrap;gap:4px;margin-bottom:8px}
+.tag{font-size:9px;font-weight:700;letter-spacing:1px;padding:3px 8px;border-radius:4px;text-transform:uppercase}
+.tag-compact{background:rgba(255,184,0,.08);border:1px solid rgba(255,184,0,.2);color:var(--gold)}
+.tag-new{background:rgba(57,255,133,.06);border:1px solid rgba(57,255,133,.15);color:var(--green)}
+.tag-smart{background:rgba(0,229,255,.06);border:1px solid rgba(0,229,255,.15);color:var(--neon)}
+.tag-portable{background:rgba(177,78,255,.06);border:1px solid rgba(177,78,255,.15);color:var(--neon2)}
+.card-row1{display:flex;align-items:flex-start;justify-content:space-between;gap:8px;margin-bottom:4px}
+.card-name{font-size:15px;font-weight:800;letter-spacing:-.4px;line-height:1.2;color:#fff}
+.spec-pill{background:rgba(0,229,255,.08);border:1px solid rgba(0,229,255,.2);color:var(--neon);font-size:11px;font-weight:700;padding:3px 10px;border-radius:6px;white-space:nowrap;flex-shrink:0}
+.watt-pill{background:rgba(0,229,255,.08);border:1px solid rgba(0,229,255,.2);color:var(--neon);font-size:13px;font-weight:700;padding:3px 10px;border-radius:6px;white-space:nowrap;flex-shrink:0}
+.cert{font-size:11px;font-weight:700;letter-spacing:.3px;margin-bottom:5px}
+.cert-atmos{color:var(--gold)}.cert-audio{color:var(--neon)}.cert-std{color:var(--subtle)}
+.config{font-size:12px;color:var(--muted);margin-bottom:10px;line-height:1.4}
+.feats{display:flex;flex-wrap:wrap;gap:4px;margin-bottom:12px}
+.feat{background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.06);color:var(--muted);font-size:10px;padding:3px 8px;border-radius:4px}
+.price-row{display:flex;align-items:baseline;gap:7px;margin-bottom:3px;flex-wrap:wrap;margin-top:auto}
+.price{font-size:22px;font-weight:900;color:#fff;letter-spacing:-.5px}
+.mrp{font-size:12px;color:var(--subtle);text-decoration:line-through}
+.save{background:linear-gradient(135deg,var(--green),#00C76A);color:#000;font-size:9px;font-weight:800;padding:2px 8px;border-radius:4px;letter-spacing:.5px}
+.buys{display:flex;gap:6px;flex-wrap:wrap;margin-top:14px}
+.buy{font-size:12px;font-weight:700;padding:9px 16px;border-radius:8px;transition:all .15s}
+.buy:hover{opacity:.85;transform:translateY(-1px)}
+.buy-amz{background:#FF9900;color:#111}
+.buy-fk{background:#2874F0;color:#fff}
+.buy-zeb{background:#fff;color:#111}
+.why-box{margin-top:12px;font-size:12px;color:var(--muted);font-style:italic;line-height:1.5;padding:10px 14px;background:rgba(0,229,255,0.03);border-radius:8px;border-left:2px solid var(--neon)}
+.ac-note{margin-top:8px;font-size:11.5px;color:var(--muted);padding:10px 14px;background:rgba(0,229,255,0.03);border-radius:8px;line-height:1.6}
+.ac-note-lbl{display:inline-block;background:linear-gradient(135deg,var(--neon),var(--neon2));color:#000;font-size:8px;font-weight:800;letter-spacing:1px;padding:2px 7px;border-radius:3px;text-transform:uppercase;margin-right:6px;vertical-align:middle}
+
+/* ─── JARGON ACCORDION ─────────────────────────────────────── */
+.accordion{display:flex;flex-direction:column;gap:8px}
+.acc-item{border:1px solid rgba(255,255,255,0.06);border-radius:14px;overflow:hidden;transition:box-shadow .2s}
+.acc-item:hover{box-shadow:0 0 16px rgba(0,229,255,.06)}
+.acc-hdr{width:100%;background:var(--surface);border:none;padding:1.2rem 1.5rem;display:flex;justify-content:space-between;align-items:center;color:var(--text);cursor:pointer;font:600 14px var(--font);text-align:left;transition:background .15s;gap:12px}
+.acc-hdr:hover{background:var(--surface2)}
+.acc-arrow{font-size:16px;transition:transform .3s;color:var(--neon);flex-shrink:0}
+.acc-body{max-height:0;overflow:hidden;transition:max-height .35s ease}
+.acc-item.open .acc-body{max-height:600px}
+.acc-item.open .acc-arrow{transform:rotate(180deg)}
+.acc-content{padding:1.2rem 1.5rem;font-size:13.5px;color:var(--muted);line-height:1.75;background:var(--surface2)}
+.acc-example{background:rgba(0,229,255,0.04);border-left:2px solid var(--neon);border-radius:0 8px 8px 0;padding:10px 14px;margin-top:10px;font-size:13px;color:var(--text);line-height:1.6}
+
+/* ─── AUDIO DEMO ───────────────────────────────────────────── */
+.demo-layout{display:grid;grid-template-columns:1fr 1fr;gap:2rem;align-items:start}
+@media(max-width:768px){.demo-layout{grid-template-columns:1fr}}
+.demo-h{font-size:clamp(1.4rem,2.5vw,2rem);font-weight:800;letter-spacing:-1px;color:#fff;margin-bottom:.4rem}
+.demo-sub{font-size:13px;color:var(--muted);margin-bottom:1.5rem}
+.demo-toggles{display:flex;flex-direction:column;gap:10px;margin-bottom:1.2rem}
+.demo-toggle{background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.06);border-radius:12px;padding:1rem 1.2rem;cursor:pointer;display:flex;align-items:center;gap:12px;transition:all .25s;width:100%;color:var(--muted)}
+.demo-toggle:hover{border-color:rgba(0,229,255,.3);transform:translateY(-1px)}
+.demo-toggle.on{background:rgba(0,229,255,0.04);border-color:var(--neon);color:var(--neon)}
+.demo-toggle-label{font-weight:700;font-size:14px;flex:1;text-align:left;color:inherit}
+.demo-toggle-sub{font-size:11px;color:var(--subtle);text-align:left}
+.stat-v{font-size:11px;font-weight:700;padding:3px 10px;border-radius:6px;background:rgba(255,255,255,0.04);color:var(--muted);white-space:nowrap;flex-shrink:0}
+.stat-v.on{background:rgba(0,229,255,.1);color:var(--neon)}
+.vis-wrap{position:relative;border-radius:20px;overflow:hidden;background:#06070B;aspect-ratio:16/10;box-shadow:0 8px 40px rgba(0,0,0,.5);border:1px solid rgba(0,229,255,0.08)}
+#vis{width:100%;height:100%;display:block}
+#status{position:absolute;bottom:8px;left:50%;transform:translateX(-50%);font-size:10px;color:rgba(255,255,255,.4);white-space:nowrap;letter-spacing:.5px}
+.play-ov{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;background:rgba(6,7,11,.7);cursor:pointer;transition:background .2s}
+.play-ov:hover{background:rgba(6,7,11,.5)}
+.play-btn{width:64px;height:64px;border-radius:50%;background:transparent;border:2px solid var(--neon);display:flex;align-items:center;justify-content:center;transition:all .25s;box-shadow:var(--glow-cyan)}
+.play-ov:hover .play-btn{transform:scale(1.08);background:var(--neon);box-shadow:0 0 30px rgba(0,229,255,.5)}
+.play-btn svg{width:22px;height:22px;fill:var(--neon);margin-left:3px}
+.play-ov:hover .play-btn svg{fill:#000}
+.play-hint{font-size:12px;color:rgba(255,255,255,.5);text-align:center}
+#trackInfo{display:none;margin-top:.8rem;padding:8px 12px;background:var(--surface2);border-radius:8px;font-size:11px;color:var(--muted);line-height:1.5}
+
+/* ─── COMPARE TABLE ────────────────────────────────────────── */
+.compare-wrap{position:relative}
+.tbl-outer{border-radius:16px;border:1px solid rgba(255,255,255,0.06);box-shadow:var(--card-shadow);overflow:hidden}
+.tbl-scroll{overflow:auto;max-height:560px;-webkit-overflow-scrolling:touch}
+table{width:100%;border-collapse:collapse;font-size:13px;background:var(--surface);min-width:580px}
+th{background:var(--surface2);color:var(--neon);font-weight:700;font-size:10px;letter-spacing:1px;text-transform:uppercase;padding:12px 14px;text-align:left;white-space:nowrap;border-bottom:1px solid rgba(0,229,255,0.1);position:sticky;top:0;z-index:20}
+td{padding:11px 14px;border-bottom:1px solid rgba(255,255,255,0.03);vertical-align:middle;color:var(--muted)}
+th:first-child,td:first-child{position:sticky;left:0;z-index:10;background:var(--surface)}
+th:first-child{background:var(--surface2);z-index:30}
+tr:nth-child(even) td{background:rgba(255,255,255,0.01)}
+tr:nth-child(even) td:first-child{background:rgba(255,255,255,0.01)}
+tr:hover td{background:rgba(0,229,255,0.03)}
+tr:hover td:first-child{background:rgba(0,229,255,0.03)}
+td:first-child::after,th:first-child::after{content:'';position:absolute;top:0;right:-6px;bottom:0;width:6px;background:linear-gradient(to right,rgba(0,0,0,0.15),transparent);pointer-events:none}
+.tn{color:#fff;font-weight:700}
+.tp{font-weight:800;color:#fff;white-space:nowrap}
+.ok{color:var(--green);font-weight:700}.no{color:var(--subtle)}
+.cpill{font-size:9px;font-weight:700;letter-spacing:.5px;padding:3px 9px;border-radius:20px;text-transform:uppercase;color:#fff;white-space:nowrap}
+.cp-a{background:#92400E}.cp-d{background:#2563EB}.cp-s{background:var(--subtle)}.cp-dts{background:var(--neon2)}
+.tbl-hint{display:none;text-align:center;font-size:11px;color:var(--subtle);padding:8px;background:var(--surface2);border-bottom:1px solid rgba(255,255,255,0.04)}
+@media(max-width:900px){.tbl-hint{display:block}}
+
+/* Mobile compare */
+.mobile-compare{display:none;flex-direction:column;border-radius:16px;overflow:hidden;border:1px solid rgba(255,255,255,0.06);box-shadow:var(--card-shadow)}
+@media(max-width:640px){.tbl-outer{display:none}.mobile-compare{display:flex}}
+.mc-tier{background:var(--surface2);padding:8px 16px;font-size:10px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--neon);border-bottom:1px solid rgba(255,255,255,0.04)}
+.mc-row{background:var(--surface);border-bottom:1px solid rgba(255,255,255,0.03);cursor:pointer;transition:background .15s}
+.mc-row:hover{background:rgba(0,229,255,0.03)}
+.mc-summary{display:flex;align-items:center;gap:10px;padding:12px 14px;min-height:60px}
+.mc-cert-bar{width:4px;align-self:stretch;border-radius:2px;flex-shrink:0}
+.mc-thumb{width:48px;height:36px;object-fit:contain;border-radius:6px;background:rgba(255,255,255,0.03);flex-shrink:0}
+.mc-thumb-ph{width:48px;height:36px;background:rgba(255,255,255,0.03);border-radius:6px;flex-shrink:0}
+.mc-info{flex:1;min-width:0}
+.mc-name{font-size:13px;font-weight:700;color:#fff;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mc-meta{font-size:11px;color:var(--muted);margin-top:1px}
+.mc-right{display:flex;flex-direction:column;align-items:flex-end;gap:3px;flex-shrink:0}
+.mc-price{font-size:14px;font-weight:800;color:#fff}
+.mc-chevron{font-size:12px;color:var(--subtle);transition:transform .25s}
+.mc-expand{max-height:0;overflow:hidden;transition:max-height .35s ease}
+.mc-row.open .mc-expand{max-height:300px}
+.mc-row.open .mc-chevron{transform:rotate(180deg)}
+.mc-expand-inner{padding:0 14px 14px}
+.mc-buys{display:flex;flex-direction:column;gap:6px}
+.mc-buy{display:block;font-size:13px;font-weight:700;padding:10px 14px;border-radius:10px;text-align:center;text-decoration:none;transition:all .15s}
+.mc-buy:hover{opacity:.87;transform:translateY(-1px)}
+.mc-buy-amz{background:#FF9900;color:#111}
+.mc-buy-fk{background:#2874F0;color:#fff}
+.mc-buy-zeb{background:#fff;color:#111}
+
+/* ─── FOOTER ───────────────────────────────────────────────── */
+footer{background:#06070B;border-top:1px solid rgba(0,229,255,0.06);padding:3rem 2rem;text-align:center;font-size:13px;color:rgba(255,255,255,.3)}
+.footer-inner{max-width:1200px;margin:0 auto}
+footer strong{color:rgba(255,255,255,.7)}
+footer a{color:var(--neon);transition:all .2s}
+footer a:hover{color:var(--neon2);text-shadow:0 0 8px rgba(177,78,255,.4)}
+#lastUpdated{margin-top:8px;font-size:11px;color:rgba(255,255,255,.2)}
+
+/* ═══════════════════════════════════════════════════════════════
+   LIGHT THEME OVERRIDE — Classic v2 look
+   ═══════════════════════════════════════════════════════════════ */
+[data-theme="light"]{
+  --bg:#F0F2F5;--surface:#FFFFFF;--surface2:#F7F8FA;--surface3:#EBEDF0;
+  --border:rgba(0,0,0,0.05);--border2:#DDE1E6;
+  --text:#0C111D;--muted:#4A5568;--subtle:#94A3B8;
+  --neon:#4F6EF7;--neon2:#7C3AED;--neon3:#10B981;--neon4:#F43F5E;
+  --accent:#4F6EF7;--accent-dark:#3451D1;--accent-fill:rgba(79,110,247,0.08);--accent-glow:rgba(79,110,247,0.25);
+  --green:#10B981;--gold:#F59E0B;--rose:#F43F5E;
+  --card-shadow:0 1px 3px rgba(0,0,0,0.06),0 8px 24px rgba(0,0,0,0.05);
+  --card-shadow-hover:0 4px 12px rgba(0,0,0,0.08),0 20px 48px rgba(0,0,0,0.08);
+  --glow-cyan:0 4px 24px rgba(79,110,247,.4);
+  --glow-purple:0 4px 24px rgba(124,58,237,.4);
+}
+/* Light overrides for hardcoded dark colors */
+[data-theme="light"] .cat-tabs-wrap{background:var(--surface);border-color:var(--border2);box-shadow:0 1px 8px rgba(0,0,0,0.04)}
+[data-theme="light"] .cat-tab.active{color:#fff;background:linear-gradient(135deg,#4F6EF7,#6C5CE7);box-shadow:0 2px 12px rgba(79,110,247,.3)}
+[data-theme="light"] .cat-tab.active .tab-count{background:rgba(255,255,255,.2);color:#fff}
+[data-theme="light"] .finder-card{border-color:var(--border2)}
+[data-theme="light"] .finder-card::before{display:none}
+[data-theme="light"] .ac-card{background:linear-gradient(135deg,rgba(79,110,247,.04),rgba(124,58,237,.03));border-color:rgba(79,110,247,.15)}
+[data-theme="light"] .ac-card::before{display:none}
+[data-theme="light"] .filter-lbl{color:var(--muted)}
+[data-theme="light"] .ac-title,[data-theme="light"] .ac-lbl{color:var(--accent-dark)}
+[data-theme="light"] .budget-title{color:var(--muted)}
+[data-theme="light"] .chip-visual{background:var(--surface);border-color:var(--border2)}
+[data-theme="light"] .chip-visual::before{background:linear-gradient(135deg,rgba(79,110,247,.06),rgba(124,58,237,.04))}
+[data-theme="light"] .chip-visual.on{background:linear-gradient(135deg,rgba(79,110,247,.08),rgba(124,58,237,.05));border-color:var(--accent);color:var(--accent-dark);box-shadow:0 0 0 3px var(--accent-glow),0 4px 16px var(--accent-glow)}
+[data-theme="light"] .chip-visual.on .chip-visual-label{color:var(--accent-dark)}
+[data-theme="light"] .chip{background:var(--surface);border-color:var(--border2)}
+[data-theme="light"] .chip.on{background:linear-gradient(135deg,rgba(79,110,247,.08),rgba(124,58,237,.05));border-color:var(--accent);color:var(--accent-dark)}
+[data-theme="light"] .ac-chip{background:var(--surface);border-color:var(--border2)}
+[data-theme="light"] .ac-chip.on{background:var(--accent-fill);border-color:var(--accent)}
+[data-theme="light"] .persona-pill{background:var(--surface);border-color:var(--border2);box-shadow:0 1px 3px rgba(0,0,0,.04)}
+[data-theme="light"] .persona-pill.on{background:linear-gradient(135deg,#4F6EF7,#6C5CE7);border-color:transparent;color:#fff}
+[data-theme="light"] .range-fill{background:linear-gradient(90deg,#4F6EF7,#7C3AED);box-shadow:none}
+[data-theme="light"] .range-wrap input[type=range]::-webkit-slider-thumb{background:#fff;border-color:var(--accent);box-shadow:0 2px 10px rgba(79,110,247,.35)}
+[data-theme="light"] .btn-see-results{background:linear-gradient(135deg,#4F6EF7,#7C3AED);color:#fff;border:none;box-shadow:0 4px 20px rgba(79,110,247,.3)}
+[data-theme="light"] .btn-see-results:hover{box-shadow:0 8px 32px rgba(79,110,247,.4)}
+[data-theme="light"] .btn-hero{background:linear-gradient(135deg,#4F6EF7,#7C3AED);color:#fff;border:none;box-shadow:0 4px 24px rgba(79,110,247,.4);animation:none}
+[data-theme="light"] .card{border-color:var(--border2)}
+[data-theme="light"] .card.best{border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-glow),var(--card-shadow-hover)}
+[data-theme="light"] .best-badge{background:linear-gradient(135deg,#4F6EF7,#7C3AED);color:#fff}
+[data-theme="light"] .card-img{background:var(--surface2)}
+[data-theme="light"] .img-ph{background:var(--surface2)}
+[data-theme="light"] .tag-compact{background:#FFF7ED;border-color:#FED7AA;color:#B45309}
+[data-theme="light"] .tag-new{background:#ECFDF5;border-color:#A7F3D0;color:#059669}
+[data-theme="light"] .tag-smart{background:#EFF6FF;border-color:#93C5FD;color:#3451D1}
+[data-theme="light"] .tag-portable{background:#FDF4FF;border-color:#E9D5FF;color:#7C3AED}
+[data-theme="light"] .spec-pill,[data-theme="light"] .watt-pill{background:linear-gradient(135deg,rgba(79,110,247,.1),rgba(124,58,237,.08));border-color:rgba(79,110,247,.2);color:var(--accent-dark)}
+[data-theme="light"] .cert-atmos{color:#B45309}
+[data-theme="light"] .feat{background:var(--surface2);border-color:var(--border2)}
+[data-theme="light"] .save{background:linear-gradient(135deg,#10B981,#059669);color:#fff}
+[data-theme="light"] .buy-zeb{background:var(--text);color:#fff}
+[data-theme="light"] .why-box{background:var(--surface2);border-left-color:var(--accent)}
+[data-theme="light"] .ac-note{background:var(--accent-fill)}
+[data-theme="light"] .ac-tag,[data-theme="light"] .ac-note-lbl{background:linear-gradient(135deg,#4F6EF7,#6C5CE7);color:#fff}
+[data-theme="light"] .ac-insight{background:var(--accent-fill);border-left-color:var(--accent)}
+[data-theme="light"] .demo-toggle{background:var(--surface);border-color:var(--border2)}
+[data-theme="light"] .demo-toggle.on{background:var(--accent-fill);border-color:var(--accent);color:var(--accent-dark)}
+[data-theme="light"] .stat-v{background:var(--surface3)}
+[data-theme="light"] .stat-v.on{background:linear-gradient(135deg,rgba(79,110,247,.15),rgba(124,58,237,.1));color:var(--accent-dark)}
+[data-theme="light"] .acc-item{border-color:var(--border2)}
+[data-theme="light"] .play-btn{background:linear-gradient(135deg,#4F6EF7,#7C3AED);border:none}
+[data-theme="light"] .play-btn svg{fill:#fff}
+[data-theme="light"] table{background:var(--surface)}
+[data-theme="light"] th{background:var(--surface2);color:var(--subtle);border-color:var(--border2)}
+[data-theme="light"] td{border-color:var(--border)}
+[data-theme="light"] th:first-child,
+[data-theme="light"] td:first-child{background:var(--surface)}
+[data-theme="light"] th:first-child{background:var(--surface2)}
+[data-theme="light"] tr:nth-child(even) td,
+[data-theme="light"] tr:nth-child(even) td:first-child{background:#FAFBFC}
+[data-theme="light"] tr:hover td,
+[data-theme="light"] tr:hover td:first-child{background:var(--accent-fill)}
+[data-theme="light"] .tbl-outer{border-color:var(--border2)}
+[data-theme="light"] .mc-tier{background:var(--surface2);color:var(--subtle);border-color:var(--border)}
+[data-theme="light"] .mc-row{background:var(--surface);border-color:var(--border)}
+[data-theme="light"] .mc-row:hover{background:var(--accent-fill)}
+[data-theme="light"] .mc-thumb{background:var(--surface2)}
+[data-theme="light"] .mc-buy-zeb{background:var(--text);color:#fff}
+[data-theme="light"] .mobile-compare{border-color:var(--border2)}
+[data-theme="light"] .sec-h2{color:var(--text)}
+[data-theme="light"] .hero-eyebrow{animation:none}
+
+
+
+/* ─── PROJECTOR SLIDESHOW ──────────────────────────────────── */
+.slideshow{position:relative;width:100%;aspect-ratio:4/3;background:var(--surface2);overflow:hidden;will-change:contents}
+.slideshow .slide{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;padding:1.2rem;opacity:0;transition:opacity .8s cubic-bezier(.4,0,.2,1);backface-visibility:hidden;transform:translateZ(0)}
+.slideshow .slide.active{opacity:1;z-index:1}
+.slideshow-arrow{position:absolute;top:50%;transform:translateY(-50%);width:36px;height:36px;background:rgba(0,0,0,0.55);border:none;border-radius:50%;color:#fff;font-size:18px;cursor:pointer;display:flex;align-items:center;justify-content:center;opacity:0;transition:opacity .2s,background .15s;z-index:3;backdrop-filter:blur(8px)}
+.slideshow-arrow:hover{background:rgba(0,0,0,0.8)}
+.slideshow-arrow.prev{left:8px}
+.slideshow-arrow.next{right:8px}
+.slideshow:hover .slideshow-arrow{opacity:1}
+.slideshow-dots{position:absolute;bottom:8px;left:50%;transform:translateX(-50%);display:flex;gap:5px;z-index:2;opacity:0;transition:opacity .2s}
+.slideshow:hover .slideshow-dots{opacity:1}
+.slideshow-dot{width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,0.4);cursor:pointer;border:none;padding:0;transition:all .2s}
+.slideshow-dot.active{background:#fff;width:18px;border-radius:3px}
+[data-theme="light"] .slideshow{background:var(--surface2)}
+
+/* ─── NOTIFY ME ────────────────────────────────────────────── */
+.notify-bar{margin-top:10px;padding:10px 14px;background:rgba(255,183,0,.08);border:1px solid rgba(255,183,0,.2);border-radius:10px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.notify-bar .oos-label{font-size:11px;font-weight:700;color:var(--gold);text-transform:uppercase;letter-spacing:1px}
+.notify-bar .notify-input{flex:1;min-width:140px;background:var(--surface2);border:1px solid var(--border2);border-radius:8px;padding:8px 12px;font-size:12px;color:var(--text);font-family:var(--font);outline:none}
+.notify-bar .notify-input:focus{border-color:var(--accent)}
+.notify-bar .notify-input::placeholder{color:var(--subtle)}
+.notify-btn{background:var(--gold);color:#111;font-size:11px;font-weight:700;padding:8px 16px;border-radius:8px;cursor:pointer;border:none;font-family:var(--font);transition:opacity .15s;white-space:nowrap}
+.notify-btn:hover{opacity:.85}
+.notify-ok{font-size:12px;font-weight:600;color:var(--green);display:none}
+[data-theme="light"] .notify-bar{background:rgba(245,158,11,.06);border-color:rgba(245,158,11,.2)}
+[data-theme="light"] .notify-bar .notify-input{background:var(--surface2);border-color:var(--border2)}
+
+
+
+/* ─── PROJECTOR SLIDESHOW ──────────────────────────────────── */
+.slideshow{position:relative;width:100%;aspect-ratio:4/3;background:var(--surface2);overflow:hidden;will-change:contents}
+.slideshow .slide{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;padding:1.2rem;opacity:0;transition:opacity .8s cubic-bezier(.4,0,.2,1);backface-visibility:hidden;transform:translateZ(0)}
+.slideshow .slide.active{opacity:1;z-index:1}
+.slideshow-arrow{position:absolute;top:50%;transform:translateY(-50%);width:36px;height:36px;background:rgba(0,0,0,0.55);border:none;border-radius:50%;color:#fff;font-size:18px;cursor:pointer;display:flex;align-items:center;justify-content:center;opacity:0;transition:opacity .2s,background .15s;z-index:3;backdrop-filter:blur(8px)}
+.slideshow-arrow:hover{background:rgba(0,0,0,0.8)}
+.slideshow-arrow.prev{left:8px}
+.slideshow-arrow.next{right:8px}
+.slideshow:hover .slideshow-arrow{opacity:1}
+.slideshow-dots{position:absolute;bottom:8px;left:50%;transform:translateX(-50%);display:flex;gap:5px;z-index:2;opacity:0;transition:opacity .2s}
+.slideshow:hover .slideshow-dots{opacity:1}
+.slideshow-dot{width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,0.4);cursor:pointer;border:none;padding:0;transition:all .2s}
+.slideshow-dot.active{background:#fff;width:18px;border-radius:3px}
+[data-theme="light"] .slideshow{background:var(--surface2)}
+
+/* ─── NOTIFY ME ────────────────────────────────────────────── */
+.notify-bar{margin-top:10px;padding:10px 14px;background:rgba(255,183,0,.08);border:1px solid rgba(255,183,0,.2);border-radius:10px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.notify-bar .oos-label{font-size:11px;font-weight:700;color:var(--gold);text-transform:uppercase;letter-spacing:1px}
+.notify-bar .notify-input{flex:1;min-width:140px;background:var(--surface2);border:1px solid var(--border2);border-radius:8px;padding:8px 12px;font-size:12px;color:var(--text);font-family:var(--font);outline:none}
+.notify-bar .notify-input:focus{border-color:var(--accent)}
+.notify-bar .notify-input::placeholder{color:var(--subtle)}
+.notify-btn{background:var(--gold);color:#111;font-size:11px;font-weight:700;padding:8px 16px;border-radius:8px;cursor:pointer;border:none;font-family:var(--font);transition:opacity .15s;white-space:nowrap}
+.notify-btn:hover{opacity:.85}
+.notify-ok{font-size:12px;font-weight:600;color:var(--green);display:none}
+[data-theme="light"] .notify-bar{background:rgba(245,158,11,.06);border-color:rgba(245,158,11,.2)}
+[data-theme="light"] .notify-bar .notify-input{background:var(--surface2);border-color:var(--border2)}
+
+
+
+/* ─── PROJECTOR SLIDESHOW ──────────────────────────────────── */
+.slideshow{position:relative;width:100%;aspect-ratio:4/3;background:var(--surface2);overflow:hidden;will-change:contents}
+.slideshow .slide{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;padding:1.2rem;opacity:0;transition:opacity .8s cubic-bezier(.4,0,.2,1);backface-visibility:hidden;transform:translateZ(0)}
+.slideshow .slide.active{opacity:1;z-index:1}
+.slideshow-arrow{position:absolute;top:50%;transform:translateY(-50%);width:36px;height:36px;background:rgba(0,0,0,0.55);border:none;border-radius:50%;color:#fff;font-size:18px;cursor:pointer;display:flex;align-items:center;justify-content:center;opacity:0;transition:opacity .2s,background .15s;z-index:3;backdrop-filter:blur(8px)}
+.slideshow-arrow:hover{background:rgba(0,0,0,0.8)}
+.slideshow-arrow.prev{left:8px}
+.slideshow-arrow.next{right:8px}
+.slideshow:hover .slideshow-arrow{opacity:1}
+.slideshow-dots{position:absolute;bottom:8px;left:50%;transform:translateX(-50%);display:flex;gap:5px;z-index:2;opacity:0;transition:opacity .2s}
+.slideshow:hover .slideshow-dots{opacity:1}
+.slideshow-dot{width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,0.4);cursor:pointer;border:none;padding:0;transition:all .2s}
+.slideshow-dot.active{background:#fff;width:18px;border-radius:3px}
+[data-theme="light"] .slideshow{background:var(--surface2)}
+
+/* ─── NOTIFY ME ────────────────────────────────────────────── */
+.notify-bar{margin-top:10px;padding:10px 14px;background:rgba(255,183,0,.08);border:1px solid rgba(255,183,0,.2);border-radius:10px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.notify-bar .oos-label{font-size:11px;font-weight:700;color:var(--gold);text-transform:uppercase;letter-spacing:1px}
+.notify-bar .notify-input{flex:1;min-width:140px;background:var(--surface2);border:1px solid var(--border2);border-radius:8px;padding:8px 12px;font-size:12px;color:var(--text);font-family:var(--font);outline:none}
+.notify-bar .notify-input:focus{border-color:var(--accent)}
+.notify-bar .notify-input::placeholder{color:var(--subtle)}
+.notify-btn{background:var(--gold);color:#111;font-size:11px;font-weight:700;padding:8px 16px;border-radius:8px;cursor:pointer;border:none;font-family:var(--font);transition:opacity .15s;white-space:nowrap}
+.notify-btn:hover{opacity:.85}
+.notify-ok{font-size:12px;font-weight:600;color:var(--green);display:none}
+[data-theme="light"] .notify-bar{background:rgba(245,158,11,.06);border-color:rgba(245,158,11,.2)}
+[data-theme="light"] .notify-bar .notify-input{background:var(--surface2);border-color:var(--border2)}
+
+/* ─── THEME TOGGLE ────────────────────────────────────────── */
+.theme-toggle{display:flex;align-items:center;gap:6px;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.1);padding:4px;border-radius:100px;cursor:pointer;flex-shrink:0;transition:all .3s}
+[data-theme="light"] .theme-toggle{background:var(--surface3);border-color:var(--border2)}
+.theme-toggle-option{font-size:14px;width:32px;height:32px;display:flex;align-items:center;justify-content:center;border-radius:50%;transition:all .25s}
+.theme-toggle-option.active{background:rgba(0,229,255,0.15)}
+[data-theme="light"] .theme-toggle-option.active{background:linear-gradient(135deg,#4F6EF7,#6C5CE7);box-shadow:0 2px 8px rgba(79,110,247,.3)}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-inner">
+    <a href="https://zebronics.com" class="logo" target="_blank">
+      <img src="./zeb-logo.png" alt="" class="logo-img" width="0" height="0" style="background:transparent;border:0;outline:0"
+           onload="this.style.width='auto';this.style.height='26px'"
+           onerror="this.style.display='none';document.getElementById('logoFallback').style.display='inline'">
+      <span class="logo-text" id="logoFallback" style="display:none;color:var(--neon);font-weight:900;font-size:18px;letter-spacing:2px">ZEBRONICS</span>
+      <span class="logo-pill">Product Finder</span>
+    </a>
+    <div class="nav-links">
+      <a href="#finder">Find My Match</a>
+      <a href="#compare">Compare All</a>
+      <a href="https://shop.zebronics.com" target="_blank">Shop All ↗</a>
+    </div>
+    <div class="theme-toggle" onclick="toggleTheme()" title="Switch theme">
+      <span class="theme-toggle-option" id="tog-dark">🌙</span>
+      <span class="theme-toggle-option active" id="tog-light">☀️</span>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO — Dark cinematic -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <!-- orbs removed -->
+  <div class="hero-content">
+    <div class="hero-eyebrow">Soundbar · Headphone · Projector · India</div>
+    <h1>Find the <em>perfect</em><br>match.</h1>
+    <p class="hero-sub">Soundbar from ₹2,999 · Headphone from ₹799 · Projector from ₹7,999.<br>Every room. Every use case. Three questions. Instant match.</p>
+    <button class="btn-hero" onclick="document.getElementById('catTabsWrap').scrollIntoView({behavior:'smooth'})">
+      Start Finding
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+    </button>
+    <div class="hero-stats">
+      <div class="stat-item"><strong>100+</strong><span>Products</span></div>
+      <div class="stat-item"><strong>₹2,999</strong><span>Starting from</span></div>
+      <div class="stat-item"><strong>3 Categories</strong><span>One platform</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- CATEGORY TABS -->
+<div class="cat-tabs-wrap" id="catTabsWrap">
+  <div class="cat-tabs">
+    <button class="cat-tab active" data-cat="soundbar" onclick="switchCategory('soundbar',this)">
+      <span class="tab-icon">🔊</span>Soundbar<span class="tab-count" id="count-soundbar">–</span>
+    </button>
+    <button class="cat-tab" data-cat="audio" onclick="switchCategory('audio',this)">
+      <span class="tab-icon">🎧</span>Headphone<span class="tab-count" id="count-audio">–</span>
+    </button>
+    <button class="cat-tab" data-cat="projector" onclick="switchCategory('projector',this)">
+      <span class="tab-icon">🎬</span>Projector<span class="tab-count" id="count-projector">–</span>
+    </button>
+  </div>
+</div>
+
+
+<!-- ═══════════════════════ SOUNDBAR PANEL ═══════════════════════ -->
+<div class="cat-panel active" id="panel-soundbar">
+
+<section class="sec" style="padding:2.5rem 0 0">
+  <div class="persona-wrap fade-up">
+    <p class="persona-label">Start with your situation — or answer below ↓</p>
+    <div class="persona-pills">
+      <button class="persona-pill" onclick="setPersonaSB('movies',this)">🎬 Movie Lovers</button>
+      <button class="persona-pill" onclick="setPersonaSB('gaming',this)">🎮 Gamers</button>
+      <button class="persona-pill" onclick="setPersonaSB('sports',this)">🏏 Cricket &amp; IPL</button>
+      <button class="persona-pill" onclick="setPersonaSB('music',this)">🎵 Music</button>
+      <button class="persona-pill" onclick="setPersonaSB('everyday',this)">📺 Everyday TV</button>
+      <button class="persona-pill" onclick="setPersonaSB('cinema',this)">🏠 Home Cinema</button>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="finder">
+  <div class="wrap">
+    <div class="sec-tag">Step by step</div>
+    <div class="sec-h2">Tell Us About Your Space</div>
+    <div class="sec-sub">Answer what you know — results update instantly below.</div>
+    <div class="finder-card fade-up">
+
+      <div class="filter-block">
+        <div class="filter-lbl">Room Size</div>
+        <div class="chips-grid4" id="sb-fc-room">
+          <button class="chip-visual" data-cat="soundbar" data-fid="room" data-val="studio" data-ftype="single" onclick="handleChip(this)">
+            <span style="font-size:28px">🏠</span>
+            <span class="chip-visual-label">Studio / Bedroom</span><span class="chip-visual-sub">~100 sq ft · 1RK</span>
+          </button>
+          <button class="chip-visual" data-cat="soundbar" data-fid="room" data-val="small" data-ftype="single" onclick="handleChip(this)">
+            <span style="font-size:28px">🛋️</span>
+            <span class="chip-visual-label">1BHK Hall</span><span class="chip-visual-sub">~150 sq ft</span>
+          </button>
+          <button class="chip-visual" data-cat="soundbar" data-fid="room" data-val="medium" data-ftype="single" onclick="handleChip(this)">
+            <span style="font-size:28px">🏡</span>
+            <span class="chip-visual-label">2BHK Hall</span><span class="chip-visual-sub">200–250 sq ft</span>
+          </button>
+          <button class="chip-visual" data-cat="soundbar" data-fid="room" data-val="large" data-ftype="single" onclick="handleChip(this)">
+            <span style="font-size:28px">🏢</span>
+            <span class="chip-visual-label">3BHK / Open Hall</span><span class="chip-visual-sub">300+ sq ft</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="filter-block">
+        <div class="filter-lbl">TV Size</div>
+        <div class="chips-grid4" id="sb-fc-tv">
+          <button class="chip-visual" data-cat="soundbar" data-fid="tv" data-val="tv_small" data-ftype="single" onclick="handleChip(this)">
+            <svg width="40" height="30" viewBox="0 0 80 60" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="20" y="10" width="40" height="28" rx="2"/><line x1="40" y1="38" x2="40" y2="50"/><line x1="28" y1="50" x2="52" y2="50"/></svg>
+            <span class="chip-visual-label">32″ – 43″</span><span class="chip-visual-sub">Bedroom / compact</span>
+          </button>
+          <button class="chip-visual" data-cat="soundbar" data-fid="tv" data-val="tv_medium" data-ftype="single" onclick="handleChip(this)">
+            <svg width="48" height="34" viewBox="0 0 80 60" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="10" y="8" width="60" height="36" rx="2"/><line x1="40" y1="44" x2="40" y2="54"/><line x1="26" y1="54" x2="54" y2="54"/></svg>
+            <span class="chip-visual-label">43″ – 55″</span><span class="chip-visual-sub">Standard living room</span>
+          </button>
+          <button class="chip-visual" data-cat="soundbar" data-fid="tv" data-val="tv_large" data-ftype="single" onclick="handleChip(this)">
+            <svg width="54" height="38" viewBox="0 0 80 60" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="4" y="6" width="72" height="42" rx="2"/><line x1="40" y1="48" x2="40" y2="56"/><line x1="22" y1="56" x2="58" y2="56"/></svg>
+            <span class="chip-visual-label">55″ – 65″</span><span class="chip-visual-sub">Large living room</span>
+          </button>
+          <button class="chip-visual" data-cat="soundbar" data-fid="tv" data-val="tv_xlarge" data-ftype="single" onclick="handleChip(this)">
+            <svg width="60" height="40" viewBox="0 0 80 60" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="4" width="76" height="46" rx="2"/><line x1="40" y1="50" x2="40" y2="57"/><line x1="18" y1="57" x2="62" y2="57"/></svg>
+            <span class="chip-visual-label">65″ and above</span><span class="chip-visual-sub">Cinema-scale</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="filter-block">
+        <div class="filter-lbl">Primary Use <span class="multi-hint">· Select all that apply</span></div>
+        <div class="chips" id="sb-fc-use">
+          <button class="chip" data-cat="soundbar" data-fid="use" data-val="movies" data-ftype="multi" onclick="handleChip(this)">🎬 Movies &amp; OTT<span class="chip-sub">Netflix, Prime, Hotstar</span></button>
+          <button class="chip" data-cat="soundbar" data-fid="use" data-val="gaming" data-ftype="multi" onclick="handleChip(this)">🎮 Gaming<span class="chip-sub">PS5, Xbox, PC</span></button>
+          <button class="chip" data-cat="soundbar" data-fid="use" data-val="sports" data-ftype="multi" onclick="handleChip(this)">🏏 Sports<span class="chip-sub">Cricket, Football, IPL</span></button>
+          <button class="chip" data-cat="soundbar" data-fid="use" data-val="everyday" data-ftype="multi" onclick="handleChip(this)">📺 Everyday TV<span class="chip-sub">News, serials, shows</span></button>
+          <button class="chip" data-cat="soundbar" data-fid="use" data-val="music" data-ftype="multi" onclick="handleChip(this)">🎵 Music<span class="chip-sub">Spotify, JioSaavn</span></button>
+        </div>
+      </div>
+
+      <hr class="filter-divider">
+
+      <div class="filter-block">
+        <div class="budget-header">
+          <div class="budget-title">Budget</div>
+          <div class="budget-display" id="sb-budgetDisplay">₹3,199 – ₹20,000</div>
+        </div>
+        <div class="budget-labels"><span>Minimum</span><span>Maximum</span></div>
+        <div class="range-wrap">
+          <div class="range-track"></div>
+          <div class="range-fill" id="sb-rangeFill"></div>
+          <input type="range" id="sb-rMin" min="3199" max="44999" step="100" value="3199" oninput="onRange('soundbar')">
+          <input type="range" id="sb-rMax" min="3199" max="44999" step="100" value="20000" oninput="onRange('soundbar')">
+        </div>
+        <div class="range-ticks"><span>₹3K</span><span>₹8K</span><span>₹12K</span><span>₹17K</span><span>₹25K</span><span>₹35K</span><span>₹45K</span></div>
+        <div class="budget-note" id="sb-bnote"></div>
+      </div>
+
+      <div class="see-results-cta">
+        <button class="btn-see-results" onclick="scrollToResults('soundbar')">See My Results ↓</button>
+        <div class="results-hint-txt">Results update instantly as you change filters</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ACOUSTIC -->
+<section class="sec" style="padding-top:0" id="sb-acoustic">
+  <div class="wrap">
+    <div class="ac-card fade-up">
+      <div class="ac-head">
+        <span style="font-size:20px">🎚️</span>
+        <span class="ac-title">Acoustic Environment</span>
+        <span class="ac-hint">Optional · fine-tunes results for your room</span>
+      </div>
+      <div class="ac-blocks">
+        <div><div class="ac-lbl">Floor Type</div>
+          <div class="ac-chips3" id="ac-floor">
+            <button class="ac-chip" onclick="setAc(this,'floor','tile')"><span class="ac-chip-icon">🔲</span><span class="ac-chip-lbl">Tiled</span><span class="ac-chip-desc">Reflective · bounces</span></button>
+            <button class="ac-chip" onclick="setAc(this,'floor','wood')"><span class="ac-chip-icon">🪵</span><span class="ac-chip-lbl">Wooden</span><span class="ac-chip-desc">Warm resonance</span></button>
+            <button class="ac-chip" onclick="setAc(this,'floor','carpet')"><span class="ac-chip-icon">🏠</span><span class="ac-chip-lbl">Carpet / Rug</span><span class="ac-chip-desc">Absorbs sound</span></button>
+          </div>
+        </div>
+        <div><div class="ac-lbl">Ceiling Fan</div>
+          <div class="ac-chips2" id="ac-fan">
+            <button class="ac-chip" onclick="setAc(this,'fan','off')"><span class="ac-chip-icon">🌀</span><span class="ac-chip-lbl">Usually off</span><span class="ac-chip-desc">Quiet room</span></button>
+            <button class="ac-chip" onclick="setAc(this,'fan','on')"><span class="ac-chip-icon">💨</span><span class="ac-chip-lbl">Always on</span><span class="ac-chip-desc">Ambient hum</span></button>
+          </div>
+        </div>
+        <div><div class="ac-lbl">Room Layout</div>
+          <div class="ac-chips2" id="ac-layout">
+            <button class="ac-chip" onclick="setAc(this,'layout','closed')"><span class="ac-chip-icon">🚪</span><span class="ac-chip-lbl">Enclosed</span><span class="ac-chip-desc">Walls contain sound</span></button>
+            <button class="ac-chip" onclick="setAc(this,'layout','open')"><span class="ac-chip-icon">🏡</span><span class="ac-chip-lbl">Open plan</span><span class="ac-chip-desc">Sound disperses</span></button>
+          </div>
+        </div>
+      </div>
+      <div class="ac-insight" id="acInsight"></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" style="padding-top:0" id="sb-results">
+  <div class="wrap">
+    <div class="result-meta" id="sb-rmeta" style="display:none"><div id="sb-rheading"></div><a href="#finder" style="font-size:12px;color:var(--neon)">↑ Change filters</a></div>
+    <div class="grid" id="sb-pgrid"></div>
+  </div>
+</section>
+
+<!-- JARGON -->
+<section class="sec" id="sb-jargon" style="background:var(--surface2);padding:4rem 0">
+  <div class="wrap">
+    <div class="sec-tag fade-up">Plain Language</div>
+    <div class="sec-h2 fade-up">No jargon.</div>
+    <div class="sec-sub fade-up">Decoded for Indian buyers.</div>
+    <div class="accordion fade-up">
+      <div class="acc-item"><button class="acc-hdr" onclick="toggleAcc(this)"><span>🔊 &nbsp;Dolby Atmos vs Dolby Audio</span><span class="acc-arrow">↓</span></button><div class="acc-body"><div class="acc-content">Dolby Audio improves stereo sound. Dolby Atmos adds height — sounds come from above you, not just left and right.<div class="acc-example">On a 9920 with 7.1.2 Atmos — thunder comes from directly overhead.</div></div></div></div>
+      <div class="acc-item"><button class="acc-hdr" onclick="toggleAcc(this)"><span>📡 &nbsp;2.0 vs 2.1 vs 5.1 vs 7.1.2 — what the numbers mean</span><span class="acc-arrow">↓</span></button><div class="acc-body"><div class="acc-content">First = speakers. Second = subwoofers. Third = height channels. 2.0 = bar only. 5.1 = bar + sub + 2 rears.<div class="acc-example">For a 2BHK, 5.1 is the sweet spot. For 3BHK open hall, 7.1.2 fills the space.</div></div></div></div>
+      <div class="acc-item"><button class="acc-hdr" onclick="toggleAcc(this)"><span>🔌 &nbsp;HDMI eARC vs ARC vs Optical</span><span class="acc-arrow">↓</span></button><div class="acc-body"><div class="acc-content">ARC = one HDMI cable for audio. eARC = required for Dolby Atmos passthrough. Optical works on all television sets but cannot carry Atmos.<div class="acc-example">If your TV has eARC and you buy a 9580C or higher — use HDMI eARC.</div></div></div></div>
+      <div class="acc-item"><button class="acc-hdr" onclick="toggleAcc(this)"><span>🏏 &nbsp;Why soundbars make cricket better</span><span class="acc-arrow">↓</span></button><div class="acc-body"><div class="acc-content">Television speakers compress crowd roar and commentary equally. A soundbar separates them — crowd fills the room, commentary stays clear.<div class="acc-example">On a 9300C — crowd noise fills the room while commentary stays crystal clear.</div></div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- AUDIO DEMO -->
+<section class="sec" id="demo">
+  <div class="wrap">
+    <div class="sec-tag fade-up">Hear the difference</div>
+    <div class="demo-layout fade-up">
+      <div>
+        <div class="demo-h">Toggle each component.</div>
+        <div class="demo-sub">Hear exactly what a soundbar, subwoofer, and satellites each contribute.</div>
+        <div class="demo-toggles">
+          <button class="demo-toggle on" id="c-bar" onclick="toggleComp('bar')">
+            <div><div class="demo-toggle-label">Soundbar</div><div class="demo-toggle-sub">Mids · dialogue · presence · 200Hz–8kHz</div></div>
+            <span class="stat-v on" id="sv-bar">ON</span>
+          </button>
+          <button class="demo-toggle" id="c-sub" onclick="toggleComp('sub')">
+            <div><div class="demo-toggle-label">Subwoofer</div><div class="demo-toggle-sub">Deep bass · impact · below 150Hz</div></div>
+            <span class="stat-v" id="sv-sub">OFF</span>
+          </button>
+          <button class="demo-toggle" id="c-sat" onclick="toggleComp('sat')">
+            <div><div class="demo-toggle-label">Rear Satellites</div><div class="demo-toggle-sub">Spatial width · air · above 5kHz panned ±0.9</div></div>
+            <span class="stat-v" id="sv-sat">OFF</span>
+          </button>
+        </div>
+        <div id="trackInfo"></div>
+      </div>
+      <div>
+        <div class="vis-wrap">
+          <canvas id="vis"></canvas>
+          <div id="status">CLICK TO START DEMO</div>
+          <div class="play-ov" id="playOv" onclick="startAudio()">
+            <div class="play-btn"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+            <div class="play-hint">Click to start demo<br><span style="font-size:10px;color:rgba(255,255,255,.4)">Beethoven · Moonlight Sonata · Public Domain</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SOUNDBAR COMPARE -->
+<section class="sec" id="compare" style="background:var(--surface2);padding:4rem 0">
+  <div class="wrap">
+    <div class="sec-tag fade-up">Full Range</div>
+    <div class="sec-h2 fade-up">Compare All Soundbar.</div>
+    <div class="sec-sub fade-up">Every model sorted by price.</div>
+    <div class="compare-wrap fade-up">
+      <div class="tbl-outer"><div class="tbl-hint">← Scroll to see all columns →</div><div class="tbl-scroll"><table><thead><tr><th>Model</th><th>Cert</th><th>Watts</th><th>Config</th><th>Sub</th><th>Atmos</th><th>Price</th><th>Buy</th></tr></thead><tbody id="sb-ctbody"></tbody></table></div></div>
+      <div class="mobile-compare" id="sb-mobileCompare"></div>
+    </div>
+  </div>
+</section>
+</div><!-- /soundbar -->
+
+
+<!-- ═══════════════════════ HEADPHONE PANEL ═══════════════════════ -->
+<div class="cat-panel" id="panel-audio">
+<section class="sec" id="au-finder">
+  <div class="wrap">
+    <div class="sec-tag">Find Your Headphone</div>
+    <div class="sec-h2">Tell Us How You Listen</div>
+    <div class="sec-sub">Pick what applies — results update instantly.</div>
+    <div class="finder-card fade-up">
+
+      <div class="filter-block">
+        <div class="filter-lbl">What will you use them for? <span class="multi-hint">· Select all that apply</span></div>
+        <div class="chips" id="au-fc-use">
+          <button class="chip" data-cat="audio" data-fid="use" data-val="commute" data-ftype="multi" onclick="handleChip(this)">🚇 Metro / Commute<span class="chip-sub">Daily travel, block noise</span></button>
+          <button class="chip" data-cat="audio" data-fid="use" data-val="wfh" data-ftype="multi" onclick="handleChip(this)">💻 WFH / Office Calls<span class="chip-sub">Zoom, Teams, all-day</span></button>
+          <button class="chip" data-cat="audio" data-fid="use" data-val="study" data-ftype="multi" onclick="handleChip(this)">📚 Study / Exam Prep<span class="chip-sub">Long sessions, focus</span></button>
+          <button class="chip" data-cat="audio" data-fid="use" data-val="gym" data-ftype="multi" onclick="handleChip(this)">💪 Gym / Fitness<span class="chip-sub">Sweat-proof, secure fit</span></button>
+          <button class="chip" data-cat="audio" data-fid="use" data-val="gaming" data-ftype="multi" onclick="handleChip(this)">🎮 Mobile Gaming<span class="chip-sub">Low latency, BGMI, COD</span></button>
+          <button class="chip" data-cat="audio" data-fid="use" data-val="creator" data-ftype="multi" onclick="handleChip(this)">🎵 Music / Creator<span class="chip-sub">Sound quality first</span></button>
+          <button class="chip" data-cat="audio" data-fid="use" data-val="travel" data-ftype="multi" onclick="handleChip(this)">✈️ Travel / Flights<span class="chip-sub">ANC + AUX for inflight</span></button>
+          <button class="chip" data-cat="audio" data-fid="use" data-val="first" data-ftype="multi" onclick="handleChip(this)">👋 First Headphone<span class="chip-sub">Max value, min price</span></button>
+        </div>
+      </div>
+
+      <hr class="filter-divider">
+
+      <div class="filter-block">
+        <div class="filter-lbl">What matters most?</div>
+        <div class="chips-grid3" id="au-fc-priority">
+          <button class="chip-visual" data-cat="audio" data-fid="priority" data-val="balanced" data-ftype="single" onclick="handleChip(this)"><span style="font-size:28px">⚖️</span><span class="chip-visual-label">Balanced</span><span class="chip-visual-sub">Everything matters</span></button>
+          <button class="chip-visual" data-cat="audio" data-fid="priority" data-val="anc" data-ftype="single" onclick="handleChip(this)"><span style="font-size:28px">🔈</span><span class="chip-visual-label">Noise Cancel</span><span class="chip-visual-sub">ANC / ENC</span></button>
+          <button class="chip-visual" data-cat="audio" data-fid="priority" data-val="battery" data-ftype="single" onclick="handleChip(this)"><span style="font-size:28px">🔋</span><span class="chip-visual-label">Battery Life</span><span class="chip-visual-sub">Longest playtime</span></button>
+          <button class="chip-visual" data-cat="audio" data-fid="priority" data-val="gaming" data-ftype="single" onclick="handleChip(this)"><span style="font-size:28px">🎮</span><span class="chip-visual-label">Gaming</span><span class="chip-visual-sub">Low latency mode</span></button>
+          <button class="chip-visual" data-cat="audio" data-fid="priority" data-val="value" data-ftype="single" onclick="handleChip(this)"><span style="font-size:28px">💰</span><span class="chip-visual-label">Best Value</span><span class="chip-visual-sub">Under ₹1,500</span></button>
+          <button class="chip-visual" data-cat="audio" data-fid="priority" data-val="quality" data-ftype="single" onclick="handleChip(this)"><span style="font-size:28px">🎧</span><span class="chip-visual-label">Audio Quality</span><span class="chip-visual-sub">Sound above all</span></button>
+        </div>
+      </div>
+
+      <hr class="filter-divider">
+
+      <div class="filter-block">
+        <div class="budget-header">
+          <div class="budget-title">Budget</div>
+          <div class="budget-display" id="au-budgetDisplay">₹799 – ₹3,299</div>
+        </div>
+        <div class="budget-labels"><span>Minimum</span><span>Maximum</span></div>
+        <div class="range-wrap">
+          <div class="range-track"></div>
+          <div class="range-fill" id="au-rangeFill"></div>
+          <input type="range" id="au-rMin" min="500" max="4000" step="100" value="500" oninput="onRange('audio')">
+          <input type="range" id="au-rMax" min="500" max="4000" step="100" value="4000" oninput="onRange('audio')">
+        </div>
+        <div class="range-ticks"><span>₹799</span><span>₹1,299</span><span>₹1,999</span><span>₹2,699</span><span>₹3,299+</span></div>
+        <div class="budget-note" id="au-bnote"></div>
+      </div>
+
+      <div class="see-results-cta">
+        <button class="btn-see-results" onclick="scrollToResults('audio')">See My Results ↓</button>
+        <div class="results-hint-txt">Results update instantly as you change filters</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" style="padding-top:0" id="au-results">
+  <div class="wrap">
+    <div class="result-meta" id="au-rmeta" style="display:none"><div id="au-rheading"></div><a href="#au-finder" style="font-size:12px;color:var(--neon)">↑ Change filters</a></div>
+    <div class="grid" id="au-pgrid"></div>
+  </div>
+</section>
+
+<section class="sec" id="au-compare" style="background:var(--surface2);padding:4rem 0">
+  <div class="wrap">
+    <div class="sec-tag fade-up">Full Range</div>
+    <div class="sec-h2 fade-up">Compare All Headphone.</div>
+    <div class="sec-sub fade-up">Every model sorted by price.</div>
+    <div class="compare-wrap fade-up">
+      <div class="tbl-outer"><div class="tbl-hint">← Scroll →</div><div class="tbl-scroll"><table><thead><tr><th>Model</th><th>Price</th><th>Battery</th><th>ANC</th><th>ENC</th><th>Gaming</th><th>AUX</th><th>BT</th><th>Buy</th></tr></thead><tbody id="au-ctbody"></tbody></table></div></div>
+      <div class="mobile-compare" id="au-mobileCompare"></div>
+    </div>
+  </div>
+</section>
+</div><!-- /audio -->
+
+
+<!-- ═══════════════════════ PROJECTOR PANEL ═══════════════════════ -->
+<div class="cat-panel" id="panel-projector">
+<section class="sec" id="pj-finder">
+  <div class="wrap">
+    <div class="sec-tag">Find Your Projector</div>
+    <div class="sec-h2">Tell Us About Your Setup</div>
+    <div class="sec-sub">Room type, throw distance, and how you'll use it.</div>
+    <div class="finder-card fade-up">
+
+      <div class="filter-block">
+        <div class="filter-lbl">Room Type</div>
+        <div class="chips-grid4" id="pj-fc-room">
+          <button class="chip-visual" data-cat="projector" data-fid="room" data-val="bedroom" data-ftype="single" onclick="handleChip(this)"><span style="font-size:28px">🛏️</span><span class="chip-visual-label">Bedroom</span><span class="chip-visual-sub">Dark, small wall</span></button>
+          <button class="chip-visual" data-cat="projector" data-fid="room" data-val="living" data-ftype="single" onclick="handleChip(this)"><span style="font-size:28px">🛋️</span><span class="chip-visual-label">Living Room</span><span class="chip-visual-sub">Some ambient light</span></button>
+          <button class="chip-visual" data-cat="projector" data-fid="room" data-val="theatre" data-ftype="single" onclick="handleChip(this)"><span style="font-size:28px">🎬</span><span class="chip-visual-label">Home Theatre</span><span class="chip-visual-sub">Dedicated dark room</span></button>
+          <button class="chip-visual" data-cat="projector" data-fid="room" data-val="outdoor" data-ftype="single" onclick="handleChip(this)"><span style="font-size:28px">🌳</span><span class="chip-visual-label">Outdoor</span><span class="chip-visual-sub">Terrace, garden, events</span></button>
+        </div>
+      </div>
+
+      <div class="filter-block">
+        <div class="filter-lbl">Throw Distance</div>
+        <div class="chips-grid3" id="pj-fc-throw">
+          <button class="chip-visual" data-cat="projector" data-fid="throw" data-val="short" data-ftype="single" onclick="handleChip(this)"><span style="font-size:24px">📏</span><span class="chip-visual-label">Short Throw</span><span class="chip-visual-sub">Under 1.5m</span></button>
+          <button class="chip-visual" data-cat="projector" data-fid="throw" data-val="medium" data-ftype="single" onclick="handleChip(this)"><span style="font-size:24px">📐</span><span class="chip-visual-label">Medium</span><span class="chip-visual-sub">1.5m – 3m</span></button>
+          <button class="chip-visual" data-cat="projector" data-fid="throw" data-val="long" data-ftype="single" onclick="handleChip(this)"><span style="font-size:24px">📍</span><span class="chip-visual-label">Long Throw</span><span class="chip-visual-sub">3m+ from wall</span></button>
+        </div>
+      </div>
+
+      <div class="filter-block">
+        <div class="filter-lbl">Primary Use <span class="multi-hint">· Select all that apply</span></div>
+        <div class="chips" id="pj-fc-use">
+          <button class="chip" data-cat="projector" data-fid="use" data-val="theatre" data-ftype="multi" onclick="handleChip(this)">🎬 Home Theatre<span class="chip-sub">Movies, OTT binge</span></button>
+          <button class="chip" data-cat="projector" data-fid="use" data-val="gaming" data-ftype="multi" onclick="handleChip(this)">🎮 Gaming<span class="chip-sub">PS5, Xbox, PC</span></button>
+          <button class="chip" data-cat="projector" data-fid="use" data-val="presentations" data-ftype="multi" onclick="handleChip(this)">📊 Presentations<span class="chip-sub">Office, classroom</span></button>
+          <button class="chip" data-cat="projector" data-fid="use" data-val="outdoor" data-ftype="multi" onclick="handleChip(this)">🌙 Outdoor Night<span class="chip-sub">Terrace, garden</span></button>
+          <button class="chip" data-cat="projector" data-fid="use" data-val="portable" data-ftype="multi" onclick="handleChip(this)">🎒 Portable Use<span class="chip-sub">Travel, camp, dorm</span></button>
+        </div>
+      </div>
+
+      <hr class="filter-divider">
+
+      <div class="filter-block">
+        <div class="filter-lbl">Resolution</div>
+        <div class="chips-grid4" id="pj-fc-res">
+          <button class="chip-visual" data-cat="projector" data-fid="res" data-val="hd" data-ftype="single" onclick="handleChip(this)"><span style="font-size:24px;font-weight:900;color:var(--subtle)">HD</span><span class="chip-visual-label">HD / 720p</span><span class="chip-visual-sub">Good for small screens</span></button>
+          <button class="chip-visual" data-cat="projector" data-fid="res" data-val="fhd" data-ftype="single" onclick="handleChip(this)"><span style="font-size:24px;font-weight:900;color:var(--accent)">FHD</span><span class="chip-visual-label">Full HD / 1080p</span><span class="chip-visual-sub">Crisp up to 120"</span></button>
+          <button class="chip-visual" data-cat="projector" data-fid="res" data-val="2k" data-ftype="single" onclick="handleChip(this)"><span style="font-size:24px;font-weight:900;color:var(--neon3)">2K</span><span class="chip-visual-label">2K / 1440p</span><span class="chip-visual-sub">Sharp &amp; detailed</span></button>
+          <button class="chip-visual" data-cat="projector" data-fid="res" data-val="4k" data-ftype="single" onclick="handleChip(this)"><span style="font-size:24px;font-weight:900;color:var(--gold)">4K</span><span class="chip-visual-label">4K Supported</span><span class="chip-visual-sub">Maximum detail</span></button>
+        </div>
+      </div>
+
+      <div class="filter-block">
+        <div class="filter-lbl">Room Lighting</div>
+        <div class="chips-grid2" id="pj-fc-light">
+          <button class="chip-visual" data-cat="projector" data-fid="light" data-val="dark" data-ftype="single" onclick="handleChip(this)"><span style="font-size:28px">🌑</span><span class="chip-visual-label">Fully Dark</span><span class="chip-visual-sub">Blackout curtains</span></button>
+          <button class="chip-visual" data-cat="projector" data-fid="light" data-val="some" data-ftype="single" onclick="handleChip(this)"><span style="font-size:28px">🌤️</span><span class="chip-visual-label">Some Light</span><span class="chip-visual-sub">Curtains, evening</span></button>
+        </div>
+      </div>
+
+      <hr class="filter-divider">
+
+      <div class="filter-block">
+        <div class="budget-header">
+          <div class="budget-title">Budget</div>
+          <div class="budget-display" id="pj-budgetDisplay">₹5,000 – ₹50,000</div>
+        </div>
+        <div class="budget-labels"><span>Minimum</span><span>Maximum</span></div>
+        <div class="range-wrap">
+          <div class="range-track"></div>
+          <div class="range-fill" id="pj-rangeFill"></div>
+          <input type="range" id="pj-rMin" min="5000" max="100000" step="500" value="5000" oninput="onRange('projector')">
+          <input type="range" id="pj-rMax" min="5000" max="100000" step="500" value="50000" oninput="onRange('projector')">
+        </div>
+        <div class="range-ticks"><span>₹5K</span><span>₹15K</span><span>₹25K</span><span>₹40K</span><span>₹60K</span><span>₹80K</span><span>₹1L</span></div>
+        <div class="budget-note" id="pj-bnote"></div>
+      </div>
+
+      <div class="see-results-cta">
+        <button class="btn-see-results" onclick="scrollToResults('projector')">See My Results ↓</button>
+        <div class="results-hint-txt">Results update instantly as you change filters</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" style="padding-top:0" id="pj-results">
+  <div class="wrap">
+    <div class="result-meta" id="pj-rmeta" style="display:none"><div id="pj-rheading"></div><a href="#pj-finder" style="font-size:12px;color:var(--neon)">↑ Change filters</a></div>
+    <div class="grid" id="pj-pgrid"></div>
+  </div>
+</section>
+
+<section class="sec" id="pj-compare" style="background:var(--surface2);padding:4rem 0">
+  <div class="wrap">
+    <div class="sec-tag fade-up">Full Range</div>
+    <div class="sec-h2 fade-up">Compare All Projector.</div>
+    <div class="sec-sub fade-up">Every model sorted by price.</div>
+    <div class="compare-wrap fade-up">
+      <div class="tbl-outer"><div class="tbl-hint">← Scroll →</div><div class="tbl-scroll"><table><thead><tr><th>Model</th><th>Lumens</th><th>Resolution</th><th>Throw</th><th>Smart</th><th>Portable</th><th>Price</th><th>Buy</th></tr></thead><tbody id="pj-ctbody"></tbody></table></div></div>
+      <div class="mobile-compare" id="pj-mobileCompare"></div>
+    </div>
+  </div>
+</section>
+</div><!-- /projector -->
+
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <strong>Zebronics India Pvt. Ltd.</strong> · Chennai, Tamil Nadu · Prices subject to change ·
+    <a href="https://zebronics.com" target="_blank">zebronics.com</a> ·
+    <a href="https://shop.zebronics.com" target="_blank">shop.zebronics.com</a>
+    <div id="lastUpdated"></div>
+  </div>
+</footer>
+
+<script>
+// ═══════════════════════════════════════════════════════════════
+// MULTI-CATEGORY PRODUCT FINDER ENGINE v2
+// ═══════════════════════════════════════════════════════════════
+let activeCat='soundbar';
+const DATA={soundbar:{products:null,scores:null,loaded:false},audio:{products:null,scores:null,loaded:false},projector:{products:null,scores:null,loaded:false}};
+const STATE={
+  soundbar:{filters:{room:null,tv:null,use:new Set()},minBudget:3199,maxBudget:20000,budgetRange:[3199,44999],floor:null,fan:null,layout:null},
+  audio:{filters:{use:new Set(),priority:null},minBudget:500,maxBudget:4000,budgetRange:[500,4000]},
+  projector:{filters:{room:null,throw:null,use:new Set(),res:null,light:null},minBudget:5000,maxBudget:50000,budgetRange:[5000,100000]},
+};
+
+function switchCategory(cat,btn){
+  activeCat=cat;
+  document.querySelectorAll('.cat-tab').forEach(t=>t.classList.remove('active'));
+  (btn||document.querySelector(`[data-cat="${cat}"]`)).classList.add('active');
+  document.querySelectorAll('.cat-panel').forEach(p=>p.classList.remove('active'));
+  document.getElementById('panel-'+cat).classList.add('active');
+  initScrollFade();renderCat(cat);
+}
+
+(async function boot(){
+  try{initScrollFade();}catch(e){}
+  loadCategory('soundbar','./products.json','./scores.json');
+  loadCategory('audio','./products_audio.json','./scores_audio.json');
+  loadCategory('projector','./products_pj.json','./scores_pj.json');
+  ['soundbar','audio','projector'].forEach(c=>updateRangeDisplay(c));
+})();
+
+async function loadCategory(cat,pUrl,sUrl){
+  try{
+    const cb='?v='+Date.now();const[pR,sR]=await Promise.all([fetch(pUrl+cb),fetch(sUrl+cb)]);
+    if(!pR.ok||!sR.ok)throw new Error('not found');
+    const[products,scores]=await Promise.all([pR.json(),sR.json()]);
+    DATA[cat].products=(Array.isArray(products)?products:[]).map(p=>({...p,wattNum:parseInt(p.watt)||0,avail:p.avail||'online',img:p.img||`./img/${p.id}.png`}));
+    DATA[cat].scores=scores;DATA[cat].loaded=true;
+    const c=document.getElementById('count-'+cat);if(c)c.textContent=DATA[cat].products.length;
+    if(cat===activeCat){renderCat(cat);buildTable(cat);}else buildTable(cat);
+    setLastUpdated(true);updateBudgetNote(cat);
+  }catch(e){
+    console.warn(`[ZEB] ${cat}:`,e.message);
+    const c=document.getElementById('count-'+cat);if(c)c.textContent='–';
+    const p=pfx(cat),g=document.getElementById(p+'-pgrid');
+    if(g&&cat===activeCat)g.innerHTML='<div class="no-res" style="grid-column:1/-1"><div style="font-size:48px;margin-bottom:12px">🚧</div><div style="font-size:18px;font-weight:700;margin-bottom:6px">Data Coming Soon</div><div style="font-size:13px;color:var(--muted)">The '+cat+' catalog is being prepared. Check back soon!</div></div>';
+  }
+}
+
+function setLastUpdated(ok){const el=document.getElementById('lastUpdated');if(!el)return;if(ok){el.textContent='✓ Live · '+new Date().toLocaleString('en-IN',{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'});el.style.color='var(--green)';}else{el.textContent='⚠ Could not load data';el.style.color='#B45309';}}
+
+function initScrollFade(){const obs=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');obs.unobserve(e.target);}});},{threshold:0.08});document.querySelectorAll('.fade-up:not(.visible)').forEach(el=>obs.observe(el));}
+
+function pfx(cat){return cat==='soundbar'?'sb':cat==='audio'?'au':cat==='projector'?'pj':'pj';}
+
+function onRange(cat){const p=pfx(cat),st=STATE[cat],rMin=document.getElementById(p+'-rMin'),rMax=document.getElementById(p+'-rMax'),gap=500;if(parseInt(rMin.value)>=parseInt(rMax.value)-gap)rMin.value=parseInt(rMax.value)-gap;if(parseInt(rMax.value)<=parseInt(rMin.value)+gap)rMax.value=parseInt(rMin.value)+gap;st.minBudget=parseInt(rMin.value);st.maxBudget=parseInt(rMax.value);updateRangeDisplay(cat);updateBudgetNote(cat);renderCat(cat);}
+
+function updateRangeDisplay(cat){const p=pfx(cat),st=STATE[cat],[rngMin,rngMax]=st.budgetRange,total=rngMax-rngMin,pMin=(st.minBudget-rngMin)/total*100,pMax=(st.maxBudget-rngMin)/total*100;const fill=document.getElementById(p+'-rangeFill');if(fill){fill.style.left=pMin+'%';fill.style.width=(pMax-pMin)+'%';}const disp=document.getElementById(p+'-budgetDisplay');if(disp)disp.textContent='₹'+st.minBudget.toLocaleString('en-IN')+' – ₹'+st.maxBudget.toLocaleString('en-IN');const rm=document.getElementById(p+'-rMin'),rx=document.getElementById(p+'-rMax');if(rm)rm.value=st.minBudget;if(rx)rx.value=st.maxBudget;}
+
+function updateBudgetNote(cat){const p=pfx(cat),st=STATE[cat],d=DATA[cat],n=d.products?d.products.filter(pr=>pr.price>=st.minBudget&&pr.price<=st.maxBudget&&pr.avail!=='dealer').length:0;const label=cat==='soundbar'?'Soundbar':cat==='audio'?'Headphone':'Projector';const el=document.getElementById(p+'-bnote');if(el)el.textContent=n+' '+label+(n!==1?'s':'')+' in this range';}
+
+function scrollToResults(cat){document.getElementById(pfx(cat)+'-results').scrollIntoView({behavior:'smooth'});}
+
+function handleChip(btn){const cat=btn.dataset.cat,fid=btn.dataset.fid,val=btn.dataset.val,ftype=btn.dataset.ftype,st=STATE[cat];if(ftype==='multi'){const set=st.filters[fid];if(set.has(val)){set.delete(val);btn.classList.remove('on');}else{set.add(val);btn.classList.add('on');}}else{btn.parentElement.querySelectorAll('button').forEach(b=>b.classList.remove('on'));if(st.filters[fid]===val)st.filters[fid]=null;else{btn.classList.add('on');st.filters[fid]=val;}}renderCat(cat);}
+
+const SB_PRESETS={movies:{use:['movies'],minBudget:8000,maxBudget:44999},gaming:{use:['gaming'],minBudget:10000,maxBudget:44999},sports:{use:['sports'],minBudget:6000,maxBudget:44999},music:{use:['music'],minBudget:5000,maxBudget:44999},everyday:{use:['everyday'],minBudget:3199,maxBudget:8000},cinema:{use:['movies','gaming'],minBudget:20000,maxBudget:44999}};
+
+function setPersonaSB(key,btn){const preset=SB_PRESETS[key];if(!preset)return;const st=STATE.soundbar;document.querySelectorAll('#panel-soundbar .chip-visual,#panel-soundbar .chip').forEach(b=>b.classList.remove('on'));document.querySelectorAll('#panel-soundbar .persona-pill').forEach(b=>b.classList.remove('on'));btn.classList.add('on');st.filters={room:null,tv:null,use:new Set()};preset.use.forEach(u=>{st.filters.use.add(u);const b=document.querySelector('#panel-soundbar [data-fid="use"][data-val="'+u+'"]');if(b)b.classList.add('on');});st.minBudget=preset.minBudget;st.maxBudget=preset.maxBudget;updateRangeDisplay('soundbar');updateBudgetNote('soundbar');renderCat('soundbar');document.getElementById('finder').scrollIntoView({behavior:'smooth'});}
+
+function setAc(btn,type,val){document.querySelectorAll('#ac-'+type+' .ac-chip').forEach(b=>b.classList.remove('on'));const st=STATE.soundbar;if(st[type]===val)st[type]=null;else{btn.classList.add('on');st[type]=val;}updateAcInsight();renderCat('soundbar');}
+
+function updateAcInsight(){const el=document.getElementById('acInsight'),st=STATE.soundbar,parts=[];if(st.floor==='carpet')parts.push('<span class="ac-tag">Carpet</span> Absorbs sound — we weight toward higher wattage.');if(st.floor==='tile')parts.push('<span class="ac-tag">Tiled</span> Reflective floors create echo. Dolby DSP helps.');if(st.floor==='wood')parts.push('<span class="ac-tag">Wood</span> Warm resonance — most bars perform well.');if(st.fan==='on')parts.push('<span class="ac-tag">Fan</span> ~45dB hum. Dolby + higher wattage for clarity.');if(st.layout==='open')parts.push('<span class="ac-tag">Open</span> Sound disperses. Satellites + wattage essential.');if(st.layout==='closed')parts.push('<span class="ac-tag">Enclosed</span> Compact bars work well here.');if(parts.length){el.innerHTML=parts.join(' &nbsp;·&nbsp; ');el.classList.add('show');}else{el.innerHTML='';el.classList.remove('show');}}
+
+// ═══ SCORING ═══
+function scoreSoundbar(p){const st=STATE.soundbar;if(p.price<st.minBudget||p.price>st.maxBudget)return-1;if(p.avail==='dealer')return-1;const ps=DATA.soundbar.scores[p.id]||{},watt=p.wattNum||0;let s=0;if(st.filters.room)s+=ps.room?.[st.filters.room]||0;if(st.filters.tv)s+=ps.tv?.[st.filters.tv]||0;const uses=st.filters.use;if(uses&&uses.size>0){let sum=0;uses.forEach(u=>{sum+=ps.use?.[u]||0;});s+=Math.round(sum/uses.size);}if(st.floor==='carpet'){if(watt>=600)s+=3;else if(watt>=350)s+=2;else if(watt>=200)s+=1;if(p.sub!=='None')s+=1;}if(st.floor==='tile'){if(p.atmos)s+=2;else if(p.cert==='Dolby Audio')s+=1;if(p.sub!=='None')s+=1;}if(st.floor==='wood'){if(watt>=200&&watt<=500)s+=1;}if(st.fan==='on'){if(p.atmos)s+=2;else if(p.cert==='Dolby Audio')s+=1;if(watt>=300)s+=1;}if(st.layout==='open'){if(p.sat)s+=3;if(watt>=500)s+=2;else if(watt>=300)s+=1;}if(st.layout==='closed'){if(p.compact)s+=2;if(watt<=400)s+=1;}return s;}
+
+function scoreAudio(p){const st=STATE.audio;if(p.price<st.minBudget||p.price>st.maxBudget)return-1;if(p.avail==='dealer')return-1;const ps=DATA.audio.scores[p.id]||{};let s=0;const uses=st.filters.use;if(uses&&uses.size>0){let sum=0;uses.forEach(u=>{sum+=ps.use?.[u]||0;});s+=Math.round(sum/uses.size);}if(st.filters.priority&&st.filters.priority!=='balanced')s+=ps.priority?.[st.filters.priority]||0;return s;}
+
+function scoreProjector(p){const st=STATE.projector;if(p.price<st.minBudget||p.price>st.maxBudget)return-1;if(p.avail==='dealer')return-1;const ps=DATA.projector.scores[p.id]||{};let s=0;if(st.filters.room)s+=ps.room?.[st.filters.room]||0;if(st.filters.throw)s+=ps.throw?.[st.filters.throw]||0;if(st.filters.res)s+=ps.res?.[st.filters.res]||0;if(st.filters.light)s+=ps.light?.[st.filters.light]||0;const uses=st.filters.use;if(uses&&uses.size>0){let sum=0;uses.forEach(u=>{sum+=ps.use?.[u]||0;});s+=Math.round(sum/uses.size);}return s;}
+
+const SCORE_FN={soundbar:scoreSoundbar,audio:scoreAudio,projector:scoreProjector};
+
+// ═══ RENDER ═══
+function renderCat(cat){const d=DATA[cat];if(!d.loaded)return;const p=pfx(cat),grid=document.getElementById(p+'-pgrid'),meta=document.getElementById(p+'-rmeta'),heading=document.getElementById(p+'-rheading'),scoreFn=SCORE_FN[cat],st=STATE[cat];const scored=d.products.map(pr=>({p:pr,s:scoreFn(pr)})).filter(x=>x.s>=0).sort((a,b)=>b.s-a.s||a.p.price-b.p.price);meta.style.display='flex';const label=cat==='soundbar'?'Soundbar':cat==='audio'?'Headphone':'Projector';if(!scored.length){grid.innerHTML='<div class="no-res">No '+label+'s match. Try widening budget or changing filters.</div>';heading.innerHTML='No matches';return;}const hasFilter=Object.values(st.filters).some(v=>v!==null&&!(v instanceof Set))||(st.filters.use&&st.filters.use.size>0)||(cat==='soundbar'&&(st.floor||st.fan||st.layout));heading.innerHTML='Showing <strong>'+scored.length+'</strong> '+label+(scored.length!==1?'s':'')+(hasFilter?' · <span style="color:var(--accent)">Best match first</span>':' · By price');const puSlug=hasFilter?getPrimaryUse(cat,scored[0].p):null;grid.innerHTML=scored.map(({p:pr,s},i)=>{const isBest=hasFilter&&i===0&&s>0;return renderCard(cat,pr,isBest,puSlug);}).join('');}
+
+function getPrimaryUse(cat,pr){const uses=STATE[cat].filters.use;if(!uses||!uses.size)return null;const ps=DATA[cat].scores[pr.id]||{};return[...uses].sort((a,b)=>(ps.use?.[b]||0)-(ps.use?.[a]||0))[0];}
+
+function renderCard(cat,p,isBest,puSlug){if(cat==='soundbar')return renderSBCard(p,isBest,puSlug);if(cat==='audio')return renderAudioCard(p,isBest,puSlug);return renderPJCard(p,isBest,puSlug);}
+
+function renderSBCard(p,isBest,puSlug){const certCls=p.atmos?'cert-atmos':p.cert==='Dolby Audio'?'cert-audio':'cert-std';const why=puSlug&&p.why?.[puSlug]?p.why[puSlug]:'';const sid='ss-'+p.id+'-'+Math.random().toString(36).slice(2,8);const imgs=(p.images&&p.images.length?p.images:(p.img?[p.img]:[]));const hasMany=imgs.length>1;const slidesHTML=imgs.length?imgs.map((src,i)=>`<img class="slide${i===0?' active':''}" src="${src}" alt="${p.name} - photo ${i+1}" loading="lazy" onerror="this.style.display='none'">`).join(''):'';const dotsHTML=hasMany?imgs.map((_,i)=>`<button class="slideshow-dot${i===0?' active':''}" onclick="ssGo('${sid}',${i})"></button>`).join(''):'';const arrowsHTML=hasMany?`<button class="slideshow-arrow prev" onclick="ssStep('${sid}',-1)">‹</button><button class="slideshow-arrow next" onclick="ssStep('${sid}',1)">›</button>`:'';const imgArea=imgs.length?`<div class="slideshow" id="${sid}" data-count="${imgs.length}" data-idx="0" onmouseenter="ssPause('${sid}')" onmouseleave="ssResume('${sid}')">${slidesHTML}${arrowsHTML}${hasMany?`<div class="slideshow-dots">${dotsHTML}</div>`:''}</div>`:`<div class="img-ph"><svg width="56" height="32" viewBox="0 0 56 32"><rect x="1" y="6" width="54" height="20" rx="3" fill="none" stroke="#94A3B8" stroke-width="1.5"/></svg></div>`;return`<div class="card${isBest?' best':''}">${isBest?'<div class="best-badge">★ Best Match For You</div>':''}${imgArea}<div class="card-body"><div class="card-tags">${p.compact?'<span class="tag tag-compact">Compact</span>':''}</div><div class="card-row1"><div class="card-name">${p.name}</div><div class="watt-pill">${p.watt}W</div></div><div class="cert ${certCls}">${p.cert}${p.atmos?' + dts:X':''}</div><div class="config">${p.config} Ch · ${p.sub} Sub${p.sat?' · Sat':''}</div><div class="feats">${(p.feats||[]).map(f=>'<span class="feat">'+f+'</span>').join('')}</div><div class="price-row"><div class="price">₹${p.price.toLocaleString('en-IN')}</div>${p.mrp>p.price?'<div class="mrp">₹'+p.mrp.toLocaleString('en-IN')+'</div><div class="save">'+p.save+'% off</div>':''}</div><div class="buys">${p.amz?'<a class="buy buy-amz" href="'+p.amz+'" target="_blank">Amazon</a>':''}${p.fk?'<a class="buy buy-fk" href="'+p.fk+'" target="_blank">Flipkart</a>':''}${p.zeb?'<a class="buy buy-zeb" href="'+p.zeb+'" target="_blank">Zebronics</a>':''}</div>${why?'<div class="why-box">'+why+'</div>':''}${(!p.amz&&!p.fk&&!p.zeb)?notifyBarHTML(p.id,'soundbar'):''}</div></div>`;}
+
+
+function renderAudioCard(p,isBest,puSlug){const why=puSlug&&p.why?.[puSlug]?p.why[puSlug]:'';const typeLbl=p.type==='gaming'?'🎮 Gaming Headphone':'🎧 Wireless Headphone';return`<div class="card${isBest?' best':''}">${isBest?'<div class="best-badge">\u2605 Best Match For You</div>':''}<img class="card-img" src="${p.img}" alt="${p.name}" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="img-ph" style="display:none"><svg width="56" height="40" viewBox="0 0 140 120" fill="none"><path d="M70 18C46 18 26 37 26 61v14" stroke="#94A3B8" stroke-width="3"/><path d="M70 18C94 18 114 37 114 61v14" stroke="#94A3B8" stroke-width="3"/><rect x="14" y="60" width="18" height="32" rx="9" fill="#94A3B8"/><rect x="108" y="60" width="18" height="32" rx="9" fill="#94A3B8"/></svg></div><div class="card-body"><div class="card-tags">${p.anc?'<span class="tag tag-new">ANC</span>':''}${p.enc?'<span class="tag tag-smart">ENC</span>':''}${p.gaming?'<span class="tag tag-portable">Gaming</span>':''}</div><div class="card-row1"><div class="card-name">${p.name}</div>${p.battery?'<div class="spec-pill">'+p.battery+'h</div>':''}</div><div class="cert cert-audio">${typeLbl}</div><div class="config">${p.driver||''} ${p.bt?'\u00b7 BT '+p.bt:''} ${p.aux?'\u00b7 AUX':''}</div><div class="feats">${(p.feats||[]).map(f=>'<span class="feat">'+f+'</span>').join('')}</div><div class="price-row"><div class="price">\u20b9${p.price.toLocaleString('en-IN')}</div>${p.mrp>p.price?'<div class="mrp">\u20b9'+p.mrp.toLocaleString('en-IN')+'</div><div class="save">'+p.save+'% off</div>':''}</div><div class="buys">${p.amz?'<a class="buy buy-amz" href="'+p.amz+'" target="_blank">Amazon</a>':''}${p.fk?'<a class="buy buy-fk" href="'+p.fk+'" target="_blank">Flipkart</a>':''}${p.zeb?'<a class="buy buy-zeb" href="'+p.zeb+'" target="_blank">Zebronics</a>':''}</div>${why?'<div class="why-box">'+why+'</div>':''}${(!p.amz&&!p.fk&&!p.zeb)?notifyBarHTML(p.id,'audio'):''}</div></div>`;}
+
+function renderPJCard(p,isBest,puSlug){const why=puSlug&&p.why?.[puSlug]?p.why[puSlug]:'';const sid='ss-'+p.id+'-'+Math.random().toString(36).slice(2,8);const imgs=(p.images&&p.images.length?p.images:[p.img]);const slidesHTML=imgs.map((src,i)=>`<img class="slide${i===0?' active':''}" src="${src}" alt="${p.name} - photo ${i+1}" loading="lazy" onerror="this.style.display='none'">`).join('');const dotsHTML=imgs.length>1?imgs.map((_,i)=>`<button class="slideshow-dot${i===0?' active':''}" onclick="ssGo('${sid}',${i})"></button>`).join(''):'';const arrowsHTML=imgs.length>1?`<button class="slideshow-arrow prev" onclick="ssStep('${sid}',-1)">‹</button><button class="slideshow-arrow next" onclick="ssStep('${sid}',1)">›</button>`:'';return`<div class="card${isBest?' best':''}">${isBest?'<div class="best-badge">★ Best Match For You</div>':''}<div class="slideshow" id="${sid}" data-count="${imgs.length}" data-idx="0" onmouseenter="ssPause('${sid}')" onmouseleave="ssResume('${sid}')">${slidesHTML}${arrowsHTML}${imgs.length>1?`<div class="slideshow-dots">${dotsHTML}</div>`:''}</div><div class="card-body"><div class="card-tags">${p.portable?'<span class="tag tag-portable">Portable</span>':''}${p.smart?'<span class="tag tag-smart">Smart</span>':''}</div><div class="card-row1"><div class="card-name">${p.name}</div>${p.lumens?'<div class="spec-pill">'+p.lumens+' lm</div>':''}</div><div class="cert cert-audio">${p.native_resolution||''} ${p.max_supported_res?' → '+p.max_supported_res:''}</div><div class="config">${p.throw_type||''} ${p.lamp_type?'· '+p.lamp_type:''} ${p.auto_focus?'· AF':''} ${p.auto_keystone?'· AK':''}</div><div class="feats">${(p.feats||[]).map(f=>'<span class="feat">'+f+'</span>').join('')}</div><div class="price-row"><div class="price">₹${p.price.toLocaleString('en-IN')}</div>${p.mrp>p.price?'<div class="mrp">₹'+p.mrp.toLocaleString('en-IN')+'</div><div class="save">'+p.save+'% off</div>':''}</div><div class="buys">${p.amz?'<a class="buy buy-amz" href="'+p.amz+'" target="_blank">Amazon</a>':''}${p.fk?'<a class="buy buy-fk" href="'+p.fk+'" target="_blank">Flipkart</a>':''}${p.zeb?'<a class="buy buy-zeb" href="'+p.zeb+'" target="_blank">Zebronics</a>':''}</div>${why?'<div class="why-box">'+why+'</div>':''}${(!p.amz&&!p.fk&&!p.zeb)?notifyBarHTML(p.id,'projector'):''}</div></div>`;}
+
+// ═══ COMPARE TABLES ═══
+function buildTable(cat){const d=DATA[cat];if(!d.loaded)return;const sorted=[...d.products].sort((a,b)=>a.price-b.price);if(cat==='soundbar')buildSBTable(sorted);else if(cat==='audio')buildAudioTable(sorted);else buildPJTable(sorted);}
+
+function certLabel(p){if(p.cert==='Dolby Atmos'){return(p.feats||[]).some(f=>f.toLowerCase().includes('dts'))?'Atmos + dtsX':'Dolby Atmos';}return p.cert||'Standard';}
+
+function buildSBTable(sorted){const tbody=document.getElementById('sb-ctbody');if(tbody)tbody.innerHTML=sorted.map(p=>{const cp=certLabel(p)==='Atmos + dtsX'?'cp-dts':p.atmos?'cp-a':p.cert==='Dolby Audio'?'cp-d':'cp-s';const thumb=p.img?`<img src="${p.img}" alt="${p.name}" style="width:44px;height:34px;object-fit:contain;border-radius:6px;background:var(--surface2)" onerror="this.style.display='none'">`:'';return`<tr><td class="tn"><div style="display:flex;align-items:center;gap:10px;min-width:160px">${thumb}<div><div>${p.name}</div><div style="font-size:10px;color:var(--muted);margin-top:1px">${p.watt}W · ${p.sub} sub</div></div></div></td><td><span class="cpill ${cp}">${certLabel(p)}</span></td><td style="font-weight:700;color:var(--accent)">${p.watt}W</td><td style="font-size:12px">${p.config}</td><td style="font-size:12px">${p.sub}</td><td>${p.atmos?'<span class="ok">✓</span>':'<span class="no">—</span>'}</td><td class="tp">₹${p.price.toLocaleString('en-IN')}</td><td><div style="display:flex;flex-direction:column;gap:4px;min-width:80px">${p.amz?'<a href="'+p.amz+'" target="_blank" style="display:block;background:#FF9900;color:#111;font-size:10px;font-weight:700;padding:5px 8px;border-radius:6px;text-align:center;text-decoration:none">Amazon</a>':''}${p.fk?'<a href="'+p.fk+'" target="_blank" style="display:block;background:#2874F0;color:#fff;font-size:10px;font-weight:700;padding:5px 8px;border-radius:6px;text-align:center;text-decoration:none">Flipkart</a>':''}</div></td></tr>`;}).join('');buildMC('sb',sorted,p=>`${p.watt}W · ${certLabel(p)} · ${p.config}`,p=>p.atmos?'#92400E':p.cert==='Dolby Audio'?'#3451D1':'#6B7280');}
+
+function buildAudioTable(sorted){const tbody=document.getElementById('au-ctbody');if(tbody)tbody.innerHTML=sorted.map(p=>{const thumb=p.img?`<img src="${p.img}" alt="${p.name}" style="width:44px;height:34px;object-fit:contain;border-radius:6px;background:var(--surface2)" onerror="this.style.display='none'">`:'';return`<tr><td class="tn"><div style="display:flex;align-items:center;gap:10px;min-width:160px">${thumb}<div>${p.name}</div></div></td><td class="tp">\u20b9${p.price.toLocaleString('en-IN')}</td><td>${p.battery?p.battery+'h':'\u2014'}</td><td>${p.anc?'<span class="ok">\u2713</span>'+((p.ancDb)?` <small style="color:var(--muted)">${p.ancDb}dB</small>`:''):'<span class="no">\u2014</span>'}</td><td>${p.enc?'<span class="ok">\u2713</span>':'<span class="no">\u2014</span>'}</td><td>${p.gaming?'<span class="ok">\u2713</span>':'<span class="no">\u2014</span>'}</td><td>${p.aux?'<span class="ok">\u2713</span>':'<span class="no">\u2014</span>'}</td><td>${p.bt||'\u2014'}</td><td><div style="display:flex;flex-direction:column;gap:4px;min-width:80px">${p.amz?'<a href="'+p.amz+'" target="_blank" style="display:block;background:#FF9900;color:#111;font-size:10px;font-weight:700;padding:5px 8px;border-radius:6px;text-align:center;text-decoration:none">Amazon</a>':''}${p.fk?'<a href="'+p.fk+'" target="_blank" style="display:block;background:#2874F0;color:#fff;font-size:10px;font-weight:700;padding:5px 8px;border-radius:6px;text-align:center;text-decoration:none">Flipkart</a>':''}</div></td></tr>`;}).join('');buildMC('au',sorted,p=>`${p.battery?p.battery+'h':'Wired'} \u00b7 ${p.anc?'ANC':'No ANC'} \u00b7 BT ${p.bt||'\u2014'}`,p=>p.anc?'#10B981':p.gaming?'#7C3AED':'#6B7280');}
+
+function buildPJTable(sorted){const tbody=document.getElementById('pj-ctbody');if(tbody)tbody.innerHTML=sorted.map(p=>{const thumb=p.img?`<img src="${p.img}" alt="${p.name}" style="width:44px;height:34px;object-fit:contain;border-radius:6px;background:var(--surface2)" onerror="this.style.display='none'">`:'';return`<tr><td class="tn"><div style="display:flex;align-items:center;gap:10px;min-width:160px">${thumb}<div>${p.name}</div></div></td><td style="font-weight:700">${p.lumens||'–'} lm</td><td>${p.native_resolution||''}</td><td style="font-size:12px">${p.throw_type||''}</td><td>${p.smart?'<span class="ok">✓</span>':'<span class="no">—</span>'}</td><td>${p.portable?'<span class="ok">✓</span>':'<span class="no">—</span>'}</td><td class="tp">₹${p.price.toLocaleString('en-IN')}</td><td><div style="display:flex;flex-direction:column;gap:4px;min-width:80px">${p.amz?'<a href="'+p.amz+'" target="_blank" style="display:block;background:#FF9900;color:#111;font-size:10px;font-weight:700;padding:5px 8px;border-radius:6px;text-align:center;text-decoration:none">Amazon</a>':''}${p.fk?'<a href="'+p.fk+'" target="_blank" style="display:block;background:#2874F0;color:#fff;font-size:10px;font-weight:700;padding:5px 8px;border-radius:6px;text-align:center;text-decoration:none">Flipkart</a>':''}</div></td></tr>`;}).join('');buildMC('pj',sorted,p=>`${p.lumens||'–'}lm · ${p.native_resolution||''} · ${p.throw_type||''}`,p=>p.smart?'#3451D1':'#6B7280');}
+
+function buildMC(prefix,sorted,metaFn,colorFn){const mc=document.getElementById(prefix+'-mobileCompare');if(!mc)return;const tiers=[{label:'Under ₹10,000',fn:p=>p.price<10000},{label:'₹10K – ₹20K',fn:p=>p.price>=10000&&p.price<20000},{label:'₹20K – ₹40K',fn:p=>p.price>=20000&&p.price<40000},{label:'₹40K and above',fn:p=>p.price>=40000}];let html='';tiers.forEach(tier=>{const ps=sorted.filter(tier.fn);if(!ps.length)return;html+='<div class="mc-tier">'+tier.label+'</div>';ps.forEach(p=>{const uid=prefix+'-mc-'+p.id;const thumb=p.img?'<img class="mc-thumb" src="'+p.img+'" alt="'+p.name+'" onerror="this.style.display=\'none\'">':'<div class="mc-thumb-ph"></div>';html+='<div class="mc-row" onclick="toggleMcRow(\''+uid+'\')"><div class="mc-summary"><div class="mc-cert-bar" style="background:'+colorFn(p)+'"></div>'+thumb+'<div class="mc-info"><div class="mc-name">'+p.name+'</div><div class="mc-meta">'+metaFn(p)+'</div></div><div class="mc-right"><div class="mc-price">₹'+p.price.toLocaleString('en-IN')+'</div><div class="mc-chevron">↓</div></div></div><div class="mc-expand" id="'+uid+'"><div class="mc-expand-inner"><div class="mc-buys">'+(p.amz?'<a class="mc-buy mc-buy-amz" href="'+p.amz+'" target="_blank">Amazon</a>':'')+(p.fk?'<a class="mc-buy mc-buy-fk" href="'+p.fk+'" target="_blank">Flipkart</a>':'')+(p.zeb?'<a class="mc-buy mc-buy-zeb" href="'+p.zeb+'" target="_blank">Zebronics</a>':'')+'</div></div></div></div>';});});mc.innerHTML=html;}
+
+function toggleMcRow(uid){const el=document.getElementById(uid);if(!el)return;el.closest('.mc-row').classList.toggle('open');}
+function toggleAcc(btn){const item=btn.parentElement,isOpen=item.classList.contains('open');document.querySelectorAll('.acc-item').forEach(i=>i.classList.remove('open'));if(!isOpen)item.classList.add('open');}
+
+// ═══ AUDIO ENGINE ═══
+let audioCtx=null,gBar=null,gSub=null,gSat=null,audioStarted=false;const CS={bar:true,sub:false,sat:false};const TRACKS=[{url:'https://upload.wikimedia.org/wikipedia/commons/transcoded/b/bd/Beethoven_Moonlight_Sonata_Op._27_No._2_-_III._Presto_agitato.ogg/Beethoven_Moonlight_Sonata_Op._27_No._2_-_III._Presto_agitato.ogg.mp3',title:'Beethoven — Moonlight Sonata',note:'Classical Piano · Public Domain'},{url:'https://upload.wikimedia.org/wikipedia/commons/b/bd/Beethoven_Moonlight_Sonata_Op._27_No._2_-_III._Presto_agitato.ogg',title:'Beethoven — Moonlight Sonata',note:'Public Domain'}];let trackLoaded=false;
+function startAudio(){if(audioStarted)return;audioStarted=true;document.getElementById('playOv').style.display='none';audioCtx=new(window.AudioContext||window.webkitAudioContext)();const master=audioCtx.createGain();master.gain.value=0.5;master.connect(audioCtx.destination);gBar=audioCtx.createGain();gBar.gain.value=1;gBar.connect(master);gSub=audioCtx.createGain();gSub.gain.value=0.001;gSub.connect(master);gSat=audioCtx.createGain();gSat.gain.value=0.001;gSat.connect(master);tryLoadTrack(master);startVis();}
+function tryLoadTrack(master){let idx=0;function attempt(){if(idx>=TRACKS.length){buildSynth(master);return;}const track=TRACKS[idx++];const audio=new Audio();audio.crossOrigin='anonymous';audio.loop=true;const timeout=setTimeout(()=>{audio.src='';attempt();},7000);audio.addEventListener('canplaythrough',()=>{clearTimeout(timeout);if(trackLoaded)return;trackLoaded=true;const src=audioCtx.createMediaElementSource(audio);const lpf=audioCtx.createBiquadFilter();lpf.type='lowpass';lpf.frequency.value=150;const hpf=audioCtx.createBiquadFilter();hpf.type='highpass';hpf.frequency.value=5000;src.connect(lpf);lpf.connect(gSub);src.connect(gBar);src.connect(hpf);hpf.connect(gSat);audio.play().catch(()=>{});document.getElementById('status').textContent='▶ '+track.title;const ti=document.getElementById('trackInfo');if(ti){ti.innerHTML='▶ <strong>'+track.title+'</strong> · '+track.note;ti.style.display='block';}},{once:true});audio.addEventListener('error',()=>{clearTimeout(timeout);attempt();},{once:true});audio.src=track.url;audio.load();}attempt();buildSynth(master);}
+function buildSynth(master){const BPM=88,BEAT=60/BPM;const barBus=audioCtx.createGain();barBus.gain.value=1;barBus.connect(gBar);const chordFreqs=[[130.81,155.56,196],[103.83,130.81,155.56],[155.56,196,233.08],[116.54,146.83,174.61]];let chordIdx=0;const chordOscs=chordFreqs[0].map(f=>{const o=audioCtx.createOscillator();o.type='triangle';o.frequency.value=f;const g=audioCtx.createGain();g.gain.value=0.06;o.connect(g);g.connect(barBus);o.start();return{o,g};});const melNotes=[261.63,311.13,349.23,392,466.16,392,349.23,311.13];let melIdx=0;const subBus=audioCtx.createGain();subBus.gain.value=1;const subLPF=audioCtx.createBiquadFilter();subLPF.type='lowpass';subLPF.frequency.value=160;subBus.connect(subLPF);subLPF.connect(gSub);let nextBeat=audioCtx.currentTime+.1,beatNum=0;function schedule(){while(nextBeat<audioCtx.currentTime+.4){const t=nextBeat,bib=beatNum%4;if(beatNum%8===0){chordIdx=(beatNum/8|0)%4;chordOscs.forEach(({o},i)=>o.frequency.setTargetAtTime(chordFreqs[chordIdx][i],t,.05));}if(bib===0||bib===2){const o=audioCtx.createOscillator(),g=audioCtx.createGain();o.frequency.setValueAtTime(180,t);o.frequency.exponentialRampToValueAtTime(40,t+.07);g.gain.setValueAtTime(1.2,t);g.gain.exponentialRampToValueAtTime(.001,t+.25);o.connect(g);g.connect(subBus);o.start(t);o.stop(t+.3);}if(bib===1||bib===3){const buf=audioCtx.createBuffer(1,audioCtx.sampleRate*.1,audioCtx.sampleRate);const d=buf.getChannelData(0);for(let i=0;i<d.length;i++)d[i]=(Math.random()*2-1)*Math.exp(-i/(audioCtx.sampleRate*.03));const n=audioCtx.createBufferSource();n.buffer=buf;const g=audioCtx.createGain();g.gain.setValueAtTime(.4,t);g.gain.exponentialRampToValueAtTime(.001,t+.1);n.connect(g);g.connect(barBus);n.start(t);n.stop(t+.11);}if((beatNum/4|0)%2===0){const o=audioCtx.createOscillator(),g=audioCtx.createGain();o.type='sawtooth';o.frequency.value=melNotes[melIdx++%melNotes.length];g.gain.setValueAtTime(.07,t);g.gain.exponentialRampToValueAtTime(.001,t+BEAT*.9);o.connect(g);g.connect(barBus);o.start(t);o.stop(t+BEAT);}nextBeat+=BEAT;beatNum++;}setTimeout(schedule,100);}schedule();document.getElementById('status').textContent='PLAYING · Toggle components above';}
+function updateG(){if(!audioCtx)return;const t=audioCtx.currentTime;gBar?.gain.linearRampToValueAtTime(CS.bar?1:.001,t+.12);gSub?.gain.linearRampToValueAtTime(CS.sub?1:.001,t+.12);gSat?.gain.linearRampToValueAtTime(CS.sat?1:.001,t+.12);}
+function toggleComp(id){CS[id]=!CS[id];document.getElementById('c-'+id).classList.toggle('on',CS[id]);const sv=document.getElementById('sv-'+id);sv.textContent=CS[id]?'ON':'OFF';sv.className='stat-v'+(CS[id]?' on':'');updateG();}
+
+// ═══ VISUALISER ═══
+function startVis(){const canvas=document.getElementById('vis'),vCtx=canvas.getContext('2d');let t=0;function resize(){canvas.width=canvas.offsetWidth;canvas.height=canvas.offsetHeight;}resize();window.addEventListener('resize',resize);(function draw(){requestAnimationFrame(draw);const W=canvas.width,H=canvas.height,cx=W*.5,cy=H*.52;vCtx.fillStyle='#080D18';vCtx.fillRect(0,0,W,H);vCtx.strokeStyle='rgba(255,255,255,0.02)';vCtx.lineWidth=.5;[50,90,130].forEach(r=>{vCtx.beginPath();vCtx.arc(cx,cy,r,0,Math.PI*2);vCtx.stroke();});const numBars=100,innerR=45,maxBarH=CS.bar?40:4;for(let i=0;i<numBars;i++){const angle=(i/numBars)*Math.PI*2-Math.PI/2;const noise=Math.abs(Math.sin(t*1.8+i*.18)*Math.sin(t*.7+i*.09));const h=CS.bar?innerR+4+noise*maxBarH:innerR+2;const x1=cx+Math.cos(angle)*innerR,y1=cy+Math.sin(angle)*innerR;const x2=cx+Math.cos(angle)*h,y2=cy+Math.sin(angle)*h;const isBassSector=angle>Math.PI*.4&&angle<Math.PI*1.6;let col,alpha;if(isBassSector&&CS.sub){col='#7C3AED';alpha=.9;}else if(CS.sat&&(i<12||i>88)){col='#F59E0B';alpha=.85;}else{col=CS.bar?'#4F6EF7':'#1E293B';alpha=CS.bar?.8:.4;}vCtx.globalAlpha=alpha;vCtx.strokeStyle=col;vCtx.lineWidth=2.2;vCtx.beginPath();vCtx.moveTo(x1,y1);vCtx.lineTo(x2,y2);vCtx.stroke();}vCtx.globalAlpha=1;const pulse=CS.bar?.88+Math.sin(t*2.2)*.12:1;vCtx.fillStyle='#3451D1';vCtx.beginPath();vCtx.arc(cx,cy,14*pulse,0,Math.PI*2);vCtx.fill();vCtx.fillStyle='#93C5FD';vCtx.beginPath();vCtx.arc(cx,cy,5,0,Math.PI*2);vCtx.fill();vCtx.fillStyle='#60A5FA';vCtx.font='bold 8px Inter,sans-serif';vCtx.textAlign='center';vCtx.fillText('YOU',cx,cy+3);const specH=H*.08,specY=H-specH-4,barCount=32,bw=(W-24)/barCount;for(let i=0;i<barCount;i++){const bx=12+i*bw+1,freq=i/barCount;const h2=CS.bar?3+Math.abs(Math.sin(t*2+i*.28)*Math.cos(t*1.1+i*.15))*(specH-4):2;const subB=CS.sub&&freq<.22?1.5:1;const satB=CS.sat&&freq>.72?1.4:1;const finalH=Math.min(h2*subB*satB,specH);let col2;if(freq<.22)col2=CS.sub?'#7C3AED':'#1E293B';else if(freq>.72)col2=CS.sat?'#F59E0B':'#1E293B';else col2=CS.bar?'#4F6EF7':'#1E293B';vCtx.fillStyle=col2;vCtx.globalAlpha=.85;vCtx.beginPath();vCtx.roundRect(bx,specY+specH-finalH,bw-2,finalH,2);vCtx.fill();}vCtx.globalAlpha=1;t+=.016;})();}
+
+
+
+// === PRODUCT SLIDESHOW (Soundbar + Projector) ===
+const SS_TIMERS={};
+const SS_INTERVAL=3000; // 3 seconds
+function ssGo(sid,i,resetTimer){
+  const ss=document.getElementById(sid);if(!ss)return;
+  const slides=ss.querySelectorAll('.slide');
+  const dots=ss.querySelectorAll('.slideshow-dot');
+  const count=slides.length;if(!count)return;
+  i=((i%count)+count)%count;
+  slides.forEach((s,k)=>s.classList.toggle('active',k===i));
+  dots.forEach((d,k)=>d.classList.toggle('active',k===i));
+  ss.dataset.idx=i;
+  if(resetTimer!==false){
+    if(SS_TIMERS[sid])clearInterval(SS_TIMERS[sid]);
+    if(count>1)SS_TIMERS[sid]=setInterval(()=>ssStep(sid,1),SS_INTERVAL);
+  }
+}
+function ssStep(sid,delta){
+  const ss=document.getElementById(sid);if(!ss)return;
+  const cur=parseInt(ss.dataset.idx||0);
+  ssGo(sid,cur+delta);
+}
+function ssPause(sid){
+  // Stop slideshow and reset to first image
+  if(SS_TIMERS[sid]){clearInterval(SS_TIMERS[sid]);delete SS_TIMERS[sid];}
+  ssGo(sid,0,false);
+}
+function ssResume(sid){
+  const ss=document.getElementById(sid);if(!ss)return;
+  const count=parseInt(ss.dataset.count||0);
+  if(count>1&&!SS_TIMERS[sid]){
+    SS_TIMERS[sid]=setInterval(()=>ssStep(sid,1),SS_INTERVAL);
+  }
+}
+function ssInitAll(){
+  Object.values(SS_TIMERS).forEach(t=>clearInterval(t));
+  for(const k in SS_TIMERS)delete SS_TIMERS[k];
+  document.querySelectorAll('.slideshow').forEach(ss=>{
+    const sid=ss.id;
+    const count=parseInt(ss.dataset.count||0);
+    if(count>1){
+      // Preload all images for smooth transitions
+      ss.querySelectorAll('.slide').forEach(img=>{
+        if(img.dataset.src&&!img.src){img.src=img.dataset.src;}
+      });
+      SS_TIMERS[sid]=setInterval(()=>ssStep(sid,1),SS_INTERVAL);
+    }
+  });
+}
+// Re-init slideshow after every render
+const _origRenderCat=renderCat;
+renderCat=function(cat){_origRenderCat(cat);setTimeout(ssInitAll,50);}
+
+// === NOTIFY ME (out of stock) ===
+// Google Sheet mail-slot URL (Apps Script Web App)
+const NOTIFY_ENDPOINT='https://script.google.com/macros/s/AKfycbxKmhd3bzsiaoTUw_DvAfx_lf6a5Tik2vdwYdXQ7ZMd4s-aRE31UreCsxefJnpQNrYT/exec';
+function notifyMe(btn){
+  const bar=btn.closest('.notify-bar');
+  const input=bar.querySelector('.notify-input');
+  const ok=bar.querySelector('.notify-ok');
+  const val=input.value.trim();
+  if(!val){input.style.borderColor='var(--rose)';input.focus();return;}
+  const pid=bar.dataset.pid||'unknown';
+  const cat=bar.dataset.cat||'unknown';
+  // Store in localStorage (backup)
+  try{
+    const existing=JSON.parse(localStorage.getItem('zeb_notifications')||'[]');
+    existing.push({contact:val,product:pid,category:cat,date:new Date().toISOString()});
+    localStorage.setItem('zeb_notifications',JSON.stringify(existing));
+  }catch(e){}
+  // Send to Google Sheet
+  if(NOTIFY_ENDPOINT){
+    try{
+      fetch(NOTIFY_ENDPOINT,{method:'POST',mode:'no-cors',headers:{'Content-Type':'text/plain;charset=utf-8'},body:JSON.stringify({contact:val,product:pid,category:cat})});
+    }catch(e){}
+  }
+  btn.style.display='none';
+  input.style.display='none';
+  ok.style.display='inline';
+  ok.textContent='\u2713 We will notify you when back in stock!';
+}
+
+// Helper to generate notify bar HTML
+function notifyBarHTML(productId, cat){
+  return '<div class="notify-bar" data-pid="'+productId+'" data-cat="'+cat+'"><span class="oos-label">\u26a0 Out of Stock</span><input class="notify-input" type="text" placeholder="Email or mobile number" maxlength="50"><button class="notify-btn" onclick="notifyMe(this)">Notify Me</button><span class="notify-ok"></span></div>';
+}
+
+function toggleTheme(){
+  const html=document.documentElement;
+  const isDark=!html.hasAttribute('data-theme')||html.getAttribute('data-theme')==='dark';
+  if(isDark){html.setAttribute('data-theme','light');document.getElementById('tog-light').classList.add('active');document.getElementById('tog-dark').classList.remove('active');}
+  else{html.removeAttribute('data-theme');document.getElementById('tog-dark').classList.add('active');document.getElementById('tog-light').classList.remove('active');}
+}
+// Set initial toggle state
+(function(){const d=document.getElementById('tog-dark'),l=document.getElementById('tog-light');if(d&&l){d.classList.add('active');l.classList.remove('active');}})();
+</script>
+</body>
+</html>

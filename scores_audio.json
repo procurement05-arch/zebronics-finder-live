@@ -1,0 +1,302 @@
+{
+  "thunder": {
+    "use": {
+      "commute": 6.0,
+      "wfh": 6.0,
+      "study": 9.0,
+      "gym": 6.0,
+      "gaming": 4.0,
+      "creator": 3.0,
+      "travel": 7.0,
+      "first": 9.0
+    },
+    "priority": {
+      "anc": 0,
+      "battery": 7.0,
+      "gaming": 4.0,
+      "value": 9.0,
+      "quality": 7.0,
+      "balanced": 5
+    }
+  },
+  "thunder-pro": {
+    "use": {
+      "commute": 6.0,
+      "wfh": 6.0,
+      "study": 9.0,
+      "gym": 6.0,
+      "gaming": 4.0,
+      "creator": 4.0,
+      "travel": 7.0,
+      "first": 8.0
+    },
+    "priority": {
+      "anc": 0,
+      "battery": 7.0,
+      "gaming": 4.0,
+      "value": 9.0,
+      "quality": 7.0,
+      "balanced": 5
+    }
+  },
+  "thunder-neo": {
+    "use": {
+      "commute": 6.0,
+      "wfh": 5.0,
+      "study": 9.0,
+      "gym": 6.0,
+      "gaming": 6.0,
+      "creator": 4.0,
+      "travel": 7.0,
+      "first": 7.0
+    },
+    "priority": {
+      "anc": 0,
+      "battery": 7.0,
+      "gaming": 6.0,
+      "value": 9.0,
+      "quality": 5.0,
+      "balanced": 5
+    }
+  },
+  "thunder-max": {
+    "use": {
+      "commute": 7.0,
+      "wfh": 5.0,
+      "study": 9.0,
+      "gym": 6.0,
+      "gaming": 5.0,
+      "creator": 4.0,
+      "travel": 7.0,
+      "first": 7.0
+    },
+    "priority": {
+      "anc": 0,
+      "battery": 10.0,
+      "gaming": 5.0,
+      "value": 8.0,
+      "quality": 5.0,
+      "balanced": 5
+    }
+  },
+  "duke-plus": {
+    "use": {
+      "commute": 7.0,
+      "wfh": 7.0,
+      "study": 6.0,
+      "gym": 5.0,
+      "gaming": 4.0,
+      "creator": 5.0,
+      "travel": 5.0,
+      "first": 5.0
+    },
+    "priority": {
+      "anc": 7.0,
+      "battery": 8.0,
+      "gaming": 4.0,
+      "value": 7.0,
+      "quality": 6.0,
+      "balanced": 5
+    }
+  },
+  "duke-pro": {
+    "use": {
+      "commute": 6.0,
+      "wfh": 6.0,
+      "study": 5.0,
+      "gym": 9.0,
+      "gaming": 7.0,
+      "creator": 5.0,
+      "travel": 7.0,
+      "first": 7.0
+    },
+    "priority": {
+      "anc": 7.0,
+      "battery": 6.0,
+      "gaming": 8.0,
+      "value": 6.0,
+      "quality": 7.0,
+      "balanced": 5
+    }
+  },
+  "silencio-111": {
+    "use": {
+      "commute": 9.0,
+      "wfh": 9.0,
+      "study": 7.0,
+      "gym": 5.0,
+      "gaming": 4.0,
+      "creator": 9.0,
+      "travel": 8.0,
+      "first": 3.0
+    },
+    "priority": {
+      "anc": 10.0,
+      "battery": 7.0,
+      "gaming": 4.0,
+      "value": 5.0,
+      "quality": 9.0,
+      "balanced": 5
+    }
+  },
+  "silencio-200t": {
+    "use": {
+      "commute": 9.0,
+      "wfh": 10.0,
+      "study": 6.0,
+      "gym": 5.0,
+      "gaming": 3.0,
+      "creator": 9.0,
+      "travel": 10.0,
+      "first": 7.0
+    },
+    "priority": {
+      "anc": 9.0,
+      "battery": 10.0,
+      "gaming": 3.0,
+      "value": 6.0,
+      "quality": 10.0,
+      "balanced": 5
+    }
+  },
+  "jet": {
+    "use": {
+      "commute": 2.0,
+      "wfh": 2.0,
+      "study": 3.0,
+      "gym": 2.0,
+      "gaming": 8.0,
+      "creator": 2.0,
+      "travel": 1.0,
+      "first": 7.0
+    },
+    "priority": {
+      "anc": 0,
+      "battery": 0,
+      "gaming": 10.0,
+      "value": 10.0,
+      "quality": 4.0,
+      "balanced": 5
+    }
+  },
+  "jet-pro": {
+    "use": {
+      "commute": 2.0,
+      "wfh": 2.0,
+      "study": 3.0,
+      "gym": 2.0,
+      "gaming": 8.0,
+      "creator": 2.0,
+      "travel": 1.0,
+      "first": 6.0
+    },
+    "priority": {
+      "anc": 0,
+      "battery": 0,
+      "gaming": 10.0,
+      "value": 9.0,
+      "quality": 5.0,
+      "balanced": 5
+    }
+  },
+  "blitz-c": {
+    "use": {
+      "commute": 2.0,
+      "wfh": 2.0,
+      "study": 3.0,
+      "gym": 2.0,
+      "gaming": 9.0,
+      "creator": 9.0,
+      "travel": 1.0,
+      "first": 4.0
+    },
+    "priority": {
+      "anc": 0,
+      "battery": 0,
+      "gaming": 10.0,
+      "value": 7.0,
+      "quality": 9.0,
+      "balanced": 5
+    }
+  },
+  "jet-71": {
+    "use": {
+      "commute": 2.0,
+      "wfh": 2.0,
+      "study": 3.0,
+      "gym": 2.0,
+      "gaming": 9.0,
+      "creator": 3.0,
+      "travel": 1.0,
+      "first": 4.0
+    },
+    "priority": {
+      "anc": 0,
+      "battery": 0,
+      "gaming": 10.0,
+      "value": 7.0,
+      "quality": 6.0,
+      "balanced": 5
+    }
+  },
+  "envy-2": {
+    "use": {
+      "commute": 4.0,
+      "wfh": 5.0,
+      "study": 4.0,
+      "gym": 4.0,
+      "gaming": 8.0,
+      "creator": 4.0,
+      "travel": 3.0,
+      "first": 4.0
+    },
+    "priority": {
+      "anc": 0,
+      "battery": 7.0,
+      "gaming": 8.0,
+      "value": 7.0,
+      "quality": 5.0,
+      "balanced": 5
+    }
+  },
+  "havoc": {
+    "use": {
+      "commute": 2.0,
+      "wfh": 2.0,
+      "study": 3.0,
+      "gym": 2.0,
+      "gaming": 9.0,
+      "creator": 9.0,
+      "travel": 1.0,
+      "first": 3.0
+    },
+    "priority": {
+      "anc": 0,
+      "battery": 0,
+      "gaming": 10.0,
+      "value": 6.0,
+      "quality": 9.0,
+      "balanced": 5
+    }
+  },
+  "blitz": {
+    "use": {
+      "commute": 2.0,
+      "wfh": 2.0,
+      "study": 3.0,
+      "gym": 2.0,
+      "gaming": 10.0,
+      "creator": 9.0,
+      "travel": 1.0,
+      "first": 2.0
+    },
+    "priority": {
+      "anc": 0,
+      "battery": 0,
+      "gaming": 10.0,
+      "value": 5.0,
+      "quality": 9.0,
+      "balanced": 5
+    }
+  }
+}
