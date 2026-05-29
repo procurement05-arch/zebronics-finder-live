@@ -209,8 +209,18 @@
   {
     "id": "zeb_pj_pixaplay_18",
     "name": "Zeb PixaPlay 18",
-    "img": "img/pj/zeb_pj_pixaplay_18.png",
-    "images": [],
+    "img": "img/pj/zeb_pj_pixaplay_18/1.jpg",
+    "images": [
+      "img/pj/zeb_pj_pixaplay_18/1.jpg",
+      "img/pj/zeb_pj_pixaplay_18/2.webp",
+      "img/pj/zeb_pj_pixaplay_18/3.webp",
+      "img/pj/zeb_pj_pixaplay_18/4.webp",
+      "img/pj/zeb_pj_pixaplay_18/5.webp",
+      "img/pj/zeb_pj_pixaplay_18/6.webp",
+      "img/pj/zeb_pj_pixaplay_18/7.webp",
+      "img/pj/zeb_pj_pixaplay_18/8.webp",
+      "img/pj/zeb_pj_pixaplay_18/9.webp"
+    ],
     "lumens": 8200,
     "price": 13999,
     "mrp": 39639,
