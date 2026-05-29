@@ -59,7 +59,7 @@ button{font-family:var(--font);cursor:pointer;border:none;background:none}
 @keyframes scanline{0%{transform:translateY(-100%)}100%{transform:translateY(100vh)}}
 
 /* ─── NAV — Glass neon ────────────────────────────────────── */
-nav{background:rgba(8,9,14,0.85);border-bottom:1px solid rgba(0,229,255,0.08);position:sticky;top:0;z-index:100;backdrop-filter:blur(24px) saturate(1.6);-webkit-backdrop-filter:blur(24px) saturate(1.6)}
+nav{background:rgba(8,9,14,0.85);border-bottom:1px solid rgba(0,229,255,0.08);position:sticky;top:0;z-index:100;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
 .nav-inner{max-width:1200px;margin:0 auto;padding:0 2rem;height:60px;display:flex;align-items:center;justify-content:space-between;gap:12px}
 .logo{display:flex;align-items:center;gap:10px;text-decoration:none;flex-shrink:0}
 .logo-img{height:30px;width:auto;object-fit:contain;display:block}
@@ -76,14 +76,14 @@ nav{background:rgba(8,9,14,0.85);border-bottom:1px solid rgba(0,229,255,0.08);po
 .hero{position:relative;min-height:92vh;display:flex;align-items:center;justify-content:center;overflow:hidden;background:#06070B}
 .hero::before{content:'';position:absolute;bottom:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,var(--neon),var(--neon2),var(--neon3),transparent);opacity:.5}
 .hero-bg{position:absolute;inset:0;background:radial-gradient(ellipse 70% 50% at 30% 60%,rgba(0,229,255,.08),transparent 60%),radial-gradient(ellipse 50% 40% at 70% 30%,rgba(177,78,255,.08),transparent 50%),radial-gradient(ellipse 40% 30% at 50% 80%,rgba(57,255,133,.05),transparent 40%)}
-.hero-grid{position:absolute;inset:0;background-image:linear-gradient(rgba(0,229,255,.03) 1px,transparent 1px),linear-gradient(90deg,rgba(0,229,255,.03) 1px,transparent 1px);background-size:80px 80px;mask-image:radial-gradient(ellipse 60% 50% at 50% 50%,black,transparent);animation:gradient-shift 20s linear infinite;background-size:80px 80px,80px 80px,200% 200%}
+.hero-grid{position:absolute;inset:0;background-image:linear-gradient(rgba(0,229,255,.03) 1px,transparent 1px),linear-gradient(90deg,rgba(0,229,255,.03) 1px,transparent 1px);background-size:80px 80px;mask-image:radial-gradient(ellipse 60% 50% at 50% 50%,black,transparent)}
 .hero-orb{display:none}
 .hero-content{position:relative;text-align:center;padding:2rem;max-width:780px;z-index:2}
-.hero-eyebrow{font-size:clamp(17px,2.6vw,26px);font-weight:800;letter-spacing:3px;color:var(--neon);text-transform:uppercase;margin-bottom:2rem;animation:text-glow 3s ease-in-out infinite}
+.hero-eyebrow{font-size:clamp(17px,2.6vw,26px);font-weight:800;letter-spacing:3px;color:var(--neon);text-transform:uppercase;margin-bottom:2rem}
 .hero h1{font-size:clamp(3rem,8vw,5.5rem);font-weight:900;line-height:.95;letter-spacing:-3px;color:#fff;text-transform:uppercase;margin-bottom:1.5rem}
 .hero h1 em{font-style:normal;background:linear-gradient(135deg,var(--neon),var(--neon2),var(--neon3));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;filter:drop-shadow(0 0 30px rgba(0,229,255,.3))}
 .hero-sub{font-size:clamp(14px,1.8vw,17px);color:rgba(255,255,255,.4);line-height:1.8;margin-bottom:2.5rem}
-.btn-hero{display:inline-flex;align-items:center;gap:10px;background:transparent;color:var(--neon);font-weight:700;font-size:15px;padding:16px 40px;border-radius:100px;transition:all .3s;box-shadow:var(--glow-cyan);border:2px solid var(--neon);cursor:pointer;text-transform:uppercase;letter-spacing:1px;animation:border-glow 3s ease-in-out infinite}
+.btn-hero{display:inline-flex;align-items:center;gap:10px;background:transparent;color:var(--neon);font-weight:700;font-size:15px;padding:16px 40px;border-radius:100px;transition:all .3s;box-shadow:var(--glow-cyan);border:2px solid var(--neon);cursor:pointer;text-transform:uppercase;letter-spacing:1px}
 .btn-hero:hover{background:var(--neon);color:#000;transform:translateY(-2px);box-shadow:0 0 30px rgba(0,229,255,.5),0 0 80px rgba(0,229,255,.2)}
 .btn-hero svg{width:18px;height:18px}
 .hero-stats{display:flex;justify-content:center;gap:3rem;margin-top:4rem;flex-wrap:wrap}
@@ -93,7 +93,7 @@ nav{background:rgba(8,9,14,0.85);border-bottom:1px solid rgba(0,229,255,0.08);po
 .stat-item span{font-size:10px;color:rgba(255,255,255,.3);letter-spacing:2px;text-transform:uppercase}
 
 /* ─── CATEGORY TABS — Neon tab bar ────────────────────────── */
-.cat-tabs-wrap{background:rgba(8,9,14,0.95);border-bottom:1px solid rgba(0,229,255,0.08);position:sticky;top:60px;z-index:90;backdrop-filter:blur(16px)}
+.cat-tabs-wrap{background:rgba(8,9,14,0.95);border-bottom:1px solid rgba(0,229,255,0.08);position:sticky;top:60px;z-index:90;backdrop-filter:blur(8px)}
 .cat-tabs{max-width:1200px;margin:0 auto;padding:8px 2rem;display:flex;gap:6px}
 .cat-tab{position:relative;padding:12px 28px;font-size:14px;font-weight:600;color:var(--muted);letter-spacing:.5px;transition:all .3s;border:none;background:none;cursor:pointer;white-space:nowrap;border-radius:12px;display:flex;align-items:center;gap:8px;text-transform:uppercase}
 .cat-tab:hover{color:var(--text);background:rgba(255,255,255,0.04)}
@@ -441,8 +441,8 @@ footer a:hover{color:var(--neon2);text-shadow:0 0 8px rgba(177,78,255,.4)}
 
 
 /* ─── PROJECTOR SLIDESHOW ──────────────────────────────────── */
-.slideshow{position:relative;width:100%;aspect-ratio:4/3;background:var(--surface2);overflow:hidden;will-change:contents}
-.slideshow .slide{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;padding:1.2rem;opacity:0;transition:opacity .8s cubic-bezier(.4,0,.2,1);backface-visibility:hidden;transform:translateZ(0)}
+.slideshow{position:relative;width:100%;aspect-ratio:4/3;background:var(--surface2);overflow:hidden}
+.slideshow .slide{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;padding:1.2rem;opacity:0;transition:opacity .5s ease}
 .slideshow .slide.active{opacity:1;z-index:1}
 .slideshow-arrow{position:absolute;top:50%;transform:translateY(-50%);width:36px;height:36px;background:rgba(0,0,0,0.55);border:none;border-radius:50%;color:#fff;font-size:18px;cursor:pointer;display:flex;align-items:center;justify-content:center;opacity:0;transition:opacity .2s,background .15s;z-index:3;backdrop-filter:blur(8px)}
 .slideshow-arrow:hover{background:rgba(0,0,0,0.8)}
@@ -470,8 +470,8 @@ footer a:hover{color:var(--neon2);text-shadow:0 0 8px rgba(177,78,255,.4)}
 
 
 /* ─── PROJECTOR SLIDESHOW ──────────────────────────────────── */
-.slideshow{position:relative;width:100%;aspect-ratio:4/3;background:var(--surface2);overflow:hidden;will-change:contents}
-.slideshow .slide{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;padding:1.2rem;opacity:0;transition:opacity .8s cubic-bezier(.4,0,.2,1);backface-visibility:hidden;transform:translateZ(0)}
+.slideshow{position:relative;width:100%;aspect-ratio:4/3;background:var(--surface2);overflow:hidden}
+.slideshow .slide{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;padding:1.2rem;opacity:0;transition:opacity .5s ease}
 .slideshow .slide.active{opacity:1;z-index:1}
 .slideshow-arrow{position:absolute;top:50%;transform:translateY(-50%);width:36px;height:36px;background:rgba(0,0,0,0.55);border:none;border-radius:50%;color:#fff;font-size:18px;cursor:pointer;display:flex;align-items:center;justify-content:center;opacity:0;transition:opacity .2s,background .15s;z-index:3;backdrop-filter:blur(8px)}
 .slideshow-arrow:hover{background:rgba(0,0,0,0.8)}
@@ -499,8 +499,8 @@ footer a:hover{color:var(--neon2);text-shadow:0 0 8px rgba(177,78,255,.4)}
 
 
 /* ─── PROJECTOR SLIDESHOW ──────────────────────────────────── */
-.slideshow{position:relative;width:100%;aspect-ratio:4/3;background:var(--surface2);overflow:hidden;will-change:contents}
-.slideshow .slide{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;padding:1.2rem;opacity:0;transition:opacity .8s cubic-bezier(.4,0,.2,1);backface-visibility:hidden;transform:translateZ(0)}
+.slideshow{position:relative;width:100%;aspect-ratio:4/3;background:var(--surface2);overflow:hidden}
+.slideshow .slide{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;padding:1.2rem;opacity:0;transition:opacity .5s ease}
 .slideshow .slide.active{opacity:1;z-index:1}
 .slideshow-arrow{position:absolute;top:50%;transform:translateY(-50%);width:36px;height:36px;background:rgba(0,0,0,0.55);border:none;border-radius:50%;color:#fff;font-size:18px;cursor:pointer;display:flex;align-items:center;justify-content:center;opacity:0;transition:opacity .2s,background .15s;z-index:3;backdrop-filter:blur(8px)}
 .slideshow-arrow:hover{background:rgba(0,0,0,0.8)}
@@ -1094,12 +1094,12 @@ function getPrimaryUse(cat,pr){const uses=STATE[cat].filters.use;if(!uses||!uses
 
 function renderCard(cat,p,isBest,puSlug){if(cat==='soundbar')return renderSBCard(p,isBest,puSlug);if(cat==='audio')return renderAudioCard(p,isBest,puSlug);return renderPJCard(p,isBest,puSlug);}
 
-function renderSBCard(p,isBest,puSlug){const certCls=p.atmos?'cert-atmos':p.cert==='Dolby Audio'?'cert-audio':'cert-std';const why=puSlug&&p.why?.[puSlug]?p.why[puSlug]:'';const sid='ss-'+p.id+'-'+Math.random().toString(36).slice(2,8);const imgs=(p.images&&p.images.length?p.images:(p.img?[p.img]:[]));const hasMany=imgs.length>1;const slidesHTML=imgs.length?imgs.map((src,i)=>`<img class="slide${i===0?' active':''}" src="${src}" alt="${p.name} - photo ${i+1}" loading="lazy" onerror="this.style.display='none'">`).join(''):'';const dotsHTML=hasMany?imgs.map((_,i)=>`<button class="slideshow-dot${i===0?' active':''}" onclick="ssGo('${sid}',${i})"></button>`).join(''):'';const arrowsHTML=hasMany?`<button class="slideshow-arrow prev" onclick="ssStep('${sid}',-1)">‹</button><button class="slideshow-arrow next" onclick="ssStep('${sid}',1)">›</button>`:'';const imgArea=imgs.length?`<div class="slideshow" id="${sid}" data-count="${imgs.length}" data-idx="0" onmouseenter="ssPause('${sid}')" onmouseleave="ssResume('${sid}')">${slidesHTML}${arrowsHTML}${hasMany?`<div class="slideshow-dots">${dotsHTML}</div>`:''}</div>`:`<div class="img-ph"><svg width="56" height="32" viewBox="0 0 56 32"><rect x="1" y="6" width="54" height="20" rx="3" fill="none" stroke="#94A3B8" stroke-width="1.5"/></svg></div>`;return`<div class="card${isBest?' best':''}">${isBest?'<div class="best-badge">★ Best Match For You</div>':''}${imgArea}<div class="card-body"><div class="card-tags">${p.compact?'<span class="tag tag-compact">Compact</span>':''}</div><div class="card-row1"><div class="card-name">${p.name}</div><div class="watt-pill">${p.watt}W</div></div><div class="cert ${certCls}">${p.cert}${p.atmos?' + dts:X':''}</div><div class="config">${p.config} Ch · ${p.sub} Sub${p.sat?' · Sat':''}</div><div class="feats">${(p.feats||[]).map(f=>'<span class="feat">'+f+'</span>').join('')}</div><div class="price-row"><div class="price">₹${p.price.toLocaleString('en-IN')}</div>${p.mrp>p.price?'<div class="mrp">₹'+p.mrp.toLocaleString('en-IN')+'</div><div class="save">'+p.save+'% off</div>':''}</div><div class="buys">${p.amz?'<a class="buy buy-amz" href="'+p.amz+'" target="_blank">Amazon</a>':''}${p.fk?'<a class="buy buy-fk" href="'+p.fk+'" target="_blank">Flipkart</a>':''}${p.zeb?'<a class="buy buy-zeb" href="'+p.zeb+'" target="_blank">Zebronics</a>':''}</div>${why?'<div class="why-box">'+why+'</div>':''}${(!p.amz&&!p.fk&&!p.zeb)?notifyBarHTML(p.id,'soundbar'):''}</div></div>`;}
+function renderSBCard(p,isBest,puSlug){const certCls=p.atmos?'cert-atmos':p.cert==='Dolby Audio'?'cert-audio':'cert-std';const why=puSlug&&p.why?.[puSlug]?p.why[puSlug]:'';const sid='ss-'+p.id+'-'+Math.random().toString(36).slice(2,8);const imgs=(p.images&&p.images.length?p.images:(p.img?[p.img]:[]));const hasMany=imgs.length>1;const slidesHTML=imgs.length?imgs.map((src,i)=>`<img class="slide${i===0?' active':''}" src="${src}" alt="${p.name} - photo ${i+1}" ${i===0?'fetchpriority="high"':'loading="lazy"'} decoding="async" onerror="this.style.display='none'">`).join(''):'';const dotsHTML=hasMany?imgs.map((_,i)=>`<button class="slideshow-dot${i===0?' active':''}" onclick="ssGo('${sid}',${i})"></button>`).join(''):'';const arrowsHTML=hasMany?`<button class="slideshow-arrow prev" onclick="ssStep('${sid}',-1)">‹</button><button class="slideshow-arrow next" onclick="ssStep('${sid}',1)">›</button>`:'';const imgArea=imgs.length?`<div class="slideshow" id="${sid}" data-count="${imgs.length}" data-idx="0" onmouseenter="ssPause('${sid}')" onmouseleave="ssResume('${sid}')">${slidesHTML}${arrowsHTML}${hasMany?`<div class="slideshow-dots">${dotsHTML}</div>`:''}</div>`:`<div class="img-ph"><svg width="56" height="32" viewBox="0 0 56 32"><rect x="1" y="6" width="54" height="20" rx="3" fill="none" stroke="#94A3B8" stroke-width="1.5"/></svg></div>`;return`<div class="card${isBest?' best':''}">${isBest?'<div class="best-badge">★ Best Match For You</div>':''}${imgArea}<div class="card-body"><div class="card-tags">${p.compact?'<span class="tag tag-compact">Compact</span>':''}</div><div class="card-row1"><div class="card-name">${p.name}</div><div class="watt-pill">${p.watt}W</div></div><div class="cert ${certCls}">${p.cert}${p.atmos?' + dts:X':''}</div><div class="config">${p.config} Ch · ${p.sub} Sub${p.sat?' · Sat':''}</div><div class="feats">${(p.feats||[]).map(f=>'<span class="feat">'+f+'</span>').join('')}</div><div class="price-row"><div class="price">₹${p.price.toLocaleString('en-IN')}</div>${p.mrp>p.price?'<div class="mrp">₹'+p.mrp.toLocaleString('en-IN')+'</div><div class="save">'+p.save+'% off</div>':''}</div><div class="buys">${p.amz?'<a class="buy buy-amz" href="'+p.amz+'" target="_blank">Amazon</a>':''}${p.fk?'<a class="buy buy-fk" href="'+p.fk+'" target="_blank">Flipkart</a>':''}${p.zeb?'<a class="buy buy-zeb" href="'+p.zeb+'" target="_blank">Zebronics</a>':''}</div>${why?'<div class="why-box">'+why+'</div>':''}${(!p.amz&&!p.fk&&!p.zeb)?notifyBarHTML(p.id,'soundbar'):''}</div></div>`;}
 
 
 function renderAudioCard(p,isBest,puSlug){const why=puSlug&&p.why?.[puSlug]?p.why[puSlug]:'';const typeLbl=p.type==='gaming'?'🎮 Gaming Headphone':'🎧 Wireless Headphone';return`<div class="card${isBest?' best':''}">${isBest?'<div class="best-badge">\u2605 Best Match For You</div>':''}<img class="card-img" src="${p.img}" alt="${p.name}" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="img-ph" style="display:none"><svg width="56" height="40" viewBox="0 0 140 120" fill="none"><path d="M70 18C46 18 26 37 26 61v14" stroke="#94A3B8" stroke-width="3"/><path d="M70 18C94 18 114 37 114 61v14" stroke="#94A3B8" stroke-width="3"/><rect x="14" y="60" width="18" height="32" rx="9" fill="#94A3B8"/><rect x="108" y="60" width="18" height="32" rx="9" fill="#94A3B8"/></svg></div><div class="card-body"><div class="card-tags">${p.anc?'<span class="tag tag-new">ANC</span>':''}${p.enc?'<span class="tag tag-smart">ENC</span>':''}${p.gaming?'<span class="tag tag-portable">Gaming</span>':''}</div><div class="card-row1"><div class="card-name">${p.name}</div>${p.battery?'<div class="spec-pill">'+p.battery+'h</div>':''}</div><div class="cert cert-audio">${typeLbl}</div><div class="config">${p.driver||''} ${p.bt?'\u00b7 BT '+p.bt:''} ${p.aux?'\u00b7 AUX':''}</div><div class="feats">${(p.feats||[]).map(f=>'<span class="feat">'+f+'</span>').join('')}</div><div class="price-row"><div class="price">\u20b9${p.price.toLocaleString('en-IN')}</div>${p.mrp>p.price?'<div class="mrp">\u20b9'+p.mrp.toLocaleString('en-IN')+'</div><div class="save">'+p.save+'% off</div>':''}</div><div class="buys">${p.amz?'<a class="buy buy-amz" href="'+p.amz+'" target="_blank">Amazon</a>':''}${p.fk?'<a class="buy buy-fk" href="'+p.fk+'" target="_blank">Flipkart</a>':''}${p.zeb?'<a class="buy buy-zeb" href="'+p.zeb+'" target="_blank">Zebronics</a>':''}</div>${why?'<div class="why-box">'+why+'</div>':''}${(!p.amz&&!p.fk&&!p.zeb)?notifyBarHTML(p.id,'audio'):''}</div></div>`;}
 
-function renderPJCard(p,isBest,puSlug){const why=puSlug&&p.why?.[puSlug]?p.why[puSlug]:'';const sid='ss-'+p.id+'-'+Math.random().toString(36).slice(2,8);const imgs=(p.images&&p.images.length?p.images:[p.img]);const slidesHTML=imgs.map((src,i)=>`<img class="slide${i===0?' active':''}" src="${src}" alt="${p.name} - photo ${i+1}" loading="lazy" onerror="this.style.display='none'">`).join('');const dotsHTML=imgs.length>1?imgs.map((_,i)=>`<button class="slideshow-dot${i===0?' active':''}" onclick="ssGo('${sid}',${i})"></button>`).join(''):'';const arrowsHTML=imgs.length>1?`<button class="slideshow-arrow prev" onclick="ssStep('${sid}',-1)">‹</button><button class="slideshow-arrow next" onclick="ssStep('${sid}',1)">›</button>`:'';return`<div class="card${isBest?' best':''}">${isBest?'<div class="best-badge">★ Best Match For You</div>':''}<div class="slideshow" id="${sid}" data-count="${imgs.length}" data-idx="0" onmouseenter="ssPause('${sid}')" onmouseleave="ssResume('${sid}')">${slidesHTML}${arrowsHTML}${imgs.length>1?`<div class="slideshow-dots">${dotsHTML}</div>`:''}</div><div class="card-body"><div class="card-tags">${p.portable?'<span class="tag tag-portable">Portable</span>':''}${p.smart?'<span class="tag tag-smart">Smart</span>':''}</div><div class="card-row1"><div class="card-name">${p.name}</div>${p.lumens?'<div class="spec-pill">'+p.lumens+' lm</div>':''}</div><div class="cert cert-audio">${p.native_resolution||''} ${p.max_supported_res?' → '+p.max_supported_res:''}</div><div class="config">${p.throw_type||''} ${p.lamp_type?'· '+p.lamp_type:''} ${p.auto_focus?'· AF':''} ${p.auto_keystone?'· AK':''}</div><div class="feats">${(p.feats||[]).map(f=>'<span class="feat">'+f+'</span>').join('')}</div><div class="price-row"><div class="price">₹${p.price.toLocaleString('en-IN')}</div>${p.mrp>p.price?'<div class="mrp">₹'+p.mrp.toLocaleString('en-IN')+'</div><div class="save">'+p.save+'% off</div>':''}</div><div class="buys">${p.amz?'<a class="buy buy-amz" href="'+p.amz+'" target="_blank">Amazon</a>':''}${p.fk?'<a class="buy buy-fk" href="'+p.fk+'" target="_blank">Flipkart</a>':''}${p.zeb?'<a class="buy buy-zeb" href="'+p.zeb+'" target="_blank">Zebronics</a>':''}</div>${why?'<div class="why-box">'+why+'</div>':''}${(!p.amz&&!p.fk&&!p.zeb)?notifyBarHTML(p.id,'projector'):''}</div></div>`;}
+function renderPJCard(p,isBest,puSlug){const why=puSlug&&p.why?.[puSlug]?p.why[puSlug]:'';const sid='ss-'+p.id+'-'+Math.random().toString(36).slice(2,8);const imgs=(p.images&&p.images.length?p.images:[p.img]);const slidesHTML=imgs.map((src,i)=>`<img class="slide${i===0?' active':''}" src="${src}" alt="${p.name} - photo ${i+1}" ${i===0?'fetchpriority="high"':'loading="lazy"'} decoding="async" onerror="this.style.display='none'">`).join('');const dotsHTML=imgs.length>1?imgs.map((_,i)=>`<button class="slideshow-dot${i===0?' active':''}" onclick="ssGo('${sid}',${i})"></button>`).join(''):'';const arrowsHTML=imgs.length>1?`<button class="slideshow-arrow prev" onclick="ssStep('${sid}',-1)">‹</button><button class="slideshow-arrow next" onclick="ssStep('${sid}',1)">›</button>`:'';return`<div class="card${isBest?' best':''}">${isBest?'<div class="best-badge">★ Best Match For You</div>':''}<div class="slideshow" id="${sid}" data-count="${imgs.length}" data-idx="0" onmouseenter="ssPause('${sid}')" onmouseleave="ssResume('${sid}')">${slidesHTML}${arrowsHTML}${imgs.length>1?`<div class="slideshow-dots">${dotsHTML}</div>`:''}</div><div class="card-body"><div class="card-tags">${p.portable?'<span class="tag tag-portable">Portable</span>':''}${p.smart?'<span class="tag tag-smart">Smart</span>':''}</div><div class="card-row1"><div class="card-name">${p.name}</div>${p.lumens?'<div class="spec-pill">'+p.lumens+' lm</div>':''}</div><div class="cert cert-audio">${p.native_resolution||''} ${p.max_supported_res?' → '+p.max_supported_res:''}</div><div class="config">${p.throw_type||''} ${p.lamp_type?'· '+p.lamp_type:''} ${p.auto_focus?'· AF':''} ${p.auto_keystone?'· AK':''}</div><div class="feats">${(p.feats||[]).map(f=>'<span class="feat">'+f+'</span>').join('')}</div><div class="price-row"><div class="price">₹${p.price.toLocaleString('en-IN')}</div>${p.mrp>p.price?'<div class="mrp">₹'+p.mrp.toLocaleString('en-IN')+'</div><div class="save">'+p.save+'% off</div>':''}</div><div class="buys">${p.amz?'<a class="buy buy-amz" href="'+p.amz+'" target="_blank">Amazon</a>':''}${p.fk?'<a class="buy buy-fk" href="'+p.fk+'" target="_blank">Flipkart</a>':''}${p.zeb?'<a class="buy buy-zeb" href="'+p.zeb+'" target="_blank">Zebronics</a>':''}</div>${why?'<div class="why-box">'+why+'</div>':''}${(!p.amz&&!p.fk&&!p.zeb)?notifyBarHTML(p.id,'projector'):''}</div></div>`;}
 
 // ═══ COMPARE TABLES ═══
 function buildTable(cat){const d=DATA[cat];if(!d.loaded)return;const sorted=[...d.products].sort((a,b)=>a.price-b.price);if(cat==='soundbar')buildSBTable(sorted);else if(cat==='audio')buildAudioTable(sorted);else buildPJTable(sorted);}
@@ -1153,32 +1153,52 @@ function ssStep(sid,delta){
   ssGo(sid,cur+delta);
 }
 function ssPause(sid){
-  // Stop slideshow and reset to first image
+  // Stop slideshow and reset to first image (on hover)
+  const ss=document.getElementById(sid);if(ss)ss.dataset.hover='1';
   if(SS_TIMERS[sid]){clearInterval(SS_TIMERS[sid]);delete SS_TIMERS[sid];}
   ssGo(sid,0,false);
 }
 function ssResume(sid){
   const ss=document.getElementById(sid);if(!ss)return;
-  const count=parseInt(ss.dataset.count||0);
-  if(count>1&&!SS_TIMERS[sid]){
+  ss.dataset.hover='';
+  ssStartIfVisible(ss);
+}
+// Only run a timer when the slideshow is on-screen AND not hovered
+function ssStartIfVisible(ss){
+  const sid=ss.id,count=parseInt(ss.dataset.count||0);
+  if(count>1&&ss.dataset.hover!=='1'&&ss.dataset.visible==='1'&&!SS_TIMERS[sid]){
     SS_TIMERS[sid]=setInterval(()=>ssStep(sid,1),SS_INTERVAL);
   }
 }
-function ssInitAll(){
-  Object.values(SS_TIMERS).forEach(t=>clearInterval(t));
-  for(const k in SS_TIMERS)delete SS_TIMERS[k];
-  document.querySelectorAll('.slideshow').forEach(ss=>{
-    const sid=ss.id;
-    const count=parseInt(ss.dataset.count||0);
-    if(count>1){
-      // Preload all images for smooth transitions
-      ss.querySelectorAll('.slide').forEach(img=>{
-        if(img.dataset.src&&!img.src){img.src=img.dataset.src;}
-      });
-      SS_TIMERS[sid]=setInterval(()=>ssStep(sid,1),SS_INTERVAL);
-    }
+function ssStop(ss){
+  const sid=ss.id;
+  if(SS_TIMERS[sid]){clearInterval(SS_TIMERS[sid]);delete SS_TIMERS[sid];}
+}
+// Start/stop slideshow timers: ONLY the active category's on-screen slideshows run
+function ssUpdateVisible(){
+  const vh=window.innerHeight||document.documentElement.clientHeight;
+  // Stop every slideshow that is NOT in the active category panel
+  document.querySelectorAll('.cat-panel:not(.active) .slideshow').forEach(ss=>{ss.dataset.visible='';ssStop(ss);});
+  // Only evaluate the active category's slideshows
+  document.querySelectorAll('.cat-panel.active .slideshow').forEach(ss=>{
+    const r=ss.getBoundingClientRect();
+    const onScreen=r.width>0&&r.top<vh*0.95&&r.bottom>vh*0.05;
+    if(onScreen){ss.dataset.visible='1';ssStartIfVisible(ss);}
+    else{ss.dataset.visible='';ssStop(ss);}
   });
 }
+function ssInitAll(){
+  Object.keys(SS_TIMERS).forEach(k=>{clearInterval(SS_TIMERS[k]);delete SS_TIMERS[k];});
+  ssUpdateVisible();
+}
+// rAF-throttled scroll/resize -> cheap and smooth
+let SS_TICKING=false;
+function ssOnScroll(){
+  if(SS_TICKING)return;SS_TICKING=true;
+  requestAnimationFrame(()=>{ssUpdateVisible();SS_TICKING=false;});
+}
+window.addEventListener('scroll',ssOnScroll,{passive:true});
+window.addEventListener('resize',ssOnScroll,{passive:true});
 // Re-init slideshow after every render
 const _origRenderCat=renderCat;
 renderCat=function(cat){_origRenderCat(cat);setTimeout(ssInitAll,50);}
