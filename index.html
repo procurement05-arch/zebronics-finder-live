@@ -62,7 +62,10 @@ button{font-family:var(--font);cursor:pointer;border:none;background:none}
 nav{background:rgba(8,9,14,0.85);border-bottom:1px solid rgba(0,229,255,0.08);position:sticky;top:0;z-index:100;backdrop-filter:blur(24px) saturate(1.6);-webkit-backdrop-filter:blur(24px) saturate(1.6)}
 .nav-inner{max-width:1200px;margin:0 auto;padding:0 2rem;height:60px;display:flex;align-items:center;justify-content:space-between;gap:12px}
 .logo{display:flex;align-items:center;gap:10px;text-decoration:none;flex-shrink:0}
-.logo-img{height:26px;width:auto;filter:brightness(0) invert(1);object-fit:contain}.logo-img[src=""]{display:none}
+.logo-img{height:30px;width:auto;object-fit:contain;display:block}
+.logo-light{display:none}
+[data-theme="light"] .logo-dark{display:none}
+[data-theme="light"] .logo-light{display:block}
 .logo-text{font-weight:900;font-size:18px;letter-spacing:-.5px;color:#fff}
 .logo-pill{background:linear-gradient(135deg,var(--neon),var(--neon2));color:#000;font-size:9px;font-weight:800;letter-spacing:1.5px;padding:4px 12px;border-radius:20px;text-transform:uppercase;white-space:nowrap}
 .nav-links{display:flex;gap:2rem;font-size:13px;font-weight:500}
@@ -76,7 +79,7 @@ nav{background:rgba(8,9,14,0.85);border-bottom:1px solid rgba(0,229,255,0.08);po
 .hero-grid{position:absolute;inset:0;background-image:linear-gradient(rgba(0,229,255,.03) 1px,transparent 1px),linear-gradient(90deg,rgba(0,229,255,.03) 1px,transparent 1px);background-size:80px 80px;mask-image:radial-gradient(ellipse 60% 50% at 50% 50%,black,transparent);animation:gradient-shift 20s linear infinite;background-size:80px 80px,80px 80px,200% 200%}
 .hero-orb{display:none}
 .hero-content{position:relative;text-align:center;padding:2rem;max-width:780px;z-index:2}
-.hero-eyebrow{font-size:11px;font-weight:700;letter-spacing:6px;color:var(--neon);text-transform:uppercase;margin-bottom:2rem;animation:text-glow 3s ease-in-out infinite}
+.hero-eyebrow{font-size:clamp(17px,2.6vw,26px);font-weight:800;letter-spacing:3px;color:var(--neon);text-transform:uppercase;margin-bottom:2rem;animation:text-glow 3s ease-in-out infinite}
 .hero h1{font-size:clamp(3rem,8vw,5.5rem);font-weight:900;line-height:.95;letter-spacing:-3px;color:#fff;text-transform:uppercase;margin-bottom:1.5rem}
 .hero h1 em{font-style:normal;background:linear-gradient(135deg,var(--neon),var(--neon2),var(--neon3));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;filter:drop-shadow(0 0 30px rgba(0,229,255,.3))}
 .hero-sub{font-size:clamp(14px,1.8vw,17px);color:rgba(255,255,255,.4);line-height:1.8;margin-bottom:2.5rem}
@@ -156,7 +159,7 @@ nav{background:rgba(8,9,14,0.85);border-bottom:1px solid rgba(0,229,255,0.08);po
 /* ─── BUDGET SLIDER ────────────────────────────────────────── */
 .budget-header{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:1rem}
 .budget-title{font-size:11px;font-weight:700;letter-spacing:2.5px;color:var(--neon);text-transform:uppercase}
-.budget-display{font-size:16px;font-weight:800;color:#fff;letter-spacing:-.5px}
+.budget-display{font-size:16px;font-weight:800;color:var(--text);letter-spacing:-.5px}
 .budget-labels{display:flex;justify-content:space-between;font-size:11px;color:var(--subtle);margin-bottom:.5rem}
 .range-wrap{position:relative;height:44px;display:flex;align-items:center;margin-bottom:.6rem}
 .range-track{position:absolute;height:4px;width:100%;background:var(--surface3);border-radius:2px;pointer-events:none}
@@ -196,7 +199,7 @@ nav{background:rgba(8,9,14,0.85);border-bottom:1px solid rgba(0,229,255,0.08);po
 
 /* ─── RESULTS ──────────────────────────────────────────────── */
 .result-meta{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;margin-bottom:1.2rem;font-size:13px;color:var(--muted)}
-.result-meta strong{color:#fff}
+.result-meta strong{color:var(--text)}
 .no-res{padding:3rem;text-align:center;color:var(--muted);font-size:14px;background:var(--surface);border-radius:16px;border:1px solid rgba(255,255,255,0.06)}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:18px}
 
@@ -215,7 +218,7 @@ nav{background:rgba(8,9,14,0.85);border-bottom:1px solid rgba(0,229,255,0.08);po
 .tag-smart{background:rgba(0,229,255,.06);border:1px solid rgba(0,229,255,.15);color:var(--neon)}
 .tag-portable{background:rgba(177,78,255,.06);border:1px solid rgba(177,78,255,.15);color:var(--neon2)}
 .card-row1{display:flex;align-items:flex-start;justify-content:space-between;gap:8px;margin-bottom:4px}
-.card-name{font-size:15px;font-weight:800;letter-spacing:-.4px;line-height:1.2;color:#fff}
+.card-name{font-size:15px;font-weight:800;letter-spacing:-.4px;line-height:1.2;color:var(--text)}
 .spec-pill{background:rgba(0,229,255,.08);border:1px solid rgba(0,229,255,.2);color:var(--neon);font-size:11px;font-weight:700;padding:3px 10px;border-radius:6px;white-space:nowrap;flex-shrink:0}
 .watt-pill{background:rgba(0,229,255,.08);border:1px solid rgba(0,229,255,.2);color:var(--neon);font-size:13px;font-weight:700;padding:3px 10px;border-radius:6px;white-space:nowrap;flex-shrink:0}
 .cert{font-size:11px;font-weight:700;letter-spacing:.3px;margin-bottom:5px}
@@ -224,7 +227,7 @@ nav{background:rgba(8,9,14,0.85);border-bottom:1px solid rgba(0,229,255,0.08);po
 .feats{display:flex;flex-wrap:wrap;gap:4px;margin-bottom:12px}
 .feat{background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.06);color:var(--muted);font-size:10px;padding:3px 8px;border-radius:4px}
 .price-row{display:flex;align-items:baseline;gap:7px;margin-bottom:3px;flex-wrap:wrap;margin-top:auto}
-.price{font-size:22px;font-weight:900;color:#fff;letter-spacing:-.5px}
+.price{font-size:22px;font-weight:900;color:var(--text);letter-spacing:-.5px}
 .mrp{font-size:12px;color:var(--subtle);text-decoration:line-through}
 .save{background:linear-gradient(135deg,var(--green),#00C76A);color:#000;font-size:9px;font-weight:800;padding:2px 8px;border-radius:4px;letter-spacing:.5px}
 .buys{display:flex;gap:6px;flex-wrap:wrap;margin-top:14px}
@@ -253,7 +256,7 @@ nav{background:rgba(8,9,14,0.85);border-bottom:1px solid rgba(0,229,255,0.08);po
 /* ─── AUDIO DEMO ───────────────────────────────────────────── */
 .demo-layout{display:grid;grid-template-columns:1fr 1fr;gap:2rem;align-items:start}
 @media(max-width:768px){.demo-layout{grid-template-columns:1fr}}
-.demo-h{font-size:clamp(1.4rem,2.5vw,2rem);font-weight:800;letter-spacing:-1px;color:#fff;margin-bottom:.4rem}
+.demo-h{font-size:clamp(1.4rem,2.5vw,2rem);font-weight:800;letter-spacing:-1px;color:var(--text);margin-bottom:.4rem}
 .demo-sub{font-size:13px;color:var(--muted);margin-bottom:1.5rem}
 .demo-toggles{display:flex;flex-direction:column;gap:10px;margin-bottom:1.2rem}
 .demo-toggle{background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.06);border-radius:12px;padding:1rem 1.2rem;cursor:pointer;display:flex;align-items:center;gap:12px;transition:all .25s;width:100%;color:var(--muted)}
@@ -289,8 +292,8 @@ tr:nth-child(even) td:first-child{background:rgba(255,255,255,0.01)}
 tr:hover td{background:rgba(0,229,255,0.03)}
 tr:hover td:first-child{background:rgba(0,229,255,0.03)}
 td:first-child::after,th:first-child::after{content:'';position:absolute;top:0;right:-6px;bottom:0;width:6px;background:linear-gradient(to right,rgba(0,0,0,0.15),transparent);pointer-events:none}
-.tn{color:#fff;font-weight:700}
-.tp{font-weight:800;color:#fff;white-space:nowrap}
+.tn{color:var(--text);font-weight:700}
+.tp{font-weight:800;color:var(--text);white-space:nowrap}
 .ok{color:var(--green);font-weight:700}.no{color:var(--subtle)}
 .cpill{font-size:9px;font-weight:700;letter-spacing:.5px;padding:3px 9px;border-radius:20px;text-transform:uppercase;color:#fff;white-space:nowrap}
 .cp-a{background:#92400E}.cp-d{background:#2563EB}.cp-s{background:var(--subtle)}.cp-dts{background:var(--neon2)}
@@ -308,10 +311,10 @@ td:first-child::after,th:first-child::after{content:'';position:absolute;top:0;r
 .mc-thumb{width:48px;height:36px;object-fit:contain;border-radius:6px;background:rgba(255,255,255,0.03);flex-shrink:0}
 .mc-thumb-ph{width:48px;height:36px;background:rgba(255,255,255,0.03);border-radius:6px;flex-shrink:0}
 .mc-info{flex:1;min-width:0}
-.mc-name{font-size:13px;font-weight:700;color:#fff;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mc-name{font-size:13px;font-weight:700;color:var(--text);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .mc-meta{font-size:11px;color:var(--muted);margin-top:1px}
 .mc-right{display:flex;flex-direction:column;align-items:flex-end;gap:3px;flex-shrink:0}
-.mc-price{font-size:14px;font-weight:800;color:#fff}
+.mc-price{font-size:14px;font-weight:800;color:var(--text)}
 .mc-chevron{font-size:12px;color:var(--subtle);transition:transform .25s}
 .mc-expand{max-height:0;overflow:hidden;transition:max-height .35s ease}
 .mc-row.open .mc-expand{max-height:300px}
@@ -416,7 +419,24 @@ footer a:hover{color:var(--neon2);text-shadow:0 0 8px rgba(177,78,255,.4)}
 [data-theme="light"] .mc-buy-zeb{background:var(--text);color:#fff}
 [data-theme="light"] .mobile-compare{border-color:var(--border2)}
 [data-theme="light"] .sec-h2{color:var(--text)}
-[data-theme="light"] .hero-eyebrow{animation:none}
+
+/* ─── LIGHT THEME — Nav + Hero (soft light blue) ──────────── */
+[data-theme="light"] nav{background:rgba(255,255,255,0.92);border-bottom:1px solid var(--border2)}
+[data-theme="light"] .nav-links a{color:var(--muted)}
+[data-theme="light"] .nav-links a:hover{color:var(--accent);text-shadow:none}
+[data-theme="light"] .hero{background:linear-gradient(165deg,#E8F1FF 0%,#F3F8FF 55%,#FFFFFF 100%)}
+[data-theme="light"] .hero::before{background:linear-gradient(90deg,transparent,#4F6EF7,#7C3AED,transparent);opacity:.4}
+[data-theme="light"] .hero-bg{background:radial-gradient(ellipse 70% 50% at 30% 60%,rgba(79,110,247,.12),transparent 60%),radial-gradient(ellipse 50% 40% at 70% 30%,rgba(124,58,237,.08),transparent 55%)}
+[data-theme="light"] .hero-grid{background-image:linear-gradient(rgba(79,110,247,.06) 1px,transparent 1px),linear-gradient(90deg,rgba(79,110,247,.06) 1px,transparent 1px)}
+[data-theme="light"] .hero-eyebrow{color:#3451D1;animation:none}
+[data-theme="light"] .hero h1{color:#0C111D}
+[data-theme="light"] .hero h1 em{background:linear-gradient(135deg,#4F6EF7,#7C3AED);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;filter:none}
+[data-theme="light"] .hero-sub{color:#4A5568}
+[data-theme="light"] .btn-hero{color:#fff;background:linear-gradient(135deg,#4F6EF7,#7C3AED);border-color:transparent;box-shadow:0 4px 24px rgba(79,110,247,.35);animation:none}
+[data-theme="light"] .btn-hero:hover{background:linear-gradient(135deg,#3451D1,#6B21A8);color:#fff;box-shadow:0 8px 32px rgba(79,110,247,.45)}
+[data-theme="light"] .stat-item strong{color:#0C111D}
+[data-theme="light"] .stat-item span{color:#94A3B8}
+[data-theme="light"] .stat-item:not(:last-child)::after{background:linear-gradient(transparent,rgba(79,110,247,.25),transparent)}
 
 
 
@@ -519,10 +539,8 @@ footer a:hover{color:var(--neon2);text-shadow:0 0 8px rgba(177,78,255,.4)}
 <nav>
   <div class="nav-inner">
     <a href="https://zebronics.com" class="logo" target="_blank">
-      <img src="./zeb-logo.png" alt="" class="logo-img" width="0" height="0" style="background:transparent;border:0;outline:0"
-           onload="this.style.width='auto';this.style.height='26px'"
-           onerror="this.style.display='none';document.getElementById('logoFallback').style.display='inline'">
-      <span class="logo-text" id="logoFallback" style="display:none;color:var(--neon);font-weight:900;font-size:18px;letter-spacing:2px">ZEBRONICS</span>
+      <img src="./img/zeb-logo-white.png" alt="Zebronics" class="logo-img logo-dark">
+      <img src="./img/zeb-logo-black.png" alt="Zebronics" class="logo-img logo-light">
       <span class="logo-pill">Product Finder</span>
     </a>
     <div class="nav-links">
@@ -543,7 +561,7 @@ footer a:hover{color:var(--neon2);text-shadow:0 0 8px rgba(177,78,255,.4)}
   <div class="hero-grid"></div>
   <!-- orbs removed -->
   <div class="hero-content">
-    <div class="hero-eyebrow">Soundbar · Headphone · Projector · India</div>
+    <div class="hero-eyebrow">Technology Tailored For You</div>
     <h1>Find the <em>perfect</em><br>match.</h1>
     <p class="hero-sub">Soundbar from ₹2,999 · Headphone from ₹799 · Projector from ₹7,999.<br>Every room. Every use case. Three questions. Instant match.</p>
     <button class="btn-hero" onclick="document.getElementById('catTabsWrap').scrollIntoView({behavior:'smooth'})">

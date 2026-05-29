@@ -1,118 +1,58 @@
 {
-  "zeb_pj_lp1000": {
-    "room": {
-      "bedroom": 5.0,
-      "living": 3.0,
-      "theatre": 2.0,
-      "outdoor": 1.0
-    },
-    "throw": {
-      "short": 5.0,
-      "medium": 3.0,
-      "long": 1.0
-    },
-    "use": {
-      "theatre": 4.0,
-      "gaming": 3.0,
-      "presentations": 4.0,
-      "outdoor": 3.0,
-      "portable": 1.0
-    },
-    "res": {
-      "hd": 3.0,
-      "fhd": 5.0,
-      "2k": 3.0,
-      "4k": 1.0
-    },
-    "light": {
-      "dark": 5.0,
-      "some": 3.0
-    }
-  },
   "zeb_pj_pixaplay_12": {
     "room": {
       "bedroom": 5.0,
       "living": 3.0,
-      "theatre": 2.0,
-      "outdoor": 1.0
+      "theatre": 3.0,
+      "outdoor": 2.0
     },
     "throw": {
-      "short": 5.0,
-      "medium": 3.0,
-      "long": 1.0
+      "short": 3.0,
+      "medium": 5.0,
+      "long": 4.0
     },
     "use": {
-      "theatre": 4.0,
+      "theatre": 3.0,
       "gaming": 3.0,
-      "presentations": 4.0,
-      "outdoor": 3.0,
-      "portable": 1.0
+      "presentations": 3.0,
+      "outdoor": 2.0,
+      "portable": 3.0
     },
     "res": {
-      "hd": 3.0,
+      "hd": 4.0,
       "fhd": 5.0,
       "2k": 3.0,
-      "4k": 1.0
+      "4k": 2.0
     },
     "light": {
       "dark": 5.0,
-      "some": 3.0
-    }
-  },
-  "zeb_pj_pixaplay_14": {
-    "room": {
-      "bedroom": 5.0,
-      "living": 3.0,
-      "theatre": 2.0,
-      "outdoor": 1.0
-    },
-    "throw": {
-      "short": 5.0,
-      "medium": 3.0,
-      "long": 1.0
-    },
-    "use": {
-      "theatre": 4.0,
-      "gaming": 3.0,
-      "presentations": 4.0,
-      "outdoor": 3.0,
-      "portable": 1.0
-    },
-    "res": {
-      "hd": 3.0,
-      "fhd": 5.0,
-      "2k": 3.0,
-      "4k": 1.0
-    },
-    "light": {
-      "dark": 5.0,
-      "some": 3.0
+      "some": 2.0
     }
   },
   "zeb_pj_pixaplay_15": {
     "room": {
-      "bedroom": 5.0,
+      "bedroom": 4.0,
       "living": 3.0,
-      "theatre": 2.0,
-      "outdoor": 1.0
+      "theatre": 4.0,
+      "outdoor": 2.0
     },
     "throw": {
-      "short": 5.0,
-      "medium": 3.0,
-      "long": 1.0
+      "short": 3.0,
+      "medium": 5.0,
+      "long": 4.0
     },
     "use": {
       "theatre": 4.0,
-      "gaming": 3.0,
-      "presentations": 4.0,
-      "outdoor": 3.0,
-      "portable": 1.0
+      "gaming": 4.0,
+      "presentations": 3.0,
+      "outdoor": 2.0,
+      "portable": 3.0
     },
     "res": {
-      "hd": 3.0,
+      "hd": 4.0,
       "fhd": 5.0,
       "2k": 3.0,
-      "4k": 1.0
+      "4k": 2.0
     },
     "light": {
       "dark": 5.0,
@@ -121,88 +61,88 @@
   },
   "zeb_pj_pixaplay_16": {
     "room": {
-      "bedroom": 5.0,
+      "bedroom": 4.0,
       "living": 4.0,
       "theatre": 4.0,
-      "outdoor": 1.0
+      "outdoor": 3.0
     },
     "throw": {
-      "short": 5.0,
-      "medium": 3.0,
-      "long": 1.0
+      "short": 3.0,
+      "medium": 5.0,
+      "long": 4.0
     },
     "use": {
       "theatre": 4.0,
-      "gaming": 3.0,
+      "gaming": 4.0,
       "presentations": 4.0,
       "outdoor": 3.0,
-      "portable": 1.0
+      "portable": 2.0
     },
     "res": {
-      "hd": 3.0,
+      "hd": 4.0,
       "fhd": 5.0,
       "2k": 3.0,
-      "4k": 1.0
+      "4k": 2.0
     },
     "light": {
       "dark": 5.0,
-      "some": 3.0
+      "some": 4.0
     }
   },
   "zeb_pj_pixaplay_17": {
     "room": {
-      "bedroom": 5.0,
-      "living": 4.0,
+      "bedroom": 4.0,
+      "living": 5.0,
       "theatre": 4.0,
-      "outdoor": 1.0
+      "outdoor": 4.0
     },
     "throw": {
-      "short": 5.0,
-      "medium": 3.0,
-      "long": 1.0
+      "short": 3.0,
+      "medium": 5.0,
+      "long": 4.0
     },
     "use": {
       "theatre": 4.0,
-      "gaming": 3.0,
-      "presentations": 4.0,
-      "outdoor": 3.0,
-      "portable": 1.0
+      "gaming": 4.0,
+      "presentations": 5.0,
+      "outdoor": 4.0,
+      "portable": 2.0
     },
     "res": {
-      "hd": 3.0,
+      "hd": 4.0,
       "fhd": 5.0,
       "2k": 3.0,
-      "4k": 1.0
+      "4k": 2.0
     },
     "light": {
       "dark": 5.0,
-      "some": 3.0
+      "some": 4.0
     }
   },
   "zeb_pj_pixaplay_18": {
     "room": {
-      "bedroom": 5.0,
+      "bedroom": 4.0,
       "living": 3.0,
-      "theatre": 2.0,
-      "outdoor": 1.0
+      "theatre": 4.0,
+      "outdoor": 2.0
     },
     "throw": {
-      "short": 5.0,
-      "medium": 3.0,
-      "long": 1.0
+      "short": 3.0,
+      "medium": 5.0,
+      "long": 4.0
     },
     "use": {
       "theatre": 4.0,
-      "gaming": 3.0,
-      "presentations": 4.0,
-      "outdoor": 3.0,
-      "portable": 1.0
+      "gaming": 4.0,
+      "presentations": 3.0,
+      "outdoor": 2.0,
+      "portable": 3.0
     },
     "res": {
-      "hd": 3.0,
+      "hd": 4.0,
       "fhd": 5.0,
       "2k": 3.0,
-      "4k": 1.0
+      "4k": 2.0
     },
     "light": {
       "dark": 5.0,
@@ -211,178 +151,118 @@
   },
   "zeb_pj_pixaplay_20": {
     "room": {
-      "bedroom": 5.0,
-      "living": 3.0,
+      "bedroom": 4.0,
+      "living": 1.0,
       "theatre": 2.0,
       "outdoor": 1.0
     },
     "throw": {
-      "short": 5.0,
-      "medium": 3.0,
-      "long": 1.0
+      "short": 3.0,
+      "medium": 5.0,
+      "long": 4.0
     },
     "use": {
-      "theatre": 4.0,
-      "gaming": 3.0,
-      "presentations": 4.0,
-      "outdoor": 3.0,
-      "portable": 1.0
-    },
-    "res": {
-      "hd": 3.0,
-      "fhd": 5.0,
-      "2k": 3.0,
-      "4k": 1.0
-    },
-    "light": {
-      "dark": 5.0,
-      "some": 3.0
-    }
-  },
-  "zeb_pj_pixaplay_21": {
-    "room": {
-      "bedroom": 5.0,
-      "living": 3.0,
       "theatre": 2.0,
-      "outdoor": 1.0
-    },
-    "throw": {
-      "short": 5.0,
-      "medium": 3.0,
-      "long": 1.0
-    },
-    "use": {
-      "theatre": 4.0,
-      "gaming": 3.0,
-      "presentations": 4.0,
-      "outdoor": 3.0,
-      "portable": 1.0
+      "gaming": 2.0,
+      "presentations": 1.0,
+      "outdoor": 1.0,
+      "portable": 3.0
     },
     "res": {
-      "hd": 3.0,
-      "fhd": 5.0,
-      "2k": 3.0,
+      "hd": 5.0,
+      "fhd": 2.0,
+      "2k": 1.0,
       "4k": 1.0
     },
     "light": {
       "dark": 5.0,
-      "some": 3.0
+      "some": 1.0
     }
   },
   "zeb_pj_pixaplay_22": {
     "room": {
-      "bedroom": 5.0,
-      "living": 3.0,
+      "bedroom": 4.0,
+      "living": 1.0,
       "theatre": 2.0,
       "outdoor": 1.0
     },
     "throw": {
-      "short": 5.0,
-      "medium": 3.0,
-      "long": 1.0
+      "short": 3.0,
+      "medium": 5.0,
+      "long": 4.0
     },
     "use": {
-      "theatre": 4.0,
-      "gaming": 3.0,
-      "presentations": 4.0,
-      "outdoor": 3.0,
-      "portable": 1.0
-    },
-    "res": {
-      "hd": 3.0,
-      "fhd": 5.0,
-      "2k": 3.0,
-      "4k": 1.0
-    },
-    "light": {
-      "dark": 5.0,
-      "some": 3.0
-    }
-  },
-  "zeb_pj_pixaplay_23": {
-    "room": {
-      "bedroom": 5.0,
-      "living": 3.0,
       "theatre": 2.0,
-      "outdoor": 1.0
-    },
-    "throw": {
-      "short": 5.0,
-      "medium": 3.0,
-      "long": 1.0
-    },
-    "use": {
-      "theatre": 4.0,
-      "gaming": 3.0,
-      "presentations": 4.0,
-      "outdoor": 3.0,
-      "portable": 1.0
+      "gaming": 2.0,
+      "presentations": 1.0,
+      "outdoor": 1.0,
+      "portable": 3.0
     },
     "res": {
-      "hd": 3.0,
-      "fhd": 5.0,
-      "2k": 3.0,
+      "hd": 5.0,
+      "fhd": 2.0,
+      "2k": 1.0,
       "4k": 1.0
     },
     "light": {
       "dark": 5.0,
-      "some": 3.0
+      "some": 1.0
     }
   },
   "zeb_pj_pixaplay_24": {
     "room": {
-      "bedroom": 5.0,
-      "living": 3.0,
+      "bedroom": 4.0,
+      "living": 2.0,
       "theatre": 2.0,
-      "outdoor": 1.0
+      "outdoor": 2.0
     },
     "throw": {
-      "short": 5.0,
-      "medium": 3.0,
-      "long": 1.0
+      "short": 3.0,
+      "medium": 5.0,
+      "long": 4.0
     },
     "use": {
-      "theatre": 4.0,
-      "gaming": 3.0,
-      "presentations": 4.0,
-      "outdoor": 3.0,
-      "portable": 1.0
+      "theatre": 2.0,
+      "gaming": 2.0,
+      "presentations": 2.0,
+      "outdoor": 2.0,
+      "portable": 3.0
     },
     "res": {
-      "hd": 3.0,
-      "fhd": 5.0,
-      "2k": 3.0,
+      "hd": 5.0,
+      "fhd": 2.0,
+      "2k": 1.0,
       "4k": 1.0
     },
     "light": {
       "dark": 5.0,
-      "some": 3.0
+      "some": 2.0
     }
   },
   "zeb_pj_pixaplay_25": {
     "room": {
-      "bedroom": 5.0,
+      "bedroom": 4.0,
       "living": 3.0,
-      "theatre": 2.0,
-      "outdoor": 1.0
+      "theatre": 4.0,
+      "outdoor": 2.0
     },
     "throw": {
-      "short": 5.0,
-      "medium": 3.0,
-      "long": 1.0
+      "short": 3.0,
+      "medium": 5.0,
+      "long": 4.0
     },
     "use": {
       "theatre": 4.0,
-      "gaming": 3.0,
-      "presentations": 4.0,
-      "outdoor": 3.0,
-      "portable": 1.0
+      "gaming": 4.0,
+      "presentations": 3.0,
+      "outdoor": 2.0,
+      "portable": 3.0
     },
     "res": {
-      "hd": 3.0,
+      "hd": 4.0,
       "fhd": 5.0,
       "2k": 3.0,
-      "4k": 1.0
+      "4k": 2.0
     },
     "light": {
       "dark": 5.0,
@@ -391,538 +271,388 @@
   },
   "zeb_pj_pixaplay_26": {
     "room": {
-      "bedroom": 5.0,
+      "bedroom": 4.0,
       "living": 4.0,
       "theatre": 4.0,
-      "outdoor": 1.0
+      "outdoor": 3.0
     },
     "throw": {
-      "short": 5.0,
-      "medium": 3.0,
-      "long": 1.0
+      "short": 3.0,
+      "medium": 5.0,
+      "long": 4.0
     },
     "use": {
       "theatre": 4.0,
-      "gaming": 3.0,
+      "gaming": 4.0,
       "presentations": 4.0,
       "outdoor": 3.0,
-      "portable": 1.0
+      "portable": 3.0
     },
     "res": {
-      "hd": 3.0,
+      "hd": 4.0,
       "fhd": 5.0,
       "2k": 3.0,
-      "4k": 1.0
+      "4k": 2.0
     },
     "light": {
       "dark": 5.0,
-      "some": 3.0
-    }
-  },
-  "zeb_pj_pixaplay_27": {
-    "room": {
-      "bedroom": 5.0,
-      "living": 4.0,
-      "theatre": 4.0,
-      "outdoor": 1.0
-    },
-    "throw": {
-      "short": 5.0,
-      "medium": 3.0,
-      "long": 1.0
-    },
-    "use": {
-      "theatre": 4.0,
-      "gaming": 3.0,
-      "presentations": 4.0,
-      "outdoor": 3.0,
-      "portable": 1.0
-    },
-    "res": {
-      "hd": 3.0,
-      "fhd": 5.0,
-      "2k": 3.0,
-      "4k": 1.0
-    },
-    "light": {
-      "dark": 5.0,
-      "some": 3.0
-    }
-  },
-  "zeb_pj_pixaplay_28": {
-    "room": {
-      "bedroom": 5.0,
-      "living": 4.0,
-      "theatre": 4.0,
-      "outdoor": 1.0
-    },
-    "throw": {
-      "short": 5.0,
-      "medium": 3.0,
-      "long": 1.0
-    },
-    "use": {
-      "theatre": 4.0,
-      "gaming": 3.0,
-      "presentations": 4.0,
-      "outdoor": 3.0,
-      "portable": 1.0
-    },
-    "res": {
-      "hd": 3.0,
-      "fhd": 5.0,
-      "2k": 3.0,
-      "4k": 1.0
-    },
-    "light": {
-      "dark": 5.0,
-      "some": 3.0
+      "some": 4.0
     }
   },
   "zeb_pj_pixaplay_29": {
     "room": {
-      "bedroom": 5.0,
-      "living": 4.0,
+      "bedroom": 4.0,
+      "living": 5.0,
       "theatre": 4.0,
-      "outdoor": 1.0
+      "outdoor": 4.0
     },
     "throw": {
-      "short": 5.0,
-      "medium": 3.0,
-      "long": 1.0
+      "short": 3.0,
+      "medium": 5.0,
+      "long": 4.0
     },
     "use": {
       "theatre": 4.0,
-      "gaming": 3.0,
-      "presentations": 4.0,
-      "outdoor": 3.0,
-      "portable": 1.0
+      "gaming": 4.0,
+      "presentations": 5.0,
+      "outdoor": 4.0,
+      "portable": 2.0
     },
     "res": {
-      "hd": 3.0,
+      "hd": 4.0,
       "fhd": 5.0,
       "2k": 3.0,
-      "4k": 1.0
+      "4k": 2.0
     },
     "light": {
-      "dark": 5.0,
-      "some": 3.0
+      "dark": 4.0,
+      "some": 5.0
     }
   },
   "zeb_pj_pixaplay_30": {
     "room": {
-      "bedroom": 5.0,
-      "living": 3.0,
+      "bedroom": 4.0,
+      "living": 1.0,
       "theatre": 2.0,
       "outdoor": 1.0
     },
     "throw": {
-      "short": 5.0,
-      "medium": 3.0,
-      "long": 1.0
+      "short": 3.0,
+      "medium": 5.0,
+      "long": 4.0
     },
     "use": {
-      "theatre": 4.0,
-      "gaming": 3.0,
-      "presentations": 4.0,
-      "outdoor": 3.0,
-      "portable": 1.0
-    },
-    "res": {
-      "hd": 3.0,
-      "fhd": 5.0,
-      "2k": 3.0,
-      "4k": 1.0
-    },
-    "light": {
-      "dark": 5.0,
-      "some": 3.0
-    }
-  },
-  "zeb_pj_pixaplay_33": {
-    "room": {
-      "bedroom": 5.0,
-      "living": 3.0,
       "theatre": 2.0,
-      "outdoor": 1.0
-    },
-    "throw": {
-      "short": 5.0,
-      "medium": 3.0,
-      "long": 1.0
-    },
-    "use": {
-      "theatre": 4.0,
-      "gaming": 3.0,
-      "presentations": 4.0,
-      "outdoor": 3.0,
-      "portable": 1.0
+      "gaming": 2.0,
+      "presentations": 1.0,
+      "outdoor": 1.0,
+      "portable": 3.0
     },
     "res": {
-      "hd": 3.0,
-      "fhd": 5.0,
-      "2k": 3.0,
+      "hd": 5.0,
+      "fhd": 2.0,
+      "2k": 1.0,
       "4k": 1.0
     },
     "light": {
       "dark": 5.0,
-      "some": 3.0
+      "some": 1.0
     }
   },
   "zeb_pj_pixaplay_34": {
     "room": {
-      "bedroom": 5.0,
-      "living": 3.0,
+      "bedroom": 4.0,
+      "living": 2.0,
       "theatre": 2.0,
-      "outdoor": 1.0
+      "outdoor": 2.0
     },
     "throw": {
-      "short": 5.0,
-      "medium": 3.0,
-      "long": 1.0
+      "short": 3.0,
+      "medium": 5.0,
+      "long": 4.0
     },
     "use": {
-      "theatre": 4.0,
-      "gaming": 3.0,
-      "presentations": 4.0,
-      "outdoor": 3.0,
-      "portable": 1.0
+      "theatre": 2.0,
+      "gaming": 2.0,
+      "presentations": 2.0,
+      "outdoor": 2.0,
+      "portable": 3.0
     },
     "res": {
-      "hd": 3.0,
-      "fhd": 5.0,
-      "2k": 3.0,
+      "hd": 5.0,
+      "fhd": 2.0,
+      "2k": 1.0,
       "4k": 1.0
     },
     "light": {
       "dark": 5.0,
-      "some": 3.0
+      "some": 2.0
     }
   },
   "zeb_pj_pixaplay_35": {
     "room": {
       "bedroom": 5.0,
       "living": 3.0,
-      "theatre": 2.0,
-      "outdoor": 1.0
+      "theatre": 4.0,
+      "outdoor": 2.0
     },
     "throw": {
-      "short": 5.0,
-      "medium": 3.0,
-      "long": 1.0
+      "short": 3.0,
+      "medium": 5.0,
+      "long": 4.0
     },
     "use": {
       "theatre": 4.0,
-      "gaming": 3.0,
-      "presentations": 4.0,
-      "outdoor": 3.0,
-      "portable": 1.0
+      "gaming": 4.0,
+      "presentations": 3.0,
+      "outdoor": 2.0,
+      "portable": 3.0
     },
     "res": {
       "hd": 3.0,
       "fhd": 5.0,
-      "2k": 4.5,
-      "4k": 4.0
+      "2k": 5.0,
+      "4k": 5.0
     },
     "light": {
       "dark": 5.0,
-      "some": 3.0
+      "some": 2.0
     }
   },
   "zeb_pj_pixaplay_38": {
     "room": {
       "bedroom": 5.0,
       "living": 4.0,
-      "theatre": 4.0,
-      "outdoor": 1.0
+      "theatre": 5.0,
+      "outdoor": 3.0
     },
     "throw": {
-      "short": 5.0,
-      "medium": 3.0,
-      "long": 1.0
+      "short": 3.0,
+      "medium": 5.0,
+      "long": 4.0
     },
     "use": {
-      "theatre": 4.0,
-      "gaming": 3.0,
+      "theatre": 5.0,
+      "gaming": 4.0,
       "presentations": 4.0,
       "outdoor": 3.0,
-      "portable": 1.0
+      "portable": 2.0
     },
     "res": {
       "hd": 3.0,
       "fhd": 5.0,
-      "2k": 4.5,
-      "4k": 4.0
+      "2k": 5.0,
+      "4k": 5.0
     },
     "light": {
       "dark": 5.0,
-      "some": 3.0
-    }
-  },
-  "zeb_pj_pixaplay_51": {
-    "room": {
-      "bedroom": 5.0,
-      "living": 3.0,
-      "theatre": 2.0,
-      "outdoor": 1.0
-    },
-    "throw": {
-      "short": 5.0,
-      "medium": 3.0,
-      "long": 1.0
-    },
-    "use": {
-      "theatre": 4.0,
-      "gaming": 3.0,
-      "presentations": 4.0,
-      "outdoor": 3.0,
-      "portable": 1.0
-    },
-    "res": {
-      "hd": 3.0,
-      "fhd": 5.0,
-      "2k": 3.0,
-      "4k": 1.0
-    },
-    "light": {
-      "dark": 5.0,
-      "some": 3.0
+      "some": 4.0
     }
   },
   "zeb_pj_pixaplay_53": {
     "room": {
-      "bedroom": 5.0,
-      "living": 3.0,
+      "bedroom": 4.0,
+      "living": 1.0,
       "theatre": 2.0,
       "outdoor": 1.0
     },
     "throw": {
-      "short": 5.0,
-      "medium": 3.0,
-      "long": 1.0
+      "short": 3.0,
+      "medium": 5.0,
+      "long": 4.0
     },
     "use": {
-      "theatre": 4.0,
-      "gaming": 3.0,
-      "presentations": 4.0,
-      "outdoor": 3.0,
-      "portable": 1.0
+      "theatre": 2.0,
+      "gaming": 2.0,
+      "presentations": 1.0,
+      "outdoor": 1.0,
+      "portable": 3.0
     },
     "res": {
-      "hd": 3.0,
-      "fhd": 5.0,
-      "2k": 3.0,
+      "hd": 5.0,
+      "fhd": 2.0,
+      "2k": 1.0,
       "4k": 1.0
     },
     "light": {
       "dark": 5.0,
-      "some": 3.0
+      "some": 1.0
     }
   },
   "zeb_pj_pixaplay_54": {
     "room": {
-      "bedroom": 5.0,
-      "living": 3.0,
+      "bedroom": 4.0,
+      "living": 1.0,
       "theatre": 2.0,
       "outdoor": 1.0
     },
     "throw": {
-      "short": 5.0,
-      "medium": 3.0,
-      "long": 1.0
+      "short": 3.0,
+      "medium": 5.0,
+      "long": 4.0
     },
     "use": {
-      "theatre": 4.0,
-      "gaming": 3.0,
-      "presentations": 4.0,
-      "outdoor": 3.0,
-      "portable": 1.0
+      "theatre": 2.0,
+      "gaming": 2.0,
+      "presentations": 1.0,
+      "outdoor": 1.0,
+      "portable": 3.0
     },
     "res": {
-      "hd": 3.0,
-      "fhd": 5.0,
-      "2k": 3.0,
+      "hd": 5.0,
+      "fhd": 2.0,
+      "2k": 1.0,
       "4k": 1.0
     },
     "light": {
       "dark": 5.0,
-      "some": 3.0
+      "some": 1.0
     }
   },
   "zeb_pj_pixaplay_55": {
     "room": {
-      "bedroom": 5.0,
+      "bedroom": 4.0,
       "living": 4.0,
       "theatre": 4.0,
-      "outdoor": 1.0
+      "outdoor": 3.0
     },
     "throw": {
-      "short": 5.0,
-      "medium": 3.0,
-      "long": 1.0
+      "short": 3.0,
+      "medium": 5.0,
+      "long": 4.0
     },
     "use": {
       "theatre": 4.0,
-      "gaming": 3.0,
+      "gaming": 4.0,
       "presentations": 4.0,
       "outdoor": 3.0,
-      "portable": 1.0
+      "portable": 2.0
     },
     "res": {
-      "hd": 3.0,
+      "hd": 4.0,
       "fhd": 5.0,
       "2k": 3.0,
-      "4k": 1.0
+      "4k": 2.0
     },
     "light": {
       "dark": 5.0,
-      "some": 3.0
+      "some": 4.0
     }
   },
   "zeb_pj_pixaplay_58": {
     "room": {
-      "bedroom": 5.0,
+      "bedroom": 4.0,
       "living": 4.0,
       "theatre": 4.0,
-      "outdoor": 1.0
+      "outdoor": 3.0
     },
     "throw": {
-      "short": 5.0,
-      "medium": 3.0,
-      "long": 1.0
+      "short": 3.0,
+      "medium": 5.0,
+      "long": 4.0
     },
     "use": {
       "theatre": 4.0,
-      "gaming": 3.0,
+      "gaming": 4.0,
       "presentations": 4.0,
       "outdoor": 3.0,
-      "portable": 1.0
+      "portable": 2.0
     },
     "res": {
-      "hd": 3.0,
+      "hd": 4.0,
       "fhd": 5.0,
       "2k": 3.0,
-      "4k": 1.0
+      "4k": 2.0
     },
     "light": {
       "dark": 5.0,
-      "some": 3.0
+      "some": 4.0
     }
   },
   "zeb_pj_pixaplay_59": {
     "room": {
-      "bedroom": 5.0,
-      "living": 4.0,
+      "bedroom": 4.0,
+      "living": 5.0,
       "theatre": 4.0,
-      "outdoor": 1.0
+      "outdoor": 4.0
     },
     "throw": {
-      "short": 5.0,
-      "medium": 3.0,
-      "long": 1.0
+      "short": 3.0,
+      "medium": 5.0,
+      "long": 4.0
     },
     "use": {
       "theatre": 4.0,
-      "gaming": 3.0,
-      "presentations": 4.0,
-      "outdoor": 3.0,
-      "portable": 1.0
+      "gaming": 4.0,
+      "presentations": 5.0,
+      "outdoor": 4.0,
+      "portable": 2.0
     },
     "res": {
-      "hd": 3.0,
+      "hd": 4.0,
       "fhd": 5.0,
       "2k": 3.0,
-      "4k": 1.0
+      "4k": 2.0
     },
     "light": {
       "dark": 5.0,
-      "some": 3.0
+      "some": 5.0
     }
   },
   "zeb_pj_pixaplay_62": {
     "room": {
-      "bedroom": 5.0,
-      "living": 3.0,
+      "bedroom": 4.0,
+      "living": 1.0,
       "theatre": 2.0,
       "outdoor": 1.0
     },
     "throw": {
-      "short": 5.0,
-      "medium": 3.0,
-      "long": 1.0
+      "short": 3.0,
+      "medium": 5.0,
+      "long": 4.0
     },
     "use": {
-      "theatre": 4.0,
-      "gaming": 3.0,
-      "presentations": 4.0,
-      "outdoor": 3.0,
-      "portable": 1.0
+      "theatre": 2.0,
+      "gaming": 2.0,
+      "presentations": 1.0,
+      "outdoor": 1.0,
+      "portable": 3.0
     },
     "res": {
-      "hd": 3.0,
-      "fhd": 5.0,
-      "2k": 3.0,
+      "hd": 5.0,
+      "fhd": 2.0,
+      "2k": 1.0,
       "4k": 1.0
     },
     "light": {
       "dark": 5.0,
-      "some": 3.0
+      "some": 1.0
     }
   },
   "zeb_pj_pixaplay_63": {
     "room": {
-      "bedroom": 5.0,
+      "bedroom": 4.0,
       "living": 3.0,
-      "theatre": 2.0,
-      "outdoor": 1.0
+      "theatre": 4.0,
+      "outdoor": 2.0
     },
     "throw": {
-      "short": 5.0,
-      "medium": 3.0,
-      "long": 1.0
+      "short": 3.0,
+      "medium": 5.0,
+      "long": 4.0
     },
     "use": {
       "theatre": 4.0,
-      "gaming": 3.0,
-      "presentations": 4.0,
-      "outdoor": 3.0,
-      "portable": 1.0
+      "gaming": 4.0,
+      "presentations": 3.0,
+      "outdoor": 2.0,
+      "portable": 3.0
     },
     "res": {
-      "hd": 3.0,
+      "hd": 4.0,
       "fhd": 5.0,
       "2k": 3.0,
-      "4k": 1.0
-    },
-    "light": {
-      "dark": 5.0,
-      "some": 3.0
-    }
-  },
-  "zeb_pj_pixaplay_64": {
-    "room": {
-      "bedroom": 5.0,
-      "living": 3.0,
-      "theatre": 2.0,
-      "outdoor": 1.0
-    },
-    "throw": {
-      "short": 5.0,
-      "medium": 3.0,
-      "long": 1.0
-    },
-    "use": {
-      "theatre": 4.0,
-      "gaming": 3.0,
-      "presentations": 4.0,
-      "outdoor": 3.0,
-      "portable": 1.0
-    },
-    "res": {
-      "hd": 3.0,
-      "fhd": 5.0,
-      "2k": 4.5,
-      "4k": 4.0
+      "4k": 2.0
     },
     "light": {
       "dark": 5.0,
@@ -933,296 +663,236 @@
     "room": {
       "bedroom": 5.0,
       "living": 4.0,
-      "theatre": 4.0,
-      "outdoor": 1.0
+      "theatre": 5.0,
+      "outdoor": 3.0
     },
     "throw": {
-      "short": 5.0,
-      "medium": 3.0,
-      "long": 1.0
+      "short": 3.0,
+      "medium": 5.0,
+      "long": 4.0
     },
     "use": {
-      "theatre": 4.0,
-      "gaming": 3.0,
+      "theatre": 5.0,
+      "gaming": 4.0,
       "presentations": 4.0,
       "outdoor": 3.0,
-      "portable": 1.0
+      "portable": 2.0
     },
     "res": {
       "hd": 3.0,
       "fhd": 5.0,
-      "2k": 4.5,
-      "4k": 4.0
+      "2k": 5.0,
+      "4k": 5.0
     },
     "light": {
       "dark": 5.0,
-      "some": 3.0
-    }
-  },
-  "zeb_pj_pixaplay_66": {
-    "room": {
-      "bedroom": 5.0,
-      "living": 4.0,
-      "theatre": 4.0,
-      "outdoor": 1.0
-    },
-    "throw": {
-      "short": 5.0,
-      "medium": 3.0,
-      "long": 1.0
-    },
-    "use": {
-      "theatre": 4.0,
-      "gaming": 3.0,
-      "presentations": 4.0,
-      "outdoor": 3.0,
-      "portable": 1.0
-    },
-    "res": {
-      "hd": 3.0,
-      "fhd": 5.0,
-      "2k": 3.0,
-      "4k": 1.0
-    },
-    "light": {
-      "dark": 5.0,
-      "some": 3.0
+      "some": 4.0
     }
   },
   "zeb_pj_pixaplay_67": {
     "room": {
       "bedroom": 5.0,
-      "living": 3.0,
-      "theatre": 2.0,
-      "outdoor": 1.0
+      "living": 4.0,
+      "theatre": 5.0,
+      "outdoor": 3.0
     },
     "throw": {
-      "short": 5.0,
-      "medium": 3.0,
-      "long": 1.0
+      "short": 3.0,
+      "medium": 5.0,
+      "long": 4.0
     },
     "use": {
-      "theatre": 4.0,
-      "gaming": 3.0,
+      "theatre": 5.0,
+      "gaming": 4.0,
       "presentations": 4.0,
       "outdoor": 3.0,
-      "portable": 1.0
+      "portable": 3.0
     },
     "res": {
       "hd": 3.0,
       "fhd": 5.0,
-      "2k": 4.5,
-      "4k": 4.0
+      "2k": 5.0,
+      "4k": 5.0
     },
     "light": {
       "dark": 5.0,
-      "some": 3.0
+      "some": 4.0
     }
   },
   "zeb_pj_pixaplay_68": {
     "room": {
-      "bedroom": 5.0,
-      "living": 4.0,
+      "bedroom": 4.0,
+      "living": 5.0,
       "theatre": 4.0,
-      "outdoor": 1.0
+      "outdoor": 4.0
     },
     "throw": {
-      "short": 5.0,
-      "medium": 3.0,
-      "long": 1.0
+      "short": 3.0,
+      "medium": 5.0,
+      "long": 4.0
     },
     "use": {
       "theatre": 4.0,
-      "gaming": 3.0,
-      "presentations": 4.0,
-      "outdoor": 3.0,
-      "portable": 1.0
+      "gaming": 4.0,
+      "presentations": 5.0,
+      "outdoor": 4.0,
+      "portable": 2.0
     },
     "res": {
-      "hd": 3.0,
+      "hd": 4.0,
       "fhd": 5.0,
       "2k": 3.0,
-      "4k": 1.0
+      "4k": 2.0
     },
     "light": {
       "dark": 5.0,
-      "some": 3.0
-    }
-  },
-  "zeb_pj_pixaplay_72": {
-    "room": {
-      "bedroom": 5.0,
-      "living": 3.0,
-      "theatre": 2.0,
-      "outdoor": 1.0
-    },
-    "throw": {
-      "short": 5.0,
-      "medium": 3.0,
-      "long": 1.0
-    },
-    "use": {
-      "theatre": 4.0,
-      "gaming": 3.0,
-      "presentations": 4.0,
-      "outdoor": 3.0,
-      "portable": 1.0
-    },
-    "res": {
-      "hd": 3.0,
-      "fhd": 5.0,
-      "2k": 3.0,
-      "4k": 1.0
-    },
-    "light": {
-      "dark": 5.0,
-      "some": 3.0
+      "some": 4.0
     }
   },
   "zeb_pj_pixaplay_73": {
     "room": {
       "bedroom": 5.0,
       "living": 3.0,
-      "theatre": 2.0,
+      "theatre": 3.0,
       "outdoor": 1.0
     },
     "throw": {
-      "short": 5.0,
-      "medium": 3.0,
-      "long": 1.0
+      "short": 3.0,
+      "medium": 5.0,
+      "long": 4.0
     },
     "use": {
-      "theatre": 4.0,
+      "theatre": 3.0,
       "gaming": 3.0,
-      "presentations": 4.0,
-      "outdoor": 3.0,
-      "portable": 1.0
+      "presentations": 2.0,
+      "outdoor": 1.0,
+      "portable": 3.0
     },
     "res": {
       "hd": 3.0,
       "fhd": 5.0,
-      "2k": 4.5,
-      "4k": 4.0
+      "2k": 5.0,
+      "4k": 5.0
     },
     "light": {
       "dark": 5.0,
-      "some": 3.0
+      "some": 1.0
     }
   },
   "zeb_pj_pixaplay_74b": {
     "room": {
       "bedroom": 5.0,
-      "living": 3.0,
+      "living": 1.0,
       "theatre": 2.0,
-      "outdoor": 1.0
+      "outdoor": 3.0
     },
     "throw": {
-      "short": 5.0,
-      "medium": 3.0,
-      "long": 1.0
+      "short": 3.0,
+      "medium": 5.0,
+      "long": 4.0
     },
     "use": {
-      "theatre": 4.0,
-      "gaming": 3.0,
-      "presentations": 4.0,
+      "theatre": 2.0,
+      "gaming": 2.0,
+      "presentations": 1.0,
       "outdoor": 3.0,
       "portable": 5.0
     },
     "res": {
-      "hd": 3.0,
-      "fhd": 5.0,
-      "2k": 3.0,
+      "hd": 5.0,
+      "fhd": 2.0,
+      "2k": 1.0,
       "4k": 1.0
     },
     "light": {
       "dark": 5.0,
-      "some": 3.0
+      "some": 1.0
     }
   },
   "zeb_pj_pixaplay_75": {
     "room": {
       "bedroom": 5.0,
       "living": 3.0,
-      "theatre": 2.0,
-      "outdoor": 1.0
+      "theatre": 4.0,
+      "outdoor": 2.0
     },
     "throw": {
-      "short": 5.0,
-      "medium": 3.0,
-      "long": 1.0
+      "short": 3.0,
+      "medium": 5.0,
+      "long": 4.0
     },
     "use": {
       "theatre": 4.0,
-      "gaming": 3.0,
-      "presentations": 4.0,
-      "outdoor": 3.0,
-      "portable": 1.0
+      "gaming": 4.0,
+      "presentations": 3.0,
+      "outdoor": 2.0,
+      "portable": 3.0
     },
     "res": {
       "hd": 3.0,
       "fhd": 5.0,
-      "2k": 4.5,
-      "4k": 4.0
+      "2k": 5.0,
+      "4k": 5.0
     },
     "light": {
       "dark": 5.0,
-      "some": 3.0
+      "some": 2.0
     }
   },
   "zeb_pj_pixaplay_76b": {
     "room": {
       "bedroom": 5.0,
       "living": 3.0,
-      "theatre": 2.0,
-      "outdoor": 1.0
+      "theatre": 4.0,
+      "outdoor": 4.0
     },
     "throw": {
-      "short": 5.0,
-      "medium": 3.0,
-      "long": 1.0
+      "short": 3.0,
+      "medium": 5.0,
+      "long": 4.0
     },
     "use": {
       "theatre": 4.0,
-      "gaming": 3.0,
-      "presentations": 4.0,
-      "outdoor": 3.0,
+      "gaming": 4.0,
+      "presentations": 3.0,
+      "outdoor": 4.0,
       "portable": 5.0
     },
     "res": {
       "hd": 3.0,
       "fhd": 5.0,
-      "2k": 4.5,
-      "4k": 4.0
+      "2k": 5.0,
+      "4k": 5.0
     },
     "light": {
       "dark": 5.0,
-      "some": 3.0
+      "some": 2.0
     }
   },
   "zeb_pj_pixaplay_77g": {
     "room": {
       "bedroom": 5.0,
-      "living": 3.0,
-      "theatre": 2.0,
-      "outdoor": 1.0
+      "living": 4.0,
+      "theatre": 4.0,
+      "outdoor": 2.0
     },
     "throw": {
-      "short": 5.0,
-      "medium": 3.0,
-      "long": 1.0
+      "short": 3.0,
+      "medium": 5.0,
+      "long": 4.0
     },
     "use": {
       "theatre": 4.0,
-      "gaming": 3.0,
+      "gaming": 4.0,
       "presentations": 4.0,
-      "outdoor": 3.0,
-      "portable": 1.0
+      "outdoor": 2.0,
+      "portable": 3.0
     },
     "res": {
       "hd": 3.0,
       "fhd": 5.0,
-      "2k": 4.5,
-      "4k": 4.0
+      "2k": 5.0,
+      "4k": 5.0
     },
     "light": {
       "dark": 5.0,
@@ -1231,10 +901,10 @@
   },
   "zeb_pj_pixaplay_pro_500": {
     "room": {
-      "bedroom": 5.0,
+      "bedroom": 4.0,
       "living": 4.0,
       "theatre": 4.0,
-      "outdoor": 1.0
+      "outdoor": 3.0
     },
     "throw": {
       "short": 5.0,
@@ -1243,200 +913,20 @@
     },
     "use": {
       "theatre": 4.0,
-      "gaming": 3.0,
+      "gaming": 4.0,
       "presentations": 4.0,
       "outdoor": 3.0,
-      "portable": 1.0
+      "portable": 2.0
     },
     "res": {
-      "hd": 3.0,
+      "hd": 4.0,
       "fhd": 5.0,
       "2k": 3.0,
-      "4k": 1.0
+      "4k": 2.0
     },
     "light": {
-      "dark": 5.0,
-      "some": 3.0
-    }
-  },
-  "SCORING GUIDE": {
-    "room": {
-      "bedroom": 0,
-      "living": 0,
-      "theatre": 0,
-      "outdoor": 0
-    },
-    "throw": {
-      "short": 0,
-      "medium": 0,
-      "long": 0
-    },
-    "use": {
-      "theatre": 0,
-      "gaming": 0,
-      "presentations": 0,
-      "outdoor": 0,
-      "portable": 0
-    },
-    "res": {
-      "hd": 0,
-      "fhd": 0,
-      "2k": 0.0,
-      "4k": 0
-    },
-    "light": {
-      "dark": 0,
-      "some": 0
-    }
-  },
-  "5 = perfect fit — strongly recommended": {
-    "room": {
-      "bedroom": 0,
-      "living": 0,
-      "theatre": 0,
-      "outdoor": 0
-    },
-    "throw": {
-      "short": 0,
-      "medium": 0,
-      "long": 0
-    },
-    "use": {
-      "theatre": 0,
-      "gaming": 0,
-      "presentations": 0,
-      "outdoor": 0,
-      "portable": 0
-    },
-    "res": {
-      "hd": 0,
-      "fhd": 0,
-      "2k": 0.0,
-      "4k": 0
-    },
-    "light": {
-      "dark": 0,
-      "some": 0
-    }
-  },
-  "4 = good fit": {
-    "room": {
-      "bedroom": 0,
-      "living": 0,
-      "theatre": 0,
-      "outdoor": 0
-    },
-    "throw": {
-      "short": 0,
-      "medium": 0,
-      "long": 0
-    },
-    "use": {
-      "theatre": 0,
-      "gaming": 0,
-      "presentations": 0,
-      "outdoor": 0,
-      "portable": 0
-    },
-    "res": {
-      "hd": 0,
-      "fhd": 0,
-      "2k": 0.0,
-      "4k": 0
-    },
-    "light": {
-      "dark": 0,
-      "some": 0
-    }
-  },
-  "3 = acceptable / neutral": {
-    "room": {
-      "bedroom": 0,
-      "living": 0,
-      "theatre": 0,
-      "outdoor": 0
-    },
-    "throw": {
-      "short": 0,
-      "medium": 0,
-      "long": 0
-    },
-    "use": {
-      "theatre": 0,
-      "gaming": 0,
-      "presentations": 0,
-      "outdoor": 0,
-      "portable": 0
-    },
-    "res": {
-      "hd": 0,
-      "fhd": 0,
-      "2k": 0.0,
-      "4k": 0
-    },
-    "light": {
-      "dark": 0,
-      "some": 0
-    }
-  },
-  "2 = below average fit": {
-    "room": {
-      "bedroom": 0,
-      "living": 0,
-      "theatre": 0,
-      "outdoor": 0
-    },
-    "throw": {
-      "short": 0,
-      "medium": 0,
-      "long": 0
-    },
-    "use": {
-      "theatre": 0,
-      "gaming": 0,
-      "presentations": 0,
-      "outdoor": 0,
-      "portable": 0
-    },
-    "res": {
-      "hd": 0,
-      "fhd": 0,
-      "2k": 0.0,
-      "4k": 0
-    },
-    "light": {
-      "dark": 0,
-      "some": 0
-    }
-  },
-  "1 = worst fit for this combination": {
-    "room": {
-      "bedroom": 0,
-      "living": 0,
-      "theatre": 0,
-      "outdoor": 0
-    },
-    "throw": {
-      "short": 0,
-      "medium": 0,
-      "long": 0
-    },
-    "use": {
-      "theatre": 0,
-      "gaming": 0,
-      "presentations": 0,
-      "outdoor": 0,
-      "portable": 0
-    },
-    "res": {
-      "hd": 0,
-      "fhd": 0,
-      "2k": 0.0,
-      "4k": 0
-    },
-    "light": {
-      "dark": 0,
-      "some": 0
+      "dark": 4.0,
+      "some": 4.0
     }
   }
 }
